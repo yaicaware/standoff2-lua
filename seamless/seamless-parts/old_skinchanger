@@ -1,0 +1,2900 @@
+s = "『⛈️』"
+gg.setVisible(true)
+function skins()
+main8 = gg.choice({
+s.."ᴘ90 ᴘɪʟᴏᴛ",
+s.."ꜰɴꜰᴀʟ ᴀᴄɪᴅ ᴄᴀʀʙᴏɴ",
+s.."sᴍ1014 ʙʟᴀsᴛᴇʀ",
+s.."ᴛᴇᴄ9 ᴅᴀʟᴍᴀᴛɪᴀɴ",
+s.."ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴛʜᴜɴᴅᴇʀ",
+s.."ᴜsᴘ ʟɪɴᴇ",
+s.."ᴅᴇᴀɢʟᴇ ᴡɪɴɴᴇʀ",
+s.."ꜰᴀʙᴍ ᴡᴀsᴛᴇ",
+s.."ᴜᴍᴘ45 ɪʀᴏɴ",
+s.."ꜰɴꜰᴀʟ ᴀǫᴜᴀᴍᴀʀɪɴᴇ",
+s.."sᴍ1014 ʙʀᴀɴᴄʜᴇs",
+s.."ᴘ90 ᴊᴜɴɢʟᴇ",
+s.."ᴜᴍᴘ45 ᴘɪxᴇʟ",
+s.."ᴘ350 sᴀᴠᴀɴɴᴀʜ",
+s.."ᴍᴘ7 ᴛʜᴏʀɴ",
+s.."ʙᴀᴄᴋ"..dadissue,
+},0,s.."sᴋɪɴs ᴍᴇɴᴜ")
+if main8 == nil then else
+if main8 == 1 then p90pilot() end
+if main8 == 2 then fnfalacid() end
+if main8 == 3 then sm1014blaster() end
+if main8 == 4 then tec9dalmatin() end
+if main8 == 5 then deaglethunder() end
+if main8 == 6 then uspline() end
+if main8 == 7 then deaglewinner() end
+if main8 == 8 then fabmwaste() end
+if main8 == 9 then ump45iron() end
+if main8 == 10 then fnfalaqua() end
+if main8 == 11 then sm1014branches() end
+if main8 == 12 then p90jungle() end
+if main8 == 13 then ump45pixel() end
+if main8 == 14 then p350savannah()end
+if main8 == 15 then mp7thorn() end
+if main8 == 16 then os.exit() end
+end
+end
+
+function p90pilot()
+choice = 1
+skinsv32()
+end
+
+function fnfalacid()
+choice = 2
+skinsv32()
+end
+
+function sm1014blaster()
+choice = 3
+skinsv32()
+end
+
+function tec9dalmatin()
+choice = 4
+skinsv32()
+end
+
+function deaglethunder()
+choice = 5
+skinsv32()
+end
+
+function uspline()
+choice = 6
+skinsv32()
+end
+
+function deaglewinner()
+choice = 7
+skinsv32()
+end
+
+function fabmwaste()
+choice = 8
+skinsv32()
+end
+
+function ump45iron()
+choice = 9
+skinsv32()
+end
+
+function fnfalaqua()
+choice = 10
+skinsv32()
+end
+
+function sm1014branches()
+choice = 11
+skinsv32()
+end
+
+function p90jungle()
+choice = 12
+skinsv32()
+end
+
+function ump45pixel()
+choice = 13
+skinsv32()
+end
+
+function p350savannah()
+choice = 14
+skinsv32()
+end
+
+function mp7thorn()
+choice = 15
+skinsv32()
+end
+
+function skinsv32()
+main3 = gg.choice({
+"ᴋɴɪꜰᴇ",
+"ᴡᴇᴀᴘᴏɴ",
+"ᴍᴇᴅᴀʟs",
+"ɢʟᴏᴠᴇs",
+"sᴛɪᴄᴋᴇʀs",
+"ᴋᴇʏᴄʜᴀɪɴs",
+"ʙᴀᴄᴋ",
+}, nil, "❕sᴋɪɴs ᴍᴇɴᴜ❕")
+if main3 == nil then skinchanger() else
+if main3 == 1 then skinsv3knifes() end
+if main3 == 2 then skinsv3weapons() end
+if main3 == 3 then skinmain2edals() end
+if main3 == 4 then skinsv3gloves() end
+if main3 == 5 then skinmain5() end
+if main3 == 6 then skinmain4() end
+if main3 == 7 then skinchanger() end
+end
+end
+
+function skinmain4()
+main4 = gg.choice({
+"ʏᴇᴀʀ ᴏғ ᴏx",
+"sɴᴏᴡ ʙᴇᴀʀ",
+"sᴀɴᴛᴀ ɢʟᴏʙᴇ",
+"sɴᴏᴡғʟᴀᴋᴇ",
+"ᴄᴏɴᴇ",
+"ᴄʜʀɪsᴛᴍᴀs ᴛʀᴇᴇ",
+"ɢɪғᴛ ᴛʜɪᴇғ",
+"sᴀɴᴛᴀʜᴇʟᴘᴇʀ",
+"ᴏᴄʜᴘᴏᴄʜᴍᴀᴋ",
+"sᴜsᴘɪᴄɪᴏᴜssᴘɪᴅᴇʀ",
+"ᴠ2",
+"ʙᴀᴄᴋ",
+}, nil, "sᴋɪɴs ᴍᴇɴᴜ")
+if main4 == nil then skinsv32() else
+if main4 == 1 then sv2yearofox() end
+if main4 == 2 then sv2snowbear() end
+if main4 == 3 then sv2santaglobe() end
+if main4 == 4 then sv2snowflake() end
+if main4 == 5 then sv2cone() end
+if main4 == 6 then sv2ctree() end
+if main4 == 7 then sv2giftthief() end
+if main4 == 8 then sv2santahelper() end
+if main4 == 9 then sv2ochpochmak() end
+if main4 == 10 then sv2spiderman() end
+if main4 == 11 then sv2charmv2() end
+if main4 == 12 then skinsv32() end
+end
+end
+
+function sv2charmv2()
+choicenext = 5013
+sv2search()
+end
+
+function sv2spiderman()
+choicenext = 5044
+sv2search()
+end
+
+function sv2ochpochmak()
+choicenext = 5020
+sv2search()
+end
+
+function sv2santahelper()
+choicenext = 5065
+sv2search()
+end
+
+function sv2giftthief()
+choicenext = 5066
+sv2search()
+end
+
+function sv2ctree()
+choicenext = 5063
+sv2search()
+end
+
+function sv2cone()
+choicenext = 5057
+sv2search()
+end
+
+function sv2snowflake()
+choicenext = 5058
+sv2search()
+end
+
+function sv2santaglobe()
+choicenext = 5064
+sv2search()
+end
+
+function sv2snowbear()
+choicenext = 5053
+sv2search()
+end
+
+function sv2yearofox()
+choicenext = 5054
+sv2search()
+end
+
+function skinmain5()
+main5 = gg.choice({
+"Graffiti High5Splash",
+"Graffiti High5Splash Packed",
+"Graffiti High5",
+"Graffiti High5 Packed",
+"ᴄᴀɴᴅʏ ᴄᴀɴᴇ ᴄᴏʟᴏʀ",
+"ᴡɪɴᴛᴇʀ ғᴜɴ ᴄᴏʟᴏʀ",
+"ᴘᴏʟᴀʀ ᴄʟᴀʀɪᴛʏ",
+"ɢᴏʟᴅ sᴋᴜʟʟ",
+"ᴢ9 ᴍᴀsᴋ ᴄᴏʟᴏʀ",
+"ʙᴀᴄᴋ",
+}, nil, "sᴋɪɴs ᴍᴇɴᴜ")
+if main5 == nil then skinsv32() else
+if main5 == 1 then sv2goldenox() end
+if main5 == 2 then sv2frostystorm() end
+if main5 == 3 then sv2ironox() end
+if main5 == 4 then sv2flakeholo() end
+if main5 == 5 then sv2candycane() end
+if main5 == 6 then sv2winterfun() end
+if main5 == 7 then sv2polarclarity() end
+if main5 == 8 then sv2gildskull() end
+if main5 == 9 then sv2z9mask() end
+if main5 == 10 then skinsv32() end
+end
+end
+
+function sv2z9mask()
+choicenext = 4003
+sv2search()
+end
+
+function sv2frostystorm()
+choicenext = 4002
+sv2search()
+end
+
+function sv2goldenox()
+choicenext = 4001
+sv2search()
+end
+
+function sv2ironox()
+choicenext = 4000
+sv2search()
+end
+
+function sv2flakeholo()
+choicenext = 1238
+sv2search()
+end
+
+function sv2candycane()
+choicenext = 1235
+sv2search()
+end
+
+function sv2winterfun()
+choicenext = 1243
+sv2search()
+end
+
+function sv2polarclarity()
+choicenext = 1239
+sv2search()
+end
+
+function sv2gildskull()
+choicenext = 1101
+sv2search()
+end
+
+function skinsv3knifes()
+sv3knifesm = gg.choice({
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ᴅᴏᴊᴏ",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ᴍᴀꜰɪᴀ",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ᴍᴀʟᴀᴄʜɪᴛᴇ",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ᴘᴇᴀʀʟᴀʙʏss",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ᴛʀᴀɴsɪsᴛᴏʀ",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ꜰʟᴏᴡ",
+"[💵]ᴋɴɪꜰᴇᴛᴀɴᴛᴏ ʀᴇsᴛʟᴇss",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ ꜰʀᴏᴢᴇɴ",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ ᴠᴏʀᴛᴇx",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ sᴛᴏɴᴇ ᴄᴏʟᴅ",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ ᴀʀᴄᴛɪᴄ",
+"[💵]ꜰʟɪᴘᴋɴɪꜰᴇ sʜᴏᴡᴄᴀᴍᴏ",
+"[💵]sᴄᴏʀᴘɪᴏɴ sᴛᴀʀꜰᴀʟʟ",
+"[💵]sᴄᴏʀᴘɪᴏɴ sᴄʀᴀᴛᴄʜ",
+"[💵]sᴄᴏʀᴘɪᴏɴ ᴠᴇɪʟ",
+"[💵]sᴄᴏʀᴘɪᴏɴ sᴇᴀ ᴇʏᴇ",
+"[💵]sᴄᴏʀᴘɪᴏɴ ᴄᴏʟᴅꜰʀᴀᴍ",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ sᴛᴀʀꜰᴀʟʟ",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ ʟᴇɢᴀᴄʏ",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ ʙʟᴀᴄᴋ ᴡɪᴅᴏᴡ",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ ꜰɪʀᴇ sᴛᴏʀᴍ",
+"[💵]ʙᴜᴛᴛᴇʀꜰʟʏ ᴄᴏʟᴅꜰʀᴀᴍ",
+"[💵]ᴋᴜɴᴀɪ ʟᴜxᴜʀʏ",
+"[💵]ᴋᴜɴᴀɪ ʙᴏɴᴇ",
+"[💵]ᴋᴜɴᴀɪ ᴘᴏɪsᴏɴ",
+"[💵]ᴋᴜɴᴀɪ ʀᴀᴅɪᴀᴛɪᴏɴ",
+"[💵]ᴋᴜɴᴀɪ ʀᴇᴀᴘᴇʀ",
+"[💵]ᴋᴜɴᴀɪ ᴄᴏʟᴅꜰʀᴀᴍ",
+"[💵]ᴋᴜɴᴀɪ sʜᴏᴡᴄᴀᴍᴏ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ɢᴏʟᴅ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ᴄʟᴀᴡ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ sᴄʀᴀᴛᴄʜ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ᴜɴɪᴠᴇʀsᴇ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ᴄᴏʟᴅꜰʀᴀᴍ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ ꜰʀᴏᴢᴇɴ",
+"[💵]ᴋᴀʀᴀᴍʙɪᴛ sʜᴏᴡᴄᴀᴍᴏ",
+"[💵]ᴍ9 ʙʟᴜᴇ ʙʟᴏᴏᴅ",
+"[💵]ᴍ9 ᴀɴᴄɪᴇɴᴛ",
+"[💵]ᴍ9 sᴄʀᴀᴛᴄʜ",
+"[💵]ᴍ9 ᴜɴɪᴠᴇʀsᴇ",
+"[💵]ᴍ9 ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"[💵]ᴍ9 ꜰʀᴏᴢᴇɴ",
+"[💵]ᴊᴋᴏᴍᴍᴀɴᴅᴏ ᴀɴᴄɪᴇɴᴛ",
+"[💵]DaggerKnife Acid",
+"[💵]DaggerKnife DemonicSteel",
+"[💵]DaggerKnife Grunge",
+"[💵]DaggerKnife Molten",
+"[💵]DaggerKnife Harmony",
+"ʙᴀᴄᴋ",
+}, nil, "sᴋɪɴs ᴍᴇɴᴜ")
+if sv3knifesm == nil then skinsv32() else
+if sv3knifesm == 1 then sv2tantoDojoDR() end
+if sv3knifesm == 2 then sv2tantoMafiaDR() end
+if sv3knifesm == 3 then sv2tantoMalachiteDR() end
+if sv3knifesm == 4 then sv2tantoPearlAbyssDR() end
+if sv3knifesm == 5 then sv2tantoTransistorDR() end
+if sv3knifesm == 6 then sv2tantoFlowDR() end
+if sv3knifesm == 7 then sv2tantotless() end
+if sv3knifesm == 8 then sv2flipfroz() end
+if sv3knifesm == 9 then sv2flipdg() end
+if sv3knifesm == 10 then sv2flipvortex() end
+if sv3knifesm == 11 then sv2flipsc() end
+if sv3knifesm == 12 then sv2fliparctic() end
+if sv3knifesm == 13 then sv2flipshowcamo() end
+if sv3knifesm == 14 then sv2scorpionsf() end
+if sv3knifesm == 15 then sv2scorpionscr() end
+if sv3knifesm == 16 then sv2scorpionveil() end
+if sv3knifesm == 17 then sv2scorpionse() end
+if sv3knifesm == 18 then sv2scorpioncoldfram() end
+if sv3knifesm == 19 then sv2butterflysf() end
+if sv3knifesm == 20 then sv2butterflyleg() end
+if sv3knifesm == 21 then sv2butterflybw() end
+if sv3knifesm == 22 then sv2butterflydg() end
+if sv3knifesm == 23 then sv2butterflyfs() end
+if sv3knifesm == 24 then sv2butterflycoldfram() end
+if sv3knifesm == 25 then sv2kunailux() end
+if sv3knifesm == 26 then sv2kunaibone() end
+if sv3knifesm == 27 then sv2kunaipois() end
+if sv3knifesm == 28 then sv2kunairadiat() end
+if sv3knifesm == 29 then sv2kunaireaper() end
+if sv3knifesm == 30 then sv2kunaicoldfram() end
+if sv3knifesm == 31 then sv2kunaishowcamo() end
+if sv3knifesm == 32 then sv2kargold() end
+if sv3knifesm == 33 then sv2karclaw() end
+if sv3knifesm == 34 then sv2kardg() end
+if sv3knifesm == 35 then sv2karscratch() end
+if sv3knifesm == 36 then sv2karuniv() end
+if sv3knifesm == 37 then sv2karcoldfram() end
+if sv3knifesm == 38 then sv2karfrozen() end
+if sv3knifesm == 39 then sv2karshowcamo() end
+if sv3knifesm == 40 then sv2m9bb() end
+if sv3knifesm == 41 then sv2m9anc() end
+if sv3knifesm == 42 then sv2m9scr() end
+if sv3knifesm == 43 then sv2m9univ() end
+if sv3knifesm == 44 then sv2m9dg() end
+if sv3knifesm == 45 then sv2m9frozen() end
+if sv3knifesm == 46 then sv2jkommanc() end
+if sv3knifesm == 47 then sv2jkommacid() end
+if sv3knifesm == 48 then sv2jkommsteel() end
+if sv3knifesm == 49 then sv2jkommgrunge() end
+if sv3knifesm == 50 then sv2jkommfmolten() end
+if sv3knifesm == 51 then sv2jkommkharmony() end
+if sv3knifesm == 51 then skinsv32() end
+end
+end
+
+function sv2tantoFlowDR()
+choicenext = 138005
+sv2search()
+end
+
+function sv2tantoTransistorDR()
+choicenext = 138004
+sv2search()
+end
+
+function sv2tantoPearlAbyssDR()
+choicenext = 138003
+sv2search()
+end
+
+function sv2tantoMalachiteDR()
+choicenext = 138002
+sv2search()
+end
+
+function sv2tantoMafiaDR()
+choicenext = 138001
+sv2search()
+end
+
+function sv2tantoDojoDR()
+choicenext = 138000
+sv2search()
+end
+
+function sv2tantotless()
+choicenext = 148000
+sv2search()
+end
+
+function sv2flipfroz()
+choicenext = 67705
+sv2search()
+end
+
+function sv2flipdg()
+choicenext = 67701
+sv2search()
+end
+
+function sv2flipvortex()
+choicenext = 67704
+sv2search()
+end
+
+function sv2flipsc()
+choicenext = 67703
+sv2search()
+end
+
+function sv2fliparctic()
+choicenext = 67702
+sv2search()
+end
+
+function sv2flipshowcamo()
+choicenext = 97700
+sv2search()
+end
+
+function sv2scorpionsf()
+choicenext = 87922
+sv2search()
+end
+
+function sv2scorpionscr()
+choicenext = 87921
+sv2search()
+end
+
+function sv2scorpionveil()
+choicenext = 87919
+sv2search()
+end
+
+function sv2scorpionse()
+choicenext = 87920
+sv2search()
+end
+
+function sv2scorpioncoldfram()
+choicenext = 97900
+sv2search()
+end
+
+function sv2butterflysf()
+choicenext = 47505
+sv2search()
+end
+
+function sv2butterflyleg()
+choicenext = 47502
+sv2search()
+end
+
+function sv2butterflybw()
+choicenext = 47504
+sv2search()
+end
+
+function sv2butterflydg()
+choicenext = 47503
+sv2search()
+end
+
+function sv2butterflyfs()
+choicenext = 57501
+sv2search()
+end
+
+function sv2butterflycoldfram()
+choicenext = 97500
+sv2search()
+end
+
+function sv2kunailux()
+choicenext = 77814
+sv2search()
+end
+
+function sv2kunaibone()
+choicenext = 77813
+sv2search()
+end
+
+function sv2kunaipois()
+choicenext = 77815
+sv2search()
+end
+
+function sv2kunairadiat()
+choicenext = 77816
+sv2search()
+end
+
+function sv2kunaireaper()
+choicenext = 77817
+sv2search()
+end
+
+function sv2kunaicoldfram()
+choicenext = 97800
+sv2search()
+end
+
+function sv2kunaishowcamo()
+choicenext = 97801
+sv2search()
+end
+
+function sv2kargold()
+choicenext = 72003
+sv2search()
+end
+
+function sv2karclaw()
+choicenext = 72002
+sv2search()
+end
+
+function sv2kardg()
+choicenext = 72004
+sv2search()
+end
+
+function sv2karscratch()
+choicenext = 72006
+sv2search()
+end
+
+function sv2karuniv()
+choicenext = 72007
+sv2search()
+end
+
+function sv2karcoldfram()
+choicenext = 97200
+sv2search()
+end
+
+function sv2karfrozen()
+choicenext = 97201
+sv2search()
+end
+
+function sv2karshowcamo()
+choicenext = 97203
+sv2search()
+end
+
+function sv2m9bb()
+choicenext = 71001
+sv2search()
+end
+
+function sv2m9anc()
+choicenext = 71002
+sv2search()
+end
+
+function sv2m9scr()
+choicenext = 71003
+sv2search()
+end
+
+function sv2m9univ()
+choicenext = 71004
+sv2search()
+end
+
+function sv2m9dg()
+choicenext = 71005
+sv2search()
+end
+
+function sv2m9frozen()
+choicenext = 97100
+sv2search()
+end
+
+function sv2jkommanc()
+choicenext = 73002
+sv2search()
+end
+
+function sv2jkommacid()
+choicenext = 170021
+sv2search()
+end
+
+function sv2jkommsteel()
+choicenext = 170022
+sv2search()
+end
+
+function sv2jkommgrunge()
+choicenext = 170023
+sv2search()
+end
+
+function sv2jkommfmolten()
+choicenext = 170024
+sv2search()
+end
+
+function sv2jkommkharmony()
+choicenext = 180000
+sv2search()
+end
+
+function skinsv3weapons()
+main6 = gg.choice({
+"[💨]ᴀᴡᴍ ɢᴇɴᴇsɪs",
+"[💨]ᴀᴡᴍ ʙᴏᴏᴍ",
+"[💨]ᴀᴡᴍ 2 ʏᴇᴀʀs ʀᴇᴅ",
+"[💨]ᴀᴡᴍ sᴘᴏʀᴛ ᴠ2",
+"[💨]ᴀᴡᴍ ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ",
+"[💨]ᴀᴡᴍ ᴛʀᴇᴀsᴜʀᴇʜᴜɴᴛᴇʀ",
+"[💨]ᴀᴡᴍ ᴅʀᴀɢᴏɴ",
+"[💨]ᴀᴡᴍ sᴘᴏʀᴛ",
+"[💨]ᴀᴡᴍ ɢᴇᴀʀ",
+"[💨]ᴀᴡᴍ sᴄʀᴀᴛᴄʜ",
+"[💨]ᴀᴡᴍ ᴘʜᴏᴇɴɪx",
+"[💨]ᴀᴡᴍ ᴘᴏʟᴀʀɴɪɢʜᴛ",
+"[💨]ꜰ/s ᴠᴇɴᴏᴍ",
+"[💨]ꜰ/s ᴘᴏɪsᴏɴ",
+"[💨]ꜰ/s ᴄᴀᴍᴏ sᴛᴏʀᴍ",
+"[💨]ꜰ/s ᴛᴀᴄᴛɪᴄᴀʟ",
+"[💨]ꜰ/s ᴢᴏɴᴇ",
+"[💨]ꜰ/s ʀᴜsʜ",
+"[💨]ᴘ350 ꜰᴏʀᴇsᴛ sᴘɪʀɪᴛ",
+"[💨]ᴘ350 ʀᴀᴅɪᴀᴛɪᴏɴ",
+"[💨]ᴘ350 ɴᴀɴᴏ",
+"[💨]ᴘ350 ᴄʏʙᴇʀ",
+"[💨]ᴘ350 ʀᴀʟʟʏ",
+"[💨]ᴘ350 sᴋᴜʟʟ",
+"[💨]ᴘ350 ᴀᴜᴛᴜᴍɴ",
+"[💨]ᴘ350 ʙʟɪᴢᴢᴀʀᴅ",
+"[💨]ᴍ40 ᴍᴏɴsᴛᴇʀ",
+"[💨]ᴍ40 ᴘʀᴏ",
+"[💨]ᴍ40 ʙᴇᴀɢʟᴇ",
+"[💨]ᴍ40 ᴀʀᴄᴛɪᴄ",
+"[💨]ᴍ40 ᴡɪɴᴛᴇʀ ᴛʀᴀᴄᴋ",
+"[💨]ɢ22 ʀᴇʟɪᴄ",
+"[💨]ɢ22 ɴᴇsᴛ",
+"[💨]ɢ22 ᴄᴀʀʙᴏɴ",
+"[💨]ɢ22 ʏᴇʟʟᴏᴡ ʟɪɴᴇ",
+"[💨]ɢ22 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ",
+"[💨]ɢ22 ᴍᴏɴsᴛᴇʀ",
+"[💨]ɢ22 sᴛᴀʀꜰᴀʟʟ",
+"[💨]ɢ22 ꜰʀᴏsᴛ ᴡʏʀᴍ",
+"[💨]ɢ22 ꜰʀᴏᴢᴇɴ",
+"[💨]ᴜsᴘ ɢᴇɴᴇsɪs",
+"[💨]ᴜsᴘ 2 ʏᴇᴀʀs ʀᴇᴅ",
+"[💨]ᴜsᴘ 2 ʏᴇᴀʀs",
+"[💨]ᴜsᴘ ᴘɪsᴄᴇs",
+"[💨]ᴜsᴘ sᴛᴏɴᴇ ᴄᴏʟᴅ",
+"[💨]ᴜsᴘ ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"[💨]ᴜsᴘ ᴄʜᴀᴍᴇʟᴇᴏɴ",
+"[💨]ᴀᴋʀ ᴛʀᴇᴀsᴜʀᴇʜᴜɴᴛᴇʀ",
+"[💨]ᴀᴋʀ 2 ʏᴇᴀʀs",
+"[💨]ᴀᴋʀ ᴅʀᴀɢᴏɴ",
+"[💨]ᴀᴋʀ ꜰᴀʙʀɪᴄ sᴛᴏʀᴍ",
+"[💨]ᴀᴋʀ sᴘᴏʀᴛ",
+"[💨]ᴀᴋʀ ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"[💨]ᴀᴋʀ ᴄᴀʀʙᴏɴ",
+"[💨]ᴀᴋʀ ɴᴀɴᴏ",
+"[💨]ꜰɴꜰᴀʟ ʟᴇᴀᴛʜᴇʀ",
+"[💨]ꜰɴꜰᴀʟ ᴛᴀᴄᴛɪᴄᴀʟ",
+"[💨]ғɴғᴀʟ ᴘʜᴏᴇɴɪx",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴍᴏʀɢᴀɴ",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴀᴄᴇ",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴘʀᴇᴅᴀᴛᴏʀ",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ʀᴇᴅ ᴅʀᴀɢᴏɴ",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴏʀᴏᴄʜɪ",
+"[💨]ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ʏᴀᴋᴜᴢᴀ",
+"[💨]ᴜᴍᴘ45 ʙᴇᴀsᴛ",
+"[💨]ᴜᴍᴘ45 ᴡɪɴɢᴇᴅ",
+"[💨]ᴜᴍᴘ45 ᴄʏʙᴇʀᴘᴜɴᴋ",
+"[💨]ᴜᴍᴘ45 sʜᴀʀᴋ",
+"[💨]ᴜᴍᴘ45 ᴄᴇʀʙᴇʀᴜs",
+"[💨]ᴜᴍᴘ45 ɢᴀs",
+"[💨]ᴜᴍᴘ45 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ",
+"[💨]ᴜᴍᴘ45 ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"[💨]ᴜᴍᴘ45 sᴘɪʀɪᴛ",
+"[💨]ᴍᴘ7 ɢʀᴀꜰꜰɪᴛʏ",
+"[💨]ᴍᴘ7 2 ʏᴇᴀʀs ʀᴇᴅ",
+"[💨]ᴍᴘ7 ᴀʀᴄᴀᴅᴇ",
+"[💨]ᴍᴘ7 ʟɪᴄʜ",
+"[💨]ᴍᴘ7 ᴏꜰꜰʀᴏᴀᴅ",
+"[💨]ᴍᴘ7 2 ʏᴇᴀʀs",
+"[💨]ᴍᴘ7 ʙᴀɴᴀɴᴀ",
+"[💨]ᴍᴘ7 ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ",
+"[💨]ᴍᴘ7 ʀᴇᴠɪᴠᴀʟ",
+"[💨]ᴍᴘ7 ʙʟɪᴢᴢᴀʀᴅ",
+"[💨]ᴘ90 sᴀᴍᴜʀᴀɪ",
+"[💨]ᴘ90 ɢʜᴏᴜʟ",
+"[💨]ᴘ90 ɪʀᴏɴᴡɪʟʟ",
+"[💨]ᴀᴋʀ12 ᴄᴀʀʙᴏɴ",
+"[💨]ᴀᴋʀ12 ʀᴀɪʟɢᴜɴ??",
+"[💨]ᴀᴋʀ12 ᴘɪxᴇʟ ᴄᴀᴍᴏᴜꜰʟᴀɢᴇ??",
+"[💨]ᴀᴋʀ12 ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"[💨]ᴀᴋʀ12 ꜰʟᴏᴡ",
+"[💨]ᴍ16 ᴡɪɴɢᴇᴅ",
+"[💨]ᴍ16 ɪʀᴏɴᴡɪʟʟ",
+"[💨]ᴍ16 ᴛʀɪᴜᴍᴘʜᴀɴᴛ",
+"[💨]ꜰᴀᴍᴀs ꜰᴜʀʏ",
+"[💨]ꜰᴀᴍᴀs ʜᴜʟʟ",
+"[💨]ꜰᴀᴍᴀs ʙᴇᴀɢʟᴇ",
+"[💨]ꜰᴀᴍᴀs ᴍᴏɴsᴛᴇʀ",
+"[💨]ғᴀᴍᴀs ᴀᴜᴛᴜᴍɴ",
+"[💨]ꜰᴀᴍᴀs ᴀɴɢᴇʀ",
+"[💨]sᴍ1014 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"[💨]sᴍ1014 ᴀʀᴄᴛɪᴄ",
+"[💨]sᴍ1014 ᴡᴀᴠᴇ",
+"[💨]ꜰᴀʙᴍ ᴘᴀʀʀᴏᴛ",
+"[💨]ғᴀʙᴍ ғʟɪɢʜᴛ",
+"[💨]ᴍ4 ɴɪɢʜᴛ ᴡᴏʟꜰ",
+"[💨]ᴍ4 sᴀᴍᴜʀᴀɪ",
+"[💨]ᴍ4 ʟɪᴢᴀʀᴅ",
+"[💨]ᴍ4 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ??",
+"[💨]ᴍ4 ɢʀᴀɴᴅ ᴘʀɪx",
+"[💨]ᴍ4 ᴘʀᴇᴅᴀᴛᴏʀ",
+"[💨]ᴍ4 ᴘʀᴏ",
+"[💨]ᴍ4 ᴘɪxᴇʟ sᴛᴏʀᴍ",
+"[💨]ᴍ4 ʀᴇᴠɪᴠᴀʟ",
+"[💨]ᴍ4_ʀᴏɴɪɴᴍᴋ56",
+"[💨]ᴍ4ᴀ1 ʙᴜʙʙʟᴇɢᴜᴍ",
+"[💨]ᴍ4ᴀ1 ᴋɪᴛsᴜɴᴇ",
+"[💨]ᴍ4ᴀ1 ᴋɪɴɢᴠ703",
+"[💨]ᴛᴇᴄ9 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"[💨]ᴛᴇᴄ9 ꜰᴀʙʟᴇ",
+"[💨]ᴛᴇᴄ9 sᴘʟɪɴᴛᴇʀ sᴛᴏʀᴍ",
+"[💨]ᴛᴇᴄ9 ʀᴇᴀᴄᴛᴏʀ",
+"[💨]ᴍ110 ᴄʏᴘᴇʀ",
+"[💨]ᴍ110 ᴛʀᴀɴsɪᴛɪᴏɴ",
+"[💨]ᴍ110 ꜰʟᴏᴡ",
+"[💨]ᴍ60 ᴍᴇᴄʜᴀ",
+"[💨]ᴍ60 ʏ20ʀᴀɪᴊɪɴ",
+"[💨]ᴍ60 ɢʀᴜɴɢᴇ",
+"[💨]ᴍ60 sᴛᴇᴀᴍʙᴇᴀsᴛ",
+"[💨]ᴍᴘ5 ᴢᴏɴᴇ",
+"[💨]ᴍᴘ5 ʀᴇᴀᴄᴛᴏʀ",
+"[💨]ᴍᴘ5 ᴘʀᴏᴊᴇᴄᴛ ᴢ9",
+"[💨]ᴍᴘ5 ɴᴏʀʜᴛᴇʀɴꜰᴜʀʏ",
+"ʙᴀᴄᴋ",
+}, nil, "sᴋɪɴs ᴍᴇɴᴜ")
+if main6 == nil then skinsv32() else
+if main6 == 1 then sv2awmgenst() end
+if main6 == 2 then sv2awmboomDR() end
+if main6 == 3 then sv3awmyears() end
+if main6 == 4 then sv2awmsportv2() end
+if main6 == 5 then sv2awmwintersportst() end
+if main6 == 6 then sv2awmth() end
+if main6 == 7 then sv2awmgrst() end
+if main6 == 8 then sv2awmsport() end
+if main6 == 9 then sv2awmgear() end
+if main6 == 10 then sv2awmscr() end
+if main6 == 11 then sv2awmph() end
+if main6 == 12 then sv2awmpolarnight() end
+if main6 == 13 then sv2fsvenomst() end
+if main6 == 14 then sv2fspoisonst() end
+if main6 == 15 then sv2fscamo() end
+if main6 == 16 then sv2fstactical() end
+if main6 == 17 then sv2fszone() end
+if main6 == 18 then sv2fsrush() end
+if main6 == 19 then sv2p350forestspst() end
+if main6 == 20 then sv2p350radst() end
+if main6 == 21 then sv2p350nano() end
+if main6 == 22 then sv2p350cyber() end
+if main6 == 23 then sv2p350rally() end
+if main6 == 24 then sv2p350skull() end
+if main6 == 25 then sv2p350aut() end
+if main6 == 26 then sv2p350blizzard() end
+if main6 == 27 then sv2m40monsterst() end
+if main6 == 28 then sv2m40pro() end
+if main6 == 29 then sv2m40beagle() end
+if main6 == 30 then sv2m40acrt() end
+if main6 == 31 then sv2m40winert() end
+if main6 == 32 then sv2g22relic() end
+if main6 == 33 then sv2g22nestst() end
+if main6 == 34 then sv2g22carbon() end
+if main6 == 35 then sv2g22yline() end
+if main6 == 36 then sv2g22whitecarbon() end
+if main6 == 37 then sv2g22monster() end
+if main6 == 38 then sv2g22starfall() end
+if main6 == 39 then sv2g22frostw() end
+if main6 == 40 then sv2g22frozen() end
+if main6 == 41 then sv2uspgen() end
+if main6 == 42 then sv2uspyears() end
+if main6 == 43 then sv2usp2yearsnored() end
+if main6 == 44 then sv2uspyearspisces() end
+if main6 == 45 then sv2uspstonecold() end
+if main6 == 46 then sv2uspgeo() end
+if main6 == 47 then sv2uspchamelEP() end
+if main6 == 48 then sv2akrthst() end
+if main6 == 49 then sv2akryears() end
+if main6 == 50 then sv2akrdragonst() end
+if main6 == 51 then sv2akrfabricstorm() end
+if main6 == 52 then sv2akrsport() end
+if main6 == 53 then sv2akrnecr() end
+if main6 == 54 then sv2akrcarbon() end
+if main6 == 55 then sv2akrnano() end
+if main6 == 56 then sv2fnfalleather() end
+if main6 == 57 then sv2fnfaltacticst() end
+if main6 == 58 then sv2falphenix() end
+if main6 == 59 then sv2ddgst() end
+if main6 == 60 then sv2dmorgan() end
+if main6 == 61 then sv2dace() end
+if main6 == 62 then sv2dpredator() end
+if main6 == 63 then sv2dreddragon() end
+if main6 == 64 then sv2deagleOrochiEP() end
+if main6 == 65 then sv2deagleyakuzaDR() end
+if main6 == 66 then sv2upm45beastst() end
+if main6 == 67 then sv2ump45wingedst() end
+if main6 == 68 then sv2upm45cyberpunk() end
+if main6 == 69 then sv2ump45shark() end
+if main6 == 70 then sv2ump45cerberus() end
+if main6 == 71 then sv2upm45gas() end
+if main6 == 72 then sv2ump45whitecarbon() end
+if main6 == 73 then sv2umpgeo() end
+if main6 == 74 then sv2umpspirit() end
+if main6 == 75 then sv2mp7graffity() end
+if main6 == 76 then sv2mp7years() end
+if main6 == 77 then sv2mp7arcadest() end
+if main6 == 78 then sv2mp7lich() end
+if main6 == 79 then sv2mp7offroad() end
+if main6 == 80 then sv2mp72years() end
+if main6 == 81 then sv2mp7banana() end
+if main6 == 82 then sv2mp7wsport() end
+if main6 == 83 then sv2mp7revival() end
+if main6 == 84 then sv2mp7blizzard() end
+if main6 == 85 then sv2p90samuraist() end
+if main6 == 86 then sv2p90ghoul() end
+if main6 == 87 then sv2p90ironwill() end
+if main6 == 88 then sv2akr12carbonst() end
+if main6 == 89 then sv2akr12railgunst() end
+if main6 == 90 then sv2akr12pcamoufl() end
+if main6 == 91 then sv2akr12geo() end
+if main6 == 92 then sv2akr12flow() end
+if main6 == 93 then sv2m16wingedst() end
+if main6 == 94 then sv2m16ironwill() end
+if main6 == 95 then sv2m16triumphantDR() end
+if main6 == 96 then sv2famasfuryst() end
+if main6 == 97 then sv2famashull() end
+if main6 == 98 then sv2famasbeagle() end
+if main6 == 99 then sv2famasmonster() end
+if main6 == 100 then sv2famasaut() end
+if main6 == 101 then sv2famasangerEP() end
+if main6 == 102 then sv2sm1014necromst() end
+if main6 == 103 then sv2sm1014acrtic() end
+if main6 == 104 then sv2sm1014wave() end
+if main6 == 105 then sv2fabmparrot() end
+if main6 == 106 then sv2fabmfly() end
+if main6 == 107 then sv2m4wolfst() end
+if main6 == 108 then sv2m4samst() end
+if main6 == 109 then sv2m4lizardst() end
+if main6 == 110 then sv2m4necrst() end
+if main6 == 111 then sv2m4grandprix() end
+if main6 == 112 then sv2m4predator() end
+if main6 == 113 then sv2m4pro() end
+if main6 == 114 then sv2m4pixelstorm() end
+if main6 == 115 then sv2m4revival() end
+if main6 == 116 then M4RONINmk56DR() end
+if main6 == 117 then sv2m4a1bubblegum() end
+if main6 == 118 then sv2m4a1kitsuneEP() end
+if main6 == 119 then sv2m4a1kingv703() end
+if main6 == 120 then sv2tec9necr() end
+if main6 == 121 then sv2tec9fable() end
+if main6 == 122 then sv2tec9storm() end
+if main6 == 123 then sv2tec9reactor() end
+if main6 == 124 then sv2m110cyper() end
+if main6 == 125 then sv2m110trans() end
+if main6 == 126 then sv2m110flow() end
+if main6 == 127 then sv2m60mechaDR() end
+if main6 == 128 then sv2m60Y20RAIJINDR() end
+if main6 == 129 then sv2m60grungeEP() end
+if main6 == 130 then sv2m60stembeastEP() end
+if main6 == 131 then sv2mp5zone() end
+if main6 == 132 then sv2mp5reactor() end
+if main6 == 133 then sv2mp5projectz9() end
+if main6 == 134 then sv2mp5northernfury() end
+if main6 == 135 then skinsv32() end
+end
+end
+
+function sv2m60stembeastEP()
+sv2m60stembeast = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m60stembeast == nil then skinsv3weapons() else
+if sv2m60stembeast == 1 then choicenext = 1126401
+end
+if sv2m60stembeast == 2 then choicenext = 126401
+end
+sv2search()
+end
+end
+
+function sv2m60grungeEP()
+sv2m60grunge = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m60grunge == nil then skinsv3weapons() else
+if sv2m60grunge == 1 then choicenext = 1126400
+end
+if sv2m60grunge == 2 then choicenext = 126400
+end
+sv2search()
+end
+end
+
+function sv2m60Y20RAIJINDR()
+sv2m60Y20RAIJIN = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m60Y20RAIJIN == nil then skinsv3weapons() else
+if sv2m60Y20RAIJIN == 1 then choicenext = 1136401
+end
+if sv2m60Y20RAIJIN == 2 then choicenext = 136401
+end
+sv2search()
+end
+end
+
+function sv2m60mechaDR()
+sv2m60mecha = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m60mecha == nil then skinsv3weapons() else
+if sv2m60mecha == 1 then choicenext = 1136400
+end
+if sv2m60mecha == 2 then choicenext = 136400
+end
+sv2search()
+end
+end
+
+function sv2deagleyakuzaDR()
+sv2deagleyakuza = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2deagleyakuza == nil then skinsv3weapons() else
+if sv2deagleyakuza == 1 then choicenext = 1131500
+end
+if sv2deagleyakuza == 2 then choicenext = 131500
+end
+sv2search()
+end
+end
+
+function sv2uspchamelEP()
+sv2uspchamel = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2uspchamel == nil then skinsv3weapons() else
+if sv2uspchamel == 1 then choicenext = 1121200
+end
+if sv2uspchamel == 2 then choicenext = 121200
+end
+sv2search()
+end
+end
+
+function sv2m4a1kitsuneEP()
+sv2m4a1kitsune = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4a1kitsune == nil then skinsv3weapons() else
+if sv2m4a1kitsune == 1 then choicenext = 1124301
+end
+if sv2m4a1kitsune == 2 then choicenext = 124301
+end
+sv2search()
+end
+end
+
+function sv2famasangerEP()
+sv2famasanger = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famasanger == nil then skinsv3weapons() else
+if sv2famasanger == 1 then choicenext = 1124800
+end
+if sv2famasanger == 2 then choicenext = 124800
+end
+sv2search()
+end
+end
+
+function sv2deagleOrochiEP()
+sv2deagleOrochi = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2deagleOrochi == nil then skinsv3weapons() else
+if sv2deagleOrochi == 1 then choicenext = 1121500
+end
+if sv2deagleOrochi == 2 then choicenext = 121500
+end
+sv2search()
+end
+end
+
+function sv2m16triumphantDR()
+sv2m16triumphant = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m16triumphant == nil then skinsv3weapons() else
+if sv2m16triumphant == 1 then choicenext = 1134700
+end
+if sv2m16triumphant == 2 then choicenext = 134700
+end
+sv2search()
+end
+end
+
+function M4_RONINmk56DR()
+M4_RONINmk56 = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if M4_RONINmk56 == nil then skinsv3weapons() else
+if M4_RONINmk56 == 1 then choicenext = 1134600
+end
+if M4_RONINmk56 == 2 then choicenext = 134600
+end
+sv2search()
+end
+end
+
+function sv2m4a1kingv703()
+sv2m4a1kingv703DR = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4a1kingv703DR == nil then skinsv3weapons() else
+if sv2m4a1kingv703DR == 1 then choicenext = 1134300
+end
+if sv2m4a1kingv703DR == 2 then choicenext = 134300
+end
+sv2search()
+end
+end
+
+function sv2m4a1bubblegum()
+sv2m4a1bubblegumEP = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4a1bubblegumEP == nil then skinsv3weapons() else
+if sv2m4a1bubblegumEP == 1 then choicenext = 1124300
+end
+if sv2m4a1bubblegumEP == 2 then choicenext = 124300
+end
+sv2search()
+end
+end
+
+function sv2awmboomDR()
+sv2awmboom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmboom == nil then skinsv3weapons() else
+if sv2awmboom == 1 then choicenext = 1125100
+end
+if sv2awmboom == 2 then choicenext = 125100
+end
+sv2search()
+end
+end
+
+function sv2mp5zone()
+sv2mp5zonem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp5zonem == nil then skinsv3weapons() else
+if sv2mp5zonem == 1 then choicenext = 1073612
+end
+if sv2mp5zonem == 2 then choicenext = 73612
+end
+sv2search()
+end
+end
+
+function sv2mp5reactor()
+sv2mp5reactorm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp5reactorm == nil then skinsv3weapons() else
+if sv2mp5reactorm == 1 then choicenext = 1073611
+end
+if sv2mp5reactorm == 2 then choicenext = 73611
+end
+sv2search()
+end
+end
+
+function sv2mp5projectz9()
+sv2mp5projectz9m = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp5projectz9m == nil then skinsv3weapons() else
+if sv2mp5projectz9m == 1 then choicenext = 1073610
+end
+if sv2mp5projectz9m == 2 then choicenext = 73610
+end
+sv2search()
+end
+end
+
+function sv2mp5northernfury()
+sv2mp5northernfurym = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp5northernfurym == nil then skinsv3weapons() else
+if sv2mp5northernfurym == 1 then choicenext = 1093600
+end
+if sv2mp5northernfurym == 2 then choicenext = 93600
+end
+sv2search()
+end
+end
+
+function sv2m110flow()
+sv2m110flowm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m110flowm == nil then skinsv3weapons() else
+if sv2m110flowm == 1 then choicenext = 1095300
+end
+if sv2m110flowm == 2 then choicenext = 95300
+end
+sv2search()
+end
+end
+
+function sv2awmpolarnight()
+sv2awmpolarnightm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmpolarnightm == nil then skinsv3weapons() else
+if sv2awmpolarnightm == 1 then choicenext = 1095100
+end
+if sv2awmpolarnightm == 2 then choicenext = 95100
+end
+sv2search()
+end
+end
+
+function sv2p350blizzard()
+sv2p350blizzardm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350blizzardm == nil then skinsv3weapons() else
+if sv2p350blizzardm == 1 then choicenext = 1091300
+end
+if sv2p350blizzardm == 2 then choicenext = 91300
+end
+sv2search()
+end
+end
+
+function sv2p90ironwill()
+sv2p90ironwillm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p90ironwillm == nil then skinsv3weapons() else
+if sv2p90ironwillm == 1 then choicenext = 1093500
+end
+if sv2p90ironwillm == 2 then choicenext = 93500
+end
+sv2search()
+end
+end
+
+function sv2mp7blizzard()
+sv2mp7blizzardm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7blizzardm == nil then skinsv3weapons() else
+if sv2mp7blizzardm == 1 then choicenext = 1093400
+end
+if sv2mp7blizzardm == 2 then choicenext = 93400
+end
+sv2search()
+end
+end
+
+function sv2akr12flow()
+sv2akr12flowm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akr12flowm == nil then skinsv3weapons() else
+if sv2akr12flowm == 1 then choicenext = 1094400
+end
+if sv2akr12flowm == 2 then choicenext = 94400
+end
+sv2search()
+end
+end
+
+function sv2akr12geo()
+sv2akr12geom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akr12geom == nil then skinsv3weapons() else
+if sv2akr12geom == 1 then choicenext = 1084400
+end
+if sv2akr12geom == 2 then choicenext = 84400
+end
+sv2search()
+end
+end
+
+function sv2fabmfly()
+sv2fabmflym = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fabmflym == nil then skinsv3weapons() else
+if sv2fabmflym == 1 then choicenext = 1086300
+end
+if sv2fabmflym == 2 then choicenext = 86300
+end
+sv2search()
+end
+end
+
+function sv2famasaut()
+sv2famasautm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famasautm == nil then skinsv3weapons() else
+if sv2famasautm == 1 then choicenext = 1084800
+end
+if sv2famasautm == 2 then choicenext = 84800
+end
+sv2search()
+end
+end
+
+function sv2fsrush()
+sv2fsrushm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fsrushm == nil then skinsv3weapons() else
+if sv2fsrushm == 1 then choicenext = 1081700
+end
+if sv2fsrushm == 2 then choicenext = 81700
+end
+sv2search()
+end
+end
+
+function sv2falphenix()
+sv2falphenixm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2falphenixm == nil then skinsv3weapons() else
+if sv2falphenixm == 1 then choicenext = 1084900
+end
+if sv2falphenixm == 2 then choicenext = 84900
+end
+sv2search()
+end
+end
+
+function sv2m4revival()
+sv2m4revivalm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4revivalm == nil then skinsv3weapons() else
+if sv2m4revivalm == 1 then choicenext = 1084600
+end
+if sv2m4revivalm == 2 then choicenext = 84600
+end
+sv2search()
+end
+end
+
+function sv2m110trans()
+sv2m110transm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m110transm == nil then skinsv3weapons() else
+if sv2m110transm == 1 then choicenext = 1085300
+end
+if sv2m110transm == 2 then choicenext = 85300
+end
+sv2search()
+end
+end
+
+function sv2m110cyper()
+sv2m110cyperm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m110cyperm == nil then skinsv3weapons() else
+if sv2m110cyperm == 1 then choicenext = 1045301
+end
+if sv2m110cyperm == 2 then choicenext = 45301
+end
+sv2search()
+end
+end
+
+function sv2mp7revival()
+sv2mp7revivalm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7revivalm == nil then skinsv3weapons() else
+if sv2mp7revivalm == 1 then choicenext = 1083400
+end
+if sv2mp7revivalm == 2 then choicenext = 83400
+end
+sv2search()
+end
+end
+
+function sv2p350aut()
+sv2p350autm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350autm == nil then skinsv3weapons() else
+if sv2p350autm == 1 then choicenext = 1081300
+end
+if sv2p350autm == 2 then choicenext = 81300
+end
+sv2search()
+end
+end
+
+function sv2umpgeo()
+sv2umpgeom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2umpgeom == nil then skinsv3weapons() else
+if sv2umpgeom == 1 then choicenext = 1083200
+end
+if sv2umpgeom == 2 then choicenext = 83200
+end
+sv2search()
+end
+end
+
+function sv2umpspirit()
+sv2umpspiritm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2umpspiritm == nil then skinsv3weapons() else
+if sv2umpspiritm == 1 then choicenext = 1083201
+end
+if sv2umpspiritm == 2 then choicenext = 83201
+end
+sv2search()
+end
+end
+
+function sv2uspgeo()
+sv2uspgeom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2uspgeom == nil then skinsv3weapons() else
+if sv2uspgeom == 1 then choicenext = 1081200
+end
+if sv2uspgeom == 2 then choicenext = 81200
+end
+sv2search()
+end
+end
+
+function sv2g22frozen()
+sv2g22frozenm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22frozenm == nil then skinsv3weapons() else
+if sv2g22frozenm == 1 then choicenext = 1061101
+end
+if sv2g22frozenm == 2 then choicenext = 61101
+end
+sv2search()
+end
+end
+
+function sv2tec9reactor()
+sv2tec9reactorm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2tec9reactorm == nil then skinsv3weapons() else
+if sv2tec9reactorm == 1 then choicenext = 1071607
+end
+if sv2tec9reactorm == 2 then choicenext = 71607
+end
+sv2search()
+end
+end
+
+function sv2m4pixelstorm()
+choicenext = 54601
+sv2search()
+end
+
+function sv2tec9necr()
+sv2tec9necrm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2tec9necrm == nil then skinsv3weapons() else
+if sv2tec9necrm == 1 then choicenext = 1061601
+end
+if sv2tec9necrm == 2 then choicenext = 61601
+end
+sv2search()
+end
+end
+
+function sv2tec9fable()
+sv2tec9fablem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2tec9fablem == nil then skinsv3weapons() else
+if sv2tec9fablem == 1 then choicenext = 1041605
+end
+if sv2tec9fablem == 2 then choicenext = 41605
+end
+sv2search()
+end
+end
+
+function sv2tec9storm()
+choicenext = 51601
+sv2search()
+end
+
+function sv2m4grandprix()
+sv2m4grandprixm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4grandprixm == nil then skinsv3weapons() else
+if sv2m4grandprixm == 1 then choicenext = 1046007
+end
+if sv2m4grandprixm == 2 then choicenext = 46007
+end
+sv2search()
+end
+end
+
+function sv2m4predator()
+choicenext = 46001
+sv2search()
+end
+
+function sv2m4pro()
+sv2m4prom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4prom == nil then skinsv3weapons() else
+if sv2m4prom == 1 then choicenext = 1046006
+end
+if sv2m4prom == 2 then choicenext = 46006
+end
+sv2search()
+end
+end
+
+function sv2sm1014wave()
+sv2sm1014wavem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2sm1014wavem == nil then skinsv3weapons() else
+if sv2sm1014wavem == 1 then choicenext = 1086216
+end
+if sv2sm1014wavem == 2 then choicenext = 86216
+end
+sv2search()
+end
+end
+
+function sv2sm1014acrtic()
+sv2sm1014acrticm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2sm1014acrticm == nil then skinsv3weapons() else
+if sv2sm1014acrticm == 1 then choicenext = 1066201
+end
+if sv2sm1014acrticm == 2 then choicenext = 66201
+end
+sv2search()
+end
+end
+
+function sv2famasmonster()
+sv2famasmonsterm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famasmonsterm == nil then skinsv3weapons() else
+if sv2famasmonsterm == 1 then choicenext = 1074800
+end
+if sv2famasmonsterm == 2 then choicenext = 74800
+end
+sv2search()
+end
+end
+
+function sv2famashull()
+sv2famashullm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famashullm == nil then skinsv3weapons() else
+if sv2famashullm == 1 then choicenext = 1048003
+end
+if sv2famashullm == 2 then choicenext = 48003
+end
+sv2search()
+end
+end
+
+function sv2famasbeagle()
+sv2famasbeaglem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famasbeaglem == nil then skinsv3weapons() else
+if sv2famasbeaglem == 1 then choicenext = 1048001
+end
+if sv2famasbeaglem == 2 then choicenext = 48001
+end
+sv2search()
+end
+end
+
+function sv2akr12pcamoufl()
+sv2akr12pcamouflm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akr12pcamouflm == nil then skinsv3weapons() else
+if sv2akr12pcamouflm == 1 then choicenext = 1045002
+end
+if sv2akr12pcamouflm == 2 then choicenext = 45002
+end
+sv2search()
+end
+end
+
+function sv2p90ghoul()
+sv2p90ghoulm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p90ghoulm == nil then skinsv3weapons() else
+if sv2p90ghoulm == 1 then choicenext = 1035002
+end
+if sv2p90ghoulm == 2 then choicenext = 35002
+end
+sv2search()
+end
+end
+
+function sv2mp7offroad()
+sv2mp7offroadm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7offroadm == nil then skinsv3weapons() else
+if sv2mp7offroadm == 1 then choicenext = 1034001
+end
+if sv2mp7offroadm == 2 then choicenext = 34001
+end
+sv2search()
+end
+end
+
+function sv2mp7wsport()
+sv2mp7wsportm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7wsportm == nil then skinsv3weapons() else
+if sv2mp7wsportm == 1 then choicenext = 1063401
+end
+if sv2mp7wsportm == 2 then choicenext = 63401
+end
+sv2search()
+end
+end
+
+function sv2mp7banana()
+sv2mp7bananam = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7bananam == nil then skinsv3weapons() else
+if sv2mp7bananam == 1 then choicenext = 1083411
+end
+if sv2mp7bananam == 2 then choicenext = 83411
+end
+sv2search()
+end
+end
+
+function sv2mp72years()
+choicenext = 34003
+sv2search()
+end
+
+function sv2upm45cyberpunk()
+sv2upm45cyberpunkm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2upm45cyberpunkm == nil then skinsv3weapons() else
+if sv2upm45cyberpunkm == 1 then choicenext = 1032001
+end
+if sv2upm45cyberpunkm == 2 then choicenext = 32001
+end
+sv2search()
+end
+end
+
+function sv2ump45shark()
+sv2ump45sharkm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2ump45sharkm == nil then skinsv3weapons() else
+if sv2ump45sharkm == 1 then choicenext = 1032003
+end
+if sv2ump45sharkm == 2 then choicenext = 32003
+end
+sv2search()
+end
+end
+
+function sv2ump45cerberus()
+sv2ump45cerberusm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2ump45cerberusm == nil then skinsv3weapons() else
+if sv2ump45cerberusm == 1 then choicenext = 1043202
+end
+if sv2ump45cerberusm == 2 then choicenext = 43202
+end
+sv2search()
+end
+end
+
+function sv2upm45gas()
+sv2upm45gasm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2upm45gasm == nil then skinsv3weapons() else
+if sv2upm45gasm == 1 then choicenext = 1073208
+end
+if sv2upm45gasm == 2 then choicenext = 73208
+end
+sv2search()
+end
+end
+
+function sv2ump45whitecarbon()
+sv2ump45whitecarbonm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2ump45whitecarbonm == nil then skinsv3weapons() else
+if sv2ump45whitecarbonm == 1 then choicenext = 1073209
+end
+if sv2ump45whitecarbonm == 2 then choicenext = 73209
+end
+sv2search()
+end
+end
+
+function sv2dace()
+sv2dacem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2dacem == nil then skinsv3weapons() else
+if sv2dacem == 1 then choicenext = 1041502
+end
+if sv2dacem == 2 then choicenext = 41502
+end
+sv2search()
+end
+end
+
+function sv2dpredator()
+sv2dpredatorm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2dpredatorm == nil then skinsv3weapons() else
+if sv2dpredatorm == 1 then choicenext = 1015003
+end
+if sv2dpredatorm == 2 then choicenext = 15003
+end
+sv2search()
+end
+end
+
+function sv2dreddragon()
+sv2dreddragonm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2dreddragonm == nil then skinsv3weapons() else
+if sv2dreddragonm == 1 then choicenext = 1015004
+end
+if sv2dreddragonm == 2 then choicenext = 15004
+end
+sv2search()
+end
+end
+
+function sv2akrsport()
+sv2akrsportm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrsportm == nil then skinsv3weapons() else
+if sv2akrsportm == 1 then choicenext = 1044004
+end
+if sv2akrsportm == 2 then choicenext = 44004
+end
+sv2search()
+end
+end
+
+function sv2akrnecr()
+sv2akrnecrm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrnecrm == nil then skinsv3weapons() else
+if sv2akrnecrm == 1 then choicenext = 1044005
+end
+if sv2akrnecrm == 2 then choicenext = 44005
+end
+sv2search()
+end
+end
+
+function sv2akrcarbon()
+sv2akrcarbonm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrcarbonm == nil then skinsv3weapons() else
+if sv2akrcarbonm == 1 then choicenext = 1084500
+end
+if sv2akrcarbonm == 2 then choicenext = 84500
+end
+sv2search()
+end
+end
+
+function sv2akrnano()
+sv2akrnanom = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrnanom == nil then skinsv3weapons() else
+if sv2akrnanom == 1 then choicenext = 1084403
+end
+if sv2akrnanom == 2 then choicenext = 84403
+end
+sv2search()
+end
+end
+
+function sv2uspstonecold()
+sv2uspstonecoldm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2uspstonecoldm == nil then skinsv3weapons() else
+if sv2uspstonecoldm == 1 then choicenext = 1061201
+end
+if sv2uspstonecoldm == 2 then choicenext = 61201
+end
+sv2search()
+end
+end
+
+function sv2uspyearspisces()
+sv2uspyearspiscesm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2uspyearspiscesm == nil then skinsv3weapons() else
+if sv2uspyearspiscesm == 1 then choicenext = 1041212
+end
+if sv2uspyearspiscesm == 2 then choicenext = 41212
+end
+sv2search()
+end
+end
+
+function sv2usp2yearsnored()
+choicenext = 12002
+sv2search()
+end
+
+function sv2g22carbon()
+sv2g22carbonm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22carbonm == nil then skinsv3weapons() else
+if sv2g22carbonm == 1 then choicenext = 1081107
+end
+if sv2g22carbonm == 2 then choicenext = 81107
+end
+sv2search()
+end
+end
+
+function sv2g22whitecarbon()
+sv2g22whitecarbonm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22whitecarbonm == nil then skinsv3weapons() else
+if sv2g22whitecarbonm == 1 then choicenext = 1071104
+end
+if sv2g22whitecarbonm == 2 then choicenext = 71104
+end
+sv2search()
+end
+end
+
+function sv2g22monster()
+sv2g22monsterm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22monsterm == nil then skinsv3weapons() else
+if sv2g22monsterm == 1 then choicenext = 1071103
+end
+if sv2g22monsterm == 2 then choicenext = 71103
+end
+sv2search()
+end
+end
+
+function sv2g22starfall()
+sv2g22starfallm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22starfallm == nil then skinsv3weapons() else
+if sv2g22starfallm == 1 then choicenext = 1041102
+end
+if sv2g22starfallm == 2 then choicenext = 41102
+end
+sv2search()
+end
+end
+
+function sv2g22frostw()
+sv2g22frostwm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22frostwm == nil then skinsv3weapons() else
+if sv2g22frostwm == 1 then choicenext = 1011008
+end
+if sv2g22frostwm == 2 then choicenext = 11008
+end
+sv2search()
+end
+end
+
+function sv2g22yline()
+choicenext = 81108
+sv2search()
+end
+
+function sv2m40beagle()
+sv2m40beaglem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m40beaglem == nil then skinsv3weapons() else
+if sv2m40beaglem == 1 then choicenext = 1052003
+end
+if sv2m40beaglem == 2 then choicenext = 52003
+end
+sv2search()
+end
+end
+
+function sv2m40pro()
+choicenext = 52002
+sv2search()
+end
+
+function sv2m40acrt()
+sv2m40acrtm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m40acrtm == nil then skinsv3weapons() else
+if sv2m40acrtm == 1 then choicenext = 1065201
+end
+if sv2m40acrtm == 2 then choicenext = 65201
+end
+sv2search()
+end
+end
+
+function sv2m40winert()
+sv2m40winertm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m40winertm == nil then skinsv3weapons() else
+if sv2m40winertm == 1 then choicenext = 1065202
+end
+if sv2m40winertm == 2 then choicenext = 65202
+end
+sv2search()
+end
+end
+
+function sv2p350rally()
+sv2p350rallym = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350rallym == nil then skinsv3weapons() else
+if sv2p350rallym == 1 then choicenext = 1013004
+end
+if sv2p350rallym == 2 then choicenext = 13004
+end
+sv2search()
+end
+end
+
+function sv2p350nano()
+choicenext = 81323
+sv2search()
+end
+
+function sv2p350cyber()
+sv2p350cyberm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350cyberm == nil then skinsv3weapons() else
+if sv2p350cyberm == 1 then choicenext = 1013001
+end
+if sv2p350cyberm == 2 then choicenext = 13001
+end
+sv2search()
+end
+end
+
+function sv2p350skull()
+choicenext = 13005
+sv2search()
+end
+
+function sv2fstactical()
+sv2fstacticalm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fstacticalm == nil then skinsv3weapons() else
+if sv2fstacticalm == 1 then choicenext = 1041703
+end
+if sv2fstacticalm == 2 then choicenext = 41703
+end
+sv2search()
+end
+end
+
+function sv2fszone()
+sv2fszonem = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fszonem == nil then skinsv3weapons() else
+if sv2fszonem == 1 then choicenext = 1071702
+end
+if sv2fszonem == 2 then choicenext = 71702
+end
+sv2search()
+end
+end
+
+function sv2awmsport()
+choicenext = 51001
+sv2search()
+end
+
+function sv2awmgear()
+sv2awmgearm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmgearm == nil then skinsv3weapons() else
+if sv2awmgearm == 1 then choicenext = 1051003
+end
+if sv2awmgearm == 2 then choicenext = 51003
+end
+sv2search()
+end
+end
+
+function sv2awmscr()
+sv2awmscrm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmscrm == nil then skinsv3weapons() else
+if sv2awmscrm == 1 then choicenext = 1051004
+end
+if sv2awmscrm == 2 then choicenext = 51004
+end
+sv2search()
+end
+end
+
+function sv2awmph()
+sv2awmphm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmphm == nil then skinsv3weapons() else
+if sv2awmphm == 1 then choicenext = 1051002
+end
+if sv2awmphm == 2 then choicenext = 51002
+end
+sv2search()
+end
+end
+
+function sv2awmgenst()
+sv2awmgenstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmgenstm == nil then skinsv3weapons() else
+if sv2awmgenstm == 1 then sv2awmgenstst() end
+if sv2awmgenstm == 2 then sv2awmgenstdef() end
+end
+end
+
+function sv2awmgenstst()
+choicenext = 1051007
+sv2search()
+end
+
+function sv2awmgenstdef()
+choicenext = 51007
+sv2search()
+end
+
+function sv3awmyears()
+choicenext = 51008
+sv2search()
+end
+
+function sv2awmsportv2()
+choicenext = 51006
+sv2search()
+end
+
+function sv2awmwintersportst()
+sv2awmwintersportstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmwintersportstm == nil then skinsv3weapons() else
+if sv2awmwintersportstm == 1 then sv2awmwintersportstst() end
+if sv2awmwintersportstm == 2 then sv2awmwintersportstdef() end
+end
+end
+
+function sv2awmwintersportstst()
+choicenext = 1065101
+sv2search()
+end
+
+function sv2awmwintersportstdef()
+choicenext = 65101
+sv2search()
+end
+
+function sv2awmth()
+choicenext = 85104
+sv2search()
+end
+
+function sv2awmgrst()
+sv2awmgrstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2awmgrstm == nil then skinsv3weapons() else
+if sv2awmgrstm == 1 then sv2awmgrstst() end
+if sv2awmgrstm == 2 then sv2awmgrstdef() end
+end
+end
+
+function sv2awmgrstst()
+choicenext = 1085127
+sv2search()
+end
+
+function sv2awmgrstdef()
+choicenext = 85127
+sv2search()
+end
+
+function sv2fsvenomst()
+sv2fsvenomstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fsvenomstm == nil then skinsv3weapons() else
+if sv2fsvenomstm == 1 then sv2fsvenomstst() end
+if sv2fsvenomstm == 2 then sv2fsvenomstdef() end
+end
+end
+
+function sv2fsvenomstdef()
+choicenext = 41701
+sv2search()
+end
+
+function sv2fsvenomstst()
+choicenext = 1041701
+sv2search()
+end
+
+function sv2fspoisonst()
+sv2fspoisonstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fspoisonstm == nil then skinsv3weapons() else
+if sv2fspoisonstm == 1 then sv2fspoisonstst() end
+if sv2fspoisonstm == 2 then sv2fspoisonstdef() end
+end
+end
+
+function sv2fspoisonstst()
+choicenext = 1071701
+sv2search()
+end
+
+function sv2fspoisonstdef()
+choicenext = 71701
+sv2search()
+end
+
+function sv2fscamo()
+choicenext = 1071701
+sv2search()
+end
+
+function sv2p350forestspst()
+sv2p350forestspstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350forestspstm == nil then skinsv3weapons() else
+if sv2p350forestspstm == 1 then sv2p350forestspstst() end
+if sv2p350forestspstm == 2 then sv2p350forestspstdef() end
+end
+end
+
+function sv2p350forestspstdef()
+choicenext = 13003
+sv2search()
+end
+
+function sv2p350forestspstst()
+choicenext = 1013003
+sv2search()
+end
+
+function sv2p350radst()
+sv2p350radstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p350radstm == nil then skinsv3weapons() else
+if sv2p350radstm == 1 then sv2p350radstst() end
+if sv2p350radstm == 2 then sv2p350radstdef() end
+end
+end
+
+function sv2p350radstdef()
+choicenext = 71306
+sv2search()
+end
+
+function sv2p350radstst()
+choicenext = 1071306
+sv2search()
+end
+
+function sv2m40monsterst()
+sv2m40monsterstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m40monsterstm == nil then skinsv3weapons() else
+if sv2m40monsterstm == 1 then sv2m40monsterstst() end
+if sv2m40monsterstm == 2 then sv2m40monsterstdef() end
+end
+end
+
+function sv2m40monsterstdef()
+choicenext = 75205
+sv2search()
+end
+
+function sv2m40monsterstst()
+choicenext = 1075205
+sv2search()
+end
+
+function sv2g22relic()
+choicenext = 41101
+sv2search()
+end
+
+function sv2g22nestst()
+sv2g22neststm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2g22neststm == nil then skinsv3weapons() else
+if sv2g22neststm == 1 then sv2g22neststst() end
+if sv2g22neststm == 2 then sv2g22neststdef() end
+end
+end
+
+function sv2g22neststdef()
+choicenext = 11002
+sv2search()
+end
+
+function sv2g22neststst()
+choicenext = 1011002
+sv2search()
+end
+
+function sv2uspgen()
+choicenext = 12001
+sv2search()
+end
+
+function sv2uspyears()
+choicenext = 12003
+sv2search()
+end
+
+function sv2akrthst()
+sv2akrthstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrthstm == nil then skinsv3weapons() else
+if sv2akrthstm == 1 then sv2akrthstst() end
+if sv2akrthstm == 2 then sv2akrthstdef() end
+end
+end
+
+function sv2akrthstdef()
+choicenext = 44002
+sv2search()
+end
+
+function sv2akrthstst()
+choicenext = 1044002
+sv2search()
+end
+
+function sv2akryears()
+choicenext = 44007
+sv2search()
+end
+
+function sv2akrdragonst()
+sv2akrdragonstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akrdragonstm == nil then skinsv3weapons() else
+if sv2akrdragonstm == 1 then sv2akrdragonstst() end
+if sv2akrdragonstm == 2 then sv2akrdragonstdef() end
+end
+end
+
+function sv2akrdragonstdef()
+choicenext = 84402
+sv2search()
+end
+
+function sv2akrdragonstst()
+choicenext = 1084402
+sv2search()
+end
+
+function sv2akrfabricstorm()
+choicenext = 54401
+sv2search()
+end
+
+function sv2fnfalleather()
+choicenext = 44901
+sv2search()
+end
+
+function sv2fnfaltacticst()
+sv2fnfaltacticstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2fnfaltacticstm == nil then skinsv3weapons() else
+if sv2fnfaltacticstm == 1 then sv2fnfaltacticstst() end
+if sv2fnfaltacticstm == 2 then sv2fnfaltacticstdef() end
+end
+end
+
+function sv2fnfaltacticstdef()
+choicenext = 44903
+sv2search()
+end
+
+function sv2fnfaltacticstst()
+choicenext = 1044903
+sv2search()
+end
+
+function sv2ddgst()
+sv2ddgstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2ddgstm == nil then skinsv3weapons() else
+if sv2ddgstm == 1 then sv2ddgstst() end
+if sv2ddgstm == 2 then sv2ddgstdef() end
+end
+end
+
+function sv2ddgstdef()
+choicenext = 15006
+sv2search()
+end
+
+function sv2ddgstst()
+choicenext = 1015006
+sv2search()
+end
+
+function sv2dmorgan()
+choicenext = 15001
+sv2search()
+end
+
+function sv2upm45beastst()
+sv2upm45beaststm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2upm45beaststm == nil then skinsv3weapons() else
+if sv2upm45beaststm == 1 then sv2upm45beaststst() end
+if sv2upm45beaststm == 2 then sv2upm45beaststdef() end
+end
+end
+
+function sv2upm45beaststdef()
+choicenext = 32005
+sv2search()
+end
+
+function sv2upm45beaststst()
+choicenext = 1032005
+sv2search()
+end
+
+function sv2ump45wingedst()
+sv2ump45wingedstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2ump45wingedstm == nil then skinsv3weapons() else
+if sv2ump45wingedstm == 1 then sv2ump45wingedstst() end
+if sv2ump45wingedstm == 2 then sv2ump45wingedstdef() end
+end
+end
+
+function sv2ump45wingedstdef()
+choicenext = 32004
+sv2search()
+end
+
+function sv2ump45wingedstst()
+choicenext = 1032004
+sv2search()
+end
+
+function sv2mp7graffity()
+choicenext = 1083410
+sv2search()
+end
+
+function sv2mp7years()
+choicenext = 34004
+sv2search()
+end
+
+function sv2mp7arcadest()
+sv2mp7arcadestm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2mp7arcadestm == nil then skinsv3weapons() else
+if sv2mp7arcadestm == 1 then sv2mp7arcadestst() end
+if sv2mp7arcadestm == 2 then sv2mp7arcadestdef() end
+end
+end
+
+function sv2mp7arcadestdef()
+choicenext = 34002
+sv2search()
+end
+
+function sv2mp7arcadestst()
+choicenext = 1034002
+sv2search()
+end
+
+function sv2mp7lich()
+choicenext = 1043402
+sv2search()
+end
+
+function sv2p90samuraist()
+sv2p90samuraistm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2p90samuraistm == nil then skinsv3weapons() else
+if sv2p90samuraistm == 1 then sv2p90samuraistst() end
+if sv2p90samuraistm == 2 then sv2p90samuraistdef() end
+end
+end
+
+function sv2p90samuraistdef()
+choicenext = 83512
+sv2search()
+end
+
+function sv2p90samuraistst()
+choicenext = 1083512
+sv2search()
+end
+
+function sv2akr12carbonst()
+sv2akr12carbonststm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akr12carbonststm == nil then skinsv3weapons() else
+if sv2akr12carbonststm == 1 then sv2akr12carbonstst() end
+if sv2akr12carbonststm == 2 then sv2akr12carbonstdef() end
+end
+end
+
+function sv2akr12carbonstdef()
+choicenext = 84500
+sv2search()
+end
+
+function sv2akr12carbonstst()
+choicenext = 1084500
+sv2search()
+end
+
+function sv2akr12railgunst()
+sv2akr12railgunstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2akr12railgunstm == nil then skinsv3weapons() else
+if sv2akr12railgunstm == 1 then sv2akr12railgunstst() end
+if sv2akr12railgunstm == 2 then sv2akr12railgunstdef() end
+end
+end
+
+function sv2akr12railgunstdef()
+choicenext = 45001
+sv2search()
+end
+
+function sv2akr12railgunstst()
+choicenext = 1045001
+sv2search()
+end
+
+function sv2m16wingedst()
+sv2m16wingedstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m16wingedstm == nil then skinsv3weapons() else
+if sv2m16wingedstm == 1 then sv2m16wingedstst() end
+if sv2m16wingedstm == 2 then sv2m16wingedstdef() end
+end
+end
+
+function sv2m16wingedstdef()
+choicenext = 47002
+sv2search()
+end
+
+function sv2m16wingedstst()
+choicenext = 1047002
+sv2search()
+end
+
+function sv2famasfuryst()
+sv2famasfurystm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2famasfurystm == nil then skinsv3weapons() else
+if sv2famasfurystm == 1 then sv2famasfurystst() end
+if sv2famasfurystm == 2 then sv2famasfurystdef() end
+end
+end
+
+function sv2famasfurystdef()
+choicenext = 48002
+sv2search()
+end
+
+function sv2famasfurystst()
+choicenext = 1048002
+sv2search()
+end
+
+function sv2sm1014necromst()
+sv2sm1014necromstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2sm1014necromstm == nil then skinsv3weapons() else
+if sv2sm1014necromstm == 1 then sv2sm1014necromstst() end
+if sv2sm1014necromstm == 2 then sv2sm1014necromstdef() end
+end
+end
+
+function sv2sm1014necromstdef()
+choicenext = 62003
+sv2search()
+end
+
+function sv2sm1014necromstst()
+choicenext = 1062003
+sv2search()
+end
+
+function sv2fabmparrot()
+choicenext = 1086318
+sv2search()
+end
+
+function sv2m4wolfst()
+sv2m4wolfstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4wolfstm == nil then skinsv3weapons() else
+if sv2m4wolfstm == 1 then sv2m4wolfstst() end
+if sv2m4wolfstm == 2 then sv2m4wolfstdef() end
+end
+end
+
+function sv2m4wolfstdef()
+choicenext = 84624
+sv2search()
+end
+
+function sv2m4wolfstst()
+choicenext = 1084624
+sv2search()
+end
+
+function sv2m4samst()
+sv2m4samstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4samstm == nil then skinsv3weapons() else
+if sv2m4samstm == 1 then sv2m4samstst() end
+if sv2m4samstm == 2 then sv2m4samstdef() end
+end
+end
+
+function sv2m4samstdef()
+choicenext = 44603
+sv2search()
+end
+
+function sv2m4samstst()
+choicenext = 1044603
+sv2search()
+end
+
+function sv2m4lizardst()
+sv2m4lizardstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4lizardstm == nil then skinsv3weapons() else
+if sv2m4lizardstm == 1 then sv2m4lizardstst() end
+if sv2m4lizardstm == 2 then sv2m4lizardstdef() end
+end
+end
+
+function sv2m4lizardstdef()
+choicenext = 44601
+sv2search()
+end
+
+function sv2m4lizardstst()
+choicenext = 1044601
+sv2search()
+end
+
+function sv2m4necrst()
+sv2m4necrstm = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴄᴏᴍᴍᴏɴ",}, nil, "")
+if sv2m4necrstm == nil then skinsv3weapons() else
+if sv2m4necrstm == 1 then sv2m4necrstst() end
+if sv2m4necrstm == 2 then sv2m4necrstdef() end
+end
+end
+
+function sv2m4necrstdef()
+choicenext = 46002
+sv2search()
+end
+
+function sv2m4necrstst()
+choicenext = 1046002
+sv2search()
+end
+
+function skinmain2edals()
+main7 = gg.choice({
+"[☔]ᴍᴇᴅᴀʟ ᴀssɪsᴛᴀɴᴄᴇ",
+"[☔]ᴍᴇᴅᴀʟ ᴠᴇᴛᴇʀᴀɴ2018",
+"[☔]ᴍᴇᴅᴀʟ ᴠᴇᴛᴇʀᴀɴ2019",
+"[☔]ᴍᴇᴅᴀʟ 2ʏᴇᴀʀs",
+"[☔]ᴍᴇᴅᴀʟ ᴄᴏᴍᴘᴇᴛɪᴛɪᴠᴇ",
+"[☔]ᴍᴇᴅᴀʟ ɴᴇᴡ ʏᴇᴀʀ 2020",
+"[☔]ᴍᴇᴅᴀʟ ᴠᴇᴛᴇʀᴀɴ2020",
+"[☔]ᴍᴇᴅᴀʟ ᴘʀᴏᴊᴇᴄᴛ ᴢ9",
+"[☔]ʙᴀᴅɢᴇ ʀᴇᴠɪᴠᴀʟ",
+"[☔]ᴍᴇᴅᴀʟ ɴᴇᴡ ʏᴇᴀʀ 2021",
+"[☔]ᴍᴇᴅᴀʟ ᴅʀᴀɢᴏɴ ʀɪsᴇ",
+"ʙᴀᴄᴋ",
+}, nil, "☔ᴍᴇᴅᴀʟ ᴍᴇɴᴜ☔")
+if main7 == nil then skinsv32() else
+if main7 == 1 then sv2medalab() end
+if main7 == 2 then sv2medal8p() end
+if main7 == 3 then sv2medal9p() end
+if main7 == 4 then sv2medal2g() end
+if main7 == 5 then sv2medalcb() end
+if main7 == 6 then sv2medalny0p() end
+if main7 == 7 then sv2medal20p() end
+if main7 == 8 then sv2medalz9() end
+if main7 == 9 then sv2badgerevival() end
+if main7 == 10 then sv2medalny1p() end
+if main7 == 11 then sv2medalndragon() end
+if main7 == 11 then skinsv32() end
+end
+end
+
+function sv2medalndragon()
+sv2medaldragon = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medaldragon == nil then skinmain2edals() else
+if sv2medaldragon == 1 then choicenext = 153 end
+if sv2medaldragon == 2 then choicenext = 154 end
+if sv2medaldragon == 3 then choicenext = 155 end
+if sv2medaldragon == 4 then choicenext = 156 end
+if sv2medaldragon == 5 then choicenext = 157 end
+if sv2medaldragon == 6 then choicenext = 158 end
+sv2search()
+end
+end
+
+function sv2medalz9()
+sv2medalz9m = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medalz9m == nil then skinmain2edals() else
+if sv2medalz9m == 1 then choicenext = 129 end
+if sv2medalz9m == 2 then choicenext = 130 end
+if sv2medalz9m == 3 then choicenext = 131 end
+if sv2medalz9m == 4 then choicenext = 132 end
+if sv2medalz9m == 5 then choicenext = 133 end
+sv2search()
+end
+end
+
+function sv2medal20p()
+sv2medal20pm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medal20pm == nil then skinmain2edals() else
+if sv2medal20pm == 1 then choicenext = 125 end
+if sv2medal20pm == 2 then choicenext = 126 end
+if sv2medal20pm == 3 then choicenext = 127 end
+if sv2medal20pm == 4 then choicenext = 128 end
+sv2search()
+end
+end
+
+function sv2medalny0p()
+sv2medalny0pm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medalny0pm == nil then skinmain2edals() else
+if sv2medalny0pm == 1 then choicenext = 120 end
+if sv2medalny0pm == 2 then choicenext = 121 end
+if sv2medalny0pm == 3 then choicenext = 122 end
+if sv2medalny0pm == 4 then choicenext = 123 end
+if sv2medalny0pm == 5 then choicenext = 124 end
+sv2search()
+end
+end
+
+function sv2medalcb()
+sv2medalcbm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs ☔")
+if sv2medalcbm == nil then skinmain2edals() else
+if sv2medalcbm == 1 then choicenext = 115 end
+if sv2medalcbm == 2 then choicenext = 116 end
+if sv2medalcbm == 3 then choicenext = 117 end
+if sv2medalcbm == 4 then choicenext = 118 end
+if sv2medalcbm == 5 then choicenext = 119 end
+sv2search()
+end
+end
+
+function sv2medal2g()
+sv2medal2gm = gg.choice({
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medal2gm == nil then skinmain2edals() else
+if sv2medal2gm == 1 then choicenext = 113 end
+if sv2medal2gm == 2 then choicenext = 114 end
+sv2search()
+end
+end
+
+function sv2medal9p()
+sv2medal8pm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medal8pm == nil then skinmain2edals() else
+if sv2medal8pm == 1 then choicenext = 109 end
+if sv2medal8pm == 2 then choicenext = 110 end
+if sv2medal8pm == 3 then choicenext = 111 end
+if sv2medal8pm == 4 then choicenext = 112 end
+sv2search()
+end
+end
+
+function sv2medalab()
+sv2medalabm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medalabm == nil then skinmain2edals() else
+if sv2medalabm == 1 then choicenext = 100 end
+if sv2medalabm == 2 then choicenext = 101 end
+if sv2medalabm == 3 then choicenext = 102 end
+if sv2medalabm == 4 then choicenext = 103 end
+if sv2medalabm == 5 then choicenext = 104 end
+sv2search()
+end
+end
+
+function sv2medal8p()
+sv2medal8pm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medal8pm == nil then skinmain2edals() else
+if sv2medal8pm == 1 then choicenext = 105 end
+if sv2medal8pm == 2 then choicenext = 106 end
+if sv2medal8pm == 3 then choicenext = 107 end
+if sv2medal8pm == 4 then choicenext = 108 end
+sv2search()
+end
+end
+
+function sv2badgerevival()
+sv2badgerevivalm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2badgerevivalm == nil then skinmain2edals() else
+if sv2badgerevivalm == 1 then choicenext = 134 end
+if sv2badgerevivalm == 2 then choicenext = 135 end
+if sv2badgerevivalm == 3 then choicenext = 136 end
+if sv2badgerevivalm == 4 then choicenext = 137 end
+if sv2badgerevivalm == 5 then choicenext = 138 end
+if sv2badgerevivalm == 6 then choicenext = 139 end
+sv2search()
+end
+end
+
+function sv2medalny1p()
+sv2medalny1pm = gg.choice({
+"[☔]ʙʀᴏɴᴢᴇ",
+"[☔]sɪʟᴠᴇʀ",
+"[☔]ɢᴏʟᴅ",
+"[☔]ᴇʟɪᴛᴇɢᴏʟᴅ",
+"[☔]ᴘʟᴀᴛɪɴᴜᴍ",
+"[☔]ʀᴜʙɪɴ",
+},nil,"☔sᴋɪɴs☔")
+if sv2medalny1pm == nil then skinmain2edals() else
+if sv2medalny1pm == 1 then choicenext = 140 end
+if sv2medalny1pm == 2 then choicenext = 141 end
+if sv2medalny1pm == 3 then choicenext = 142 end
+if sv2medalny1pm == 4 then choicenext = 143 end
+if sv2medalny1pm == 5 then choicenext = 144 end
+if sv2medalny1pm == 6 then choicenext = 145 end
+sv2search()
+end
+end
+
+function skinsv3gloves()
+sv3gloves = gg.choice({
+"[☔]ɢʟᴏᴠᴇs ᴘʜᴏᴇɴɪx",
+"[☔]ɢʟᴏᴠᴇs ᴀᴜᴛᴜᴍɴ",
+"[☔]ɢʟᴏᴠᴇs ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"[☔]ɢʟᴏᴠᴇs ʀᴇᴛʀᴏᴡᴀᴠᴇ",
+"[☔]ɢʟᴏᴠᴇs ʟɪᴠɪɴɢғʟᴀᴍᴇ",
+"[☔]ɢʟᴏᴠᴇs ɴᴇᴜʀᴏ",
+"[☔]ɢʟᴏᴠᴇs ᴘᴜɴᴋ",
+"[☔]ɢʟᴏᴠᴇs ʙᴜʀɴɪɴɢꜰɪsᴛs",
+"[☔]ɢʟᴏᴠᴇs ᴄʜᴀᴍᴘɪᴏɴ",
+"[☔]ɢʟᴏᴠᴇs sᴛᴇᴀᴍʀɪᴅᴇ",
+"ʙᴀᴄᴋ",
+}, nil, "☔ɢʟᴏᴠᴇs ᴍᴇɴᴜ☔")
+if sv3gloves == nil then skinsv32() else
+if sv3gloves == 1 then sv2glovphenix() end
+if sv3gloves == 2 then sv2glovautumn() end
+if sv3gloves == 3 then sv2glovgeo() end
+if sv3gloves == 4 then sv2glovretro() end
+if sv3gloves == 5 then sv2glovwave() end
+if sv3gloves == 6 then sv2glovneuro() end
+if sv3gloves == 7 then sv2glovnpunk() end
+if sv3gloves == 8 then sv2glovnburning() end
+if sv3gloves == 9 then sv2glovnchampion() end
+if sv3gloves == 10 then sv2glovnsteamrider() end
+if sv3gloves == 11 then skinsv32() end
+end
+end
+
+function sv2glovphenix()
+choicenext = 3000
+sv2search()
+end
+
+function sv2glovautumn()
+choicenext = 3001
+sv2search()
+end
+
+function sv2glovgeo()
+choicenext = 3002
+sv2search()
+end
+
+function sv2glovretro()
+choicenext = 3003
+sv2search()
+end
+
+function sv2glovwave()
+choicenext = 3004
+sv2search()
+end
+
+function sv2glovneuro()
+choicenext = 3005
+sv2search()
+end
+
+function sv2glovnburning()
+choicenext = 3006
+sv2search()
+end
+
+function sv2glovnpunk()
+choicenext = 3007
+sv2search()
+end
+
+function sv2glovnchampion()
+choicenext = 3008
+sv2search()
+end
+
+function sv2glovnsteamrider()
+choicenext = 3009
+sv2search()
+end
+
+function sv2search()
+if choice == 1 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("150341035229184Q;35004D;1Q::50", gg.TYPE_DWORD)
+gg.refineNumber("35004", gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 2 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("192852621524992Q;44902D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("44902",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 3 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("194570608443392Q;45302D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("45302",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 4 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("350525165928448Q;81613D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("81613",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 5 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("64454574211072Q;15007D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("15007",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 6 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("348811473977344Q;81214D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("81214",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 7 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("64445984276480Q;15005D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("15005",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 8 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("137464723275776Q;32006D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("32006",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 9 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("137464723275776Q;32006D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("32006",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 10 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("364668493234176Q;84906D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("84906",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 11 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("266313742155776Q;62006D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("62006",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 12 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("186839667310592Q;43502D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("43502",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 13 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("137447543406592Q;32002D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("32002",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 14 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("55843164782592Q;13002D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("13002",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+if choice == 15 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("186405875613696Q;43401D;1Q::50",gg.TYPE_DWORD)
+gg.refineNumber("43401",gg.TYPE_DWORD)
+gg.getResults(10)
+gg.editAll(choicenext, gg.TYPE_DWORD)
+gg.toast("sᴜᴄᴄᴇssꜰᴜʟʟʏ!")
+gg.clearResults()
+end
+end
+
+
+while true do
+lg = 0
+if gg.isVisible(true) then gg.setVisible(false)
+lg = 1
+if lg == 1 then skins() end
+end
+end

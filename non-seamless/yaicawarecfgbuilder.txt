@@ -1,0 +1,1407 @@
+Love = 0
+serialcounter = 0
+skincounter = 0
+checkbuild = "[V1]"
+endprint = "ʏᴀɪᴄᴀᴡᴀʀᴇ ᴄғɢ ʙᴜɪʟᴅᴇʀ"
+ChoiceSkin = {0, 0}
+Installed = {'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 
+'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ',}
+Load = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+Function = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+ 
+function LoadingSkin(search, offset, value)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber(search, gg.TYPE_QWORD)
+res = gg.getResults(2000)
+checkRes = {}
+finalRes = {}
+for i, v in ipairs(res) do
+  checkRes[i] = {}
+  checkRes[i].address = res[i].address + offset
+  checkRes[i].flags = gg.TYPE_QWORD
+end
+checkRes = gg.getValues(checkRes)
+for i, v in ipairs(checkRes) do
+  if v.value == 1 then table.insert(finalRes, res[i]) end
+end
+ 
+gg.addListItems(finalRes)
+editVal = {}
+for i, v in ipairs(finalRes) do
+  editVal[i] = {}
+  editVal[i].address = finalRes[i].address + 4
+  editVal[i].flags = gg.TYPE_DWORD
+  editVal[i].value = value
+end
+gg.setValues(editVal)
+gg.clearList()
+gg.clearResults()
+end
+ 
+function StartFunction()
+if buildincfg ~= checkbuild then
+gg.sleep(1)
+else
+if Load[1] == '1' then
+if Love == 32 then 
+LoadingSkin(150341035229184, 24, Load[2])
+else
+LoadingSkin(150341035229184, 44, Load[2])
+end end
+ 
+if Load[3] == '1' then
+if Love == 32 then 
+LoadingSkin(186839667310592, 24, Load[4])
+else
+LoadingSkin(186839667310592, 44, Load[4])
+end end
+ 
+if Load[5] == '1' then
+if Love == 32 then 
+LoadingSkin(266313742155776, 24, Load[6])
+else
+LoadingSkin(266313742155776, 44, Load[6])
+end end
+ 
+if Load[7] == '1' then
+if Love == 32 then 
+LoadingSkin(266305152221184, 24, Load[8])
+else
+LoadingSkin(266305152221184, 44, Load[8])
+end end
+ 
+if Load[9] == '1' then
+if Love == 32 then 
+LoadingSkin(194570608443392, 24, Load[10])
+else
+LoadingSkin(194570608443392, 44, Load[10])
+end end
+ 
+if Load[11] == '1' then
+if Love == 32 then 
+LoadingSkin(364668493234176, 24, Load[12])
+else
+LoadingSkin(364668493234176, 44, Load[12])
+end end
+ 
+if Load[13] == '1' then
+if Love == 32 then 
+LoadingSkin(192852621524992, 24, Load[14])
+else
+LoadingSkin(192852621524992, 44, Load[14])
+end end
+ 
+if Load[15] == '1' then
+if Love == 32 then 
+LoadingSkin(348356207443968, 24, Load[16])
+else
+LoadingSkin(348356207443968, 44, Load[16])
+end end
+ 
+if Load[17] == '1' then
+if Love == 32 then 
+LoadingSkin(47266115092480, 24, Load[18])
+else
+LoadingSkin(47266115092480, 44, Load[18])
+end end
+ 
+if Load[19] == '1' then
+if Love == 32 then 
+LoadingSkin(137447543406592, 24, Load[20])
+else
+LoadingSkin(137447543406592, 44, Load[20])
+end end
+ 
+if Load[21] == '1' then
+if Love == 32 then 
+LoadingSkin(185546882154496, 24, Load[22])
+else
+LoadingSkin(185546882154496, 44, Load[22])
+end end
+ 
+if Load[23] == '1' then
+if Love == 32 then 
+LoadingSkin(137464723275776, 24, Load[24])
+else
+LoadingSkin(137464723275776, 44, Load[24])
+end end
+ 
+if Load[25] == '1' then
+if Love == 32 then 
+LoadingSkin(55856049684480, 24, Load[26])
+else
+LoadingSkin(55856049684480, 44, Load[26])
+end end
+ 
+if Load[27] == '1' then
+if Love == 32 then 
+LoadingSkin(55843164782592, 24, Load[28])
+else
+LoadingSkin(55843164782592, 44, Load[28])
+end end
+ 
+if Load[29] == '1' then
+if Love == 32 then 
+LoadingSkin(350525165928448, 24, Load[30])
+else
+LoadingSkin(350525165928448, 44, Load[30])
+end end
+ 
+if Load[31] == '1' then
+if Love == 32 then 
+LoadingSkin(64454574211072, 24, Load[32])
+else
+LoadingSkin(64454574211072, 44, Load[32])
+end end
+ 
+if Load[33] == '1' then
+if Love == 32 then 
+LoadingSkin(348811473977344, 24, Load[34])
+else
+LoadingSkin(348811473977344, 44, Load[34])
+end end
+ 
+if Load[35] == '1' then
+if Love == 32 then 
+LoadingSkin(64445984276480, 24, Load[36])
+else
+LoadingSkin(64445984276480, 44, Load[36])
+end end
+ 
+if Load[37] == '1' then
+if Love == 32 then 
+LoadingSkin(370728692088832, 24, Load[38])
+else
+LoadingSkin(370728692088832, 44, Load[38])
+end end
+ 
+if Load[39] == '1' then
+if Love == 32 then 
+LoadingSkin(186405875613696, 24, Load[40])
+else
+LoadingSkin(186405875613696, 44, Load[40])
+end end
+end
+gg.toast('ʟᴏᴀᴅᴇᴅ') 
+return CfgMainMenu()
+end
+ 
+function LoadFunction()
+Load = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+loadconfig()
+buildincfg = file:read('*line')
+Load[1] = file:read('*line')
+Load[2] = file:read('*line')
+Load[3] = file:read('*line')
+Load[4] = file:read('*line')
+Load[5] = file:read('*line')
+Load[6] = file:read('*line')
+Load[7] = file:read('*line')
+Load[8] = file:read('*line')
+Load[9] = file:read('*line')
+Load[10] = file:read('*line')
+Load[11] = file:read('*line')
+Load[12] = file:read('*line')
+Load[13] = file:read('*line')
+Load[14] = file:read('*line')
+Load[15] = file:read('*line')
+Load[16] = file:read('*line')
+Load[17] = file:read('*line')
+Load[18] = file:read('*line')
+Load[19] = file:read('*line')
+Load[20] = file:read('*line')
+Load[21] = file:read('*line')
+Load[22] = file:read('*line')
+Load[23] = file:read('*line')
+Load[24] = file:read('*line')
+Load[25] = file:read('*line')
+Load[26] = file:read('*line')
+Load[27] = file:read('*line')
+Load[28] = file:read('*line')
+Load[29] = file:read('*line')
+Load[30] = file:read('*line')
+Load[31] = file:read('*line')
+Load[32] = file:read('*line')
+Load[33] = file:read('*line')
+Load[34] = file:read('*line')
+Load[35] = file:read('*line')
+Load[36] = file:read('*line')
+Load[37] = file:read('*line')
+Load[38] = file:read('*line')
+Load[39] = file:read('*line')
+Load[40] = file:read('*line')
+file:close()
+return StartFunction()
+end
+ 
+function SaveFunction()
+gg.setVisible(false)
+saveconfig()
+file:write(
+checkbuild .. '\n' .. Function[1] .. '\n' .. Function[2] .. '\n' .. Function[3] .. '\n'
+ .. Function[4] .. '\n' .. Function[5] .. '\n' .. Function[6] .. '\n' .. Function[7] .. '\n' .. Function[8]
+  .. '\n' .. Function[9] .. '\n' .. Function[10] .. '\n' .. Function[11] .. '\n' .. Function[12] .. '\n' .. Function[13]
+   .. '\n' .. Function[14] .. '\n' .. Function[15] .. '\n' .. Function[16] .. '\n' .. Function[17] .. '\n' .. Function[18]
+    .. '\n' .. Function[19] .. '\n' .. Function[20] .. '\n' .. Function[21] .. '\n' .. Function[22] .. '\n' .. Function[23]
+     .. '\n' .. Function[24] .. '\n' .. Function[25] .. '\n' .. Function[26] .. '\n' .. Function[27] .. '\n' .. Function[28]
+      .. '\n' .. Function[29] .. '\n' .. Function[30] .. '\n' .. Function[31] .. '\n' .. Function[32] .. '\n' .. Function[33]
+       .. '\n' .. Function[34] .. '\n' .. Function[35] .. '\n' .. Function[36] .. '\n' .. Function[37] .. '\n' .. Function[38]
+        .. '\n' .. Function[39] .. '\n' .. Function[40] .. '\n' .. endprint
+)
+file:close()
+gg.toast("sᴀᴠᴇᴅ sᴜᴄᴄᴇssғᴜʟ")
+return CfgMainMenu()
+end 
+ 
+function Save()
+gg.setVisible(false)
+Installed[serialcounter0] = ChoiceSkin[2]
+Function[serialcounter+1] = ChoiceSkin[1]
+skincounter = skincounter+1
+gg.toast("ᴀᴅᴅᴇᴅ")
+return CfgMainMenu()
+end
+ 
+function StattrackCheck()
+StattrackMainMenu0 = gg.choice({'sᴛᴀᴛᴛʀᴀᴄᴋ','ʀᴇɢᴜʟᴀʀ'},nil,'')
+if StattrackMainMenu0 == nil then return gg.setVisible(false) else
+if StattrackMainMenu0 == 1 then ChoiceSkin[1] = ChoiceSkin[1]+1000000 return Save() end
+if StattrackMainMenu0 == 2 then return Save() end
+end
+end
+ 
+ function fives()
+gg.setVisible(false)
+CfgMainFs = gg.choice({
+"ғ/s ᴄᴀᴍᴏ sᴛᴏʀᴍ",
+"ғ/s ᴘᴏɪsᴏɴ",
+"ғ/s ᴠᴇɴᴏᴍ",
+"ғ/s ʀᴜsʜ",
+"ғ/s ᴢᴏɴᴇ",
+"ғ/s ᴅᴇᴍᴏɴɪᴄ ғᴏɢ",
+"ғ/s ʀᴏʏᴀʟ ғʀᴏsᴛ",
+"ғ/s ᴇɴғᴏʀᴄᴇʀ",
+"ғ/s ᴡʀᴀɪᴛʜ",
+"ғ/s ᴛᴀᴄᴛɪᴄᴀʟ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ғ/s" )
+if CfgMainFs == nil then return gg.setVisible(false) else
+if CfgMainFs == 1 then ChoiceSkin[1] = 51701 ChoiceSkin[2] ="ғ/s ᴄᴀᴍᴏ sᴛᴏʀᴍ" Save() end
+if CfgMainFs == 2 then ChoiceSkin[1] = 71701 ChoiceSkin[2] ="ғ/s ᴘᴏɪsᴏɴ" StattrackCheck() end
+if CfgMainFs == 3 then ChoiceSkin[1] = 41701 ChoiceSkin[2] ="ғ/s ᴠᴇɴᴏᴍ" StattrackCheck() end
+if CfgMainFs == 4 then ChoiceSkin[1] = 81700 ChoiceSkin[2] ="ғ/s ʀᴜsʜ" StattrackCheck() end
+if CfgMainFs == 5 then ChoiceSkin[1] = 71702 ChoiceSkin[2] ="ғ/s ᴢᴏɴᴇ" StattrackCheck() end
+if CfgMainFs == 6 then ChoiceSkin[1] = 141700 ChoiceSkin[2] ="ғ/s ᴅᴇᴍᴏɴɪᴄ ғᴏɢ" StattrackCheck() end
+if CfgMainFs == 7 then ChoiceSkin[1] = 151700 ChoiceSkin[2] ="ғ/s ʀᴏʏᴀʟ ғʀᴏsᴛ" StattrackCheck() end
+if CfgMainFs == 8 then ChoiceSkin[1] = 131700 ChoiceSkin[2] ="ғ/s ᴇɴғᴏʀᴄᴇʀ" StattrackCheck() end 
+if CfgMainFs == 9 then ChoiceSkin[1] = 81726 ChoiceSkin[2] ="ғ/s ᴡʀᴀɪᴛʜ" StattrackCheck() end 
+if CfgMainFs == 10 then ChoiceSkin[1] = 41703 ChoiceSkin[2] ="ғ/s ᴛᴀᴄᴛɪᴄᴀʟ" StattrackCheck() end 
+if CfgMainFs == 11 then return ChoiceWeapon() end 
+end
+end
+ 
+ function awm()
+gg.setVisible(false)
+CfgMainAwm = gg.choice({
+"ᴀᴡᴍ ᴛʀᴇᴀsᴜʀᴇ ʜᴜɴᴛᴇʀ",
+"ᴀᴡᴍ sᴘᴏʀᴛ ᴠ2",
+"ᴀᴡᴍ ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ",
+"ᴀᴡᴍ 2 ʏᴇᴀʀs ʀᴇᴅ",
+"ᴀᴡᴍ sᴛɪᴄᴋᴇʀʙᴏᴍʙ",
+"ᴀᴡᴍ sᴘᴏʀᴛ",
+"ᴀᴡᴍ ɢᴇɴᴇsɪs",
+"ᴀᴡᴍ ʙᴏᴏᴍ",
+"ᴀᴡᴍ ᴅʀᴀɢᴏɴ",
+"ᴀᴡᴍ ɢᴇᴀʀ",
+"ᴀᴡᴍ ᴘᴏʟᴀʀ ɴɪɢʜᴛ",
+"ᴀᴡᴍ ᴘʜᴇᴏɴɪx",
+"ᴀᴡᴍ sᴄʀᴀᴛᴄʜ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴀᴡᴍ" )
+if CfgMainAwm == nil then return gg.setVisible(false) else
+if CfgMainAwm == 1 then ChoiceSkin[1] = 85104 ChoiceSkin[2] ="ᴀᴡᴍ ᴛʀᴇᴀsᴜʀᴇ ʜᴜɴᴛᴇʀ" Save() end
+if CfgMainAwm == 2 then ChoiceSkin[1] = 51006 ChoiceSkin[2] ="ᴀᴡᴍ sᴘᴏʀᴛ ᴠ𝟸" Save() end
+if CfgMainAwm == 3 then ChoiceSkin[1] = 65101 ChoiceSkin[2] ="ᴀᴡᴍ ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ" Save() end
+if CfgMainAwm == 4 then ChoiceSkin[1] = 51008 ChoiceSkin[2] ="ᴀᴡᴍ 𝟸 ʏᴇᴀʀs ʀᴇᴅ" StattrackCheck() end
+if CfgMainAwm == 5 then ChoiceSkin[1] = 165100 ChoiceSkin[2] ="ᴀᴡᴍ sᴛɪᴄᴋᴇʀʙᴏᴍʙ" StattrackCheck() end
+if CfgMainAwm == 6 then ChoiceSkin[1] = 51001 ChoiceSkin[2] ="ᴀᴡᴍ sᴘᴏʀᴛ" StattrackCheck() end
+if CfgMainAwm == 7 then ChoiceSkin[1] = 51007 ChoiceSkin[2] ="ᴀᴡᴍ ɢᴇɴᴇsɪs" StattrackCheck() end 
+if CfgMainAwm == 8 then ChoiceSkin[1] = 125100 ChoiceSkin[2] ="ᴀᴡᴍ ʙᴏᴏᴍ" StattrackCheck() end 
+if CfgMainAwm == 9 then ChoiceSkin[1] = 85127 ChoiceSkin[2] ="ᴀᴡᴍ ᴅʀᴀɢᴏɴ" StattrackCheck() end 
+if CfgMainAwm == 10 then ChoiceSkin[1] = 51003 ChoiceSkin[2] ="ᴀᴡᴍ ɢᴇᴀʀ" StattrackCheck() end 
+if CfgMainAwm == 11 then ChoiceSkin[1] = 95100 ChoiceSkin[2] ="ᴀᴡᴍ ᴘᴏʟᴀʀ ɴɪɢʜᴛ" StattrackCheck() end 
+if CfgMainAwm == 12 then ChoiceSkin[1] = 51002 ChoiceSkin[2] ="ᴀᴡᴍ ᴘʜᴇᴏɴɪx" StattrackCheck() end 
+if CfgMainAwm == 13 then ChoiceSkin[1] = 51004 ChoiceSkin[2] ="ᴀᴡᴍ sᴄʀᴀᴛᴄʜ" StattrackCheck() end 
+if CfgMainAwm == 14 then return ChoiceWeapon() end 
+end
+end
+
+function p350()
+gg.setVisible(false)
+CfgMainP350 = gg.choice({
+"ᴘ𝟹𝟻𝟶 ʀᴀᴅɪᴀᴛɪᴏɴ",
+"ᴘ𝟹𝟻𝟶 ʙʟɪᴢᴢᴀʀᴅ",
+"ᴘ𝟹𝟻𝟶 ғᴏʀᴇsᴛ sᴘɪʀɪᴛ", 
+"ᴘ𝟹𝟻𝟶 ɴᴇᴏɴ",
+"ᴘ𝟹𝟻𝟶 ᴛᴀɢ ᴋɪɴɢ",
+"ᴘ𝟹𝟻𝟶 𝟺 ʏᴇᴀʀs",
+"ᴘ𝟹𝟻𝟶 ᴀᴜᴛᴜᴍɴ",
+"ᴘ𝟹𝟻𝟶 ʀᴀʟʟʏ",
+"ᴘ𝟹𝟻𝟶 ᴏɴɪ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴘ𝟹𝟻𝟶" )
+if CfgMainP350 == nil then return gg.setVisible(false) else
+if CfgMainP350 == 1 then ChoiceSkin[1] = 71306 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ʀᴀᴅɪᴀᴛɪᴏɴ" StattrackCheck() end
+if CfgMainP350 == 2 then ChoiceSkin[1] = 91300 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ʙʟɪᴢᴀʀᴅ" StattrackCheck() end
+if CfgMainP350 == 3 then ChoiceSkin[1] = 13003 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ғᴏʀᴇsᴛ sᴘɪʀɪᴛ" StattrackCheck() end
+if CfgMainP350 == 4 then ChoiceSkin[1] = 13001 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ɴᴇᴏɴ" StattrackCheck() end
+if CfgMainP350 == 5 then ChoiceSkin[1] = 170018 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ᴛᴀɢ ᴋɪɴɢ" StattrackCheck() end
+if CfgMainP350 == 6 then ChoiceSkin[1] = 101300 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 𝟺 ʏᴇᴀʀs" StattrackCheck() end
+if CfgMainP350 == 7 then ChoiceSkin[1] = 81300 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ᴀᴜᴛᴜᴍɴ" StattrackCheck() end 
+if CfgMainP350 == 8 then ChoiceSkin[1] = 13004 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ʀᴀʟʟʏ" StattrackCheck() end 
+if CfgMainP350 == 9 then ChoiceSkin[1] = 121300 ChoiceSkin[2] ="ᴘ𝟹𝟻𝟶 ᴏɴɪ" StattrackCheck() end 
+if CfgMainP350 == 10 then return ChoiceWeapon() end 
+end
+end
+
+function m40()
+gg.setVisible(false)
+CfgMainM40 = gg.choice({
+"ᴍ𝟺𝟶 ᴍᴏɴsᴛᴇʀ",
+"ᴍ𝟺𝟶 ᴡɪɴᴛᴇʀ ᴛʀᴀᴄᴋ",
+"ᴍ𝟺𝟶 ᴀʀᴄᴛɪᴄ", 
+"ᴍ𝟺𝟶 ᴛʜɪᴇғ ᴏғ ᴛʜᴇ ᴄʀɪᴄʜsᴛᴍᴀs",
+"ᴍ𝟺𝟶 ǫᴜᴀᴋᴇ",
+"ᴍ𝟺𝟶 sᴛɪᴄᴋᴇʀʙᴏᴍʙ",
+"ᴍ𝟺𝟶 ʙᴇᴀɢʟᴇ",
+"ᴍ𝟺𝟶 ɢʀɪᴘ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟺𝟶" )
+if CfgMainM40 == nil then return gg.setVisible(false) else
+if CfgMainM40 == 1 then ChoiceSkin[1] = 75205 ChoiceSkin[2] ="ᴍ𝟺𝟶 ᴍᴏɴsᴛᴇʀ" StattrackCheck() end
+if CfgMainM40 == 2 then ChoiceSkin[1] = 65202 ChoiceSkin[2] ="ᴍ𝟺𝟶 ᴡɪɴᴛᴇʀ ᴛʀᴀᴄᴋ" StattrackCheck() end
+if CfgMainM40 == 3 then ChoiceSkin[1] = 65201 ChoiceSkin[2] ="ᴍ𝟺𝟶 ᴀʀᴄᴛɪᴄ" StattrackCheck() end
+if CfgMainM40 == 4 then ChoiceSkin[1] = 155200 ChoiceSkin[2] ="ᴍ𝟺𝟶 ᴛʜɪᴇғ ᴏғ ᴛʜᴇ ᴄʀɪᴄʜsᴛᴍᴀs" StattrackCheck() end
+if CfgMainM40 == 5 then ChoiceSkin[1] = 52001 ChoiceSkin[2] ="ᴍ𝟺𝟶 ǫᴜᴀᴋᴇ" StattrackCheck() end
+if CfgMainM40 == 6 then ChoiceSkin[1] = 165200 ChoiceSkin[2] ="ᴍ𝟺𝟶 sᴛɪᴄᴋᴇʀʙᴏᴍʙ" StattrackCheck() end
+if CfgMainM40 == 7 then ChoiceSkin[1] = 52003 ChoiceSkin[2] ="ᴍ𝟺𝟶 ʙᴇᴀɢʟᴇ" StattrackCheck() end 
+if CfgMainM40 == 8 then ChoiceSkin[1] = 170011 ChoiceSkin[2] ="ᴍ𝟺𝟶 ɢʀɪᴘ" StattrackCheck() end 
+if CfgMainM40 == 9 then return ChoiceWeapon() end 
+end
+end
+
+function g22()
+gg.setVisible(false)
+CfgMainG22 = gg.choice({
+"ɢ𝟸𝟸 ʀᴇʟɪᴄ",
+"ɢ𝟸𝟸 ғʀᴏᴢᴇɴ",
+"ɢ𝟸𝟸 ɴᴇsᴛ", 
+"ɢ𝟸𝟸 ᴍᴏɴsᴛᴇʀ",
+"ɢ𝟸𝟸 ᴄᴀsᴜᴀʟ",
+"ɢ𝟸𝟸 ғʀᴏsᴛ ᴡʏʀᴍ",
+"ɢ𝟸𝟸 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ",
+"ɢ𝟸𝟸 ᴄᴀʀʙᴏɴ",
+"ɢ𝟸𝟸 sᴛᴀʀғᴀʟʟ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ɢ𝟸𝟸" )
+if CfgMainG22 == nil then return gg.setVisible(false) else
+if CfgMainG22 == 1 then ChoiceSkin[1] = 41101 ChoiceSkin[2] ="ɢ𝟸𝟸 ʀᴇʟɪᴄ" StattrackCheck() end
+if CfgMainG22 == 2 then ChoiceSkin[1] = 61101 ChoiceSkin[2] ="ɢ𝟸𝟸 ғʀᴏᴢᴇɴ" StattrackCheck() end
+if CfgMainG22 == 3 then ChoiceSkin[1] = 11002 ChoiceSkin[2] ="ɢ𝟸𝟸 ɴᴇsᴛ" StattrackCheck() end
+if CfgMainG22 == 4 then ChoiceSkin[1] = 71103 ChoiceSkin[2] ="ɢ𝟸𝟸 ᴍᴏɴsᴛᴇʀ" StattrackCheck() end
+if CfgMainG22 == 5 then ChoiceSkin[1] = 170008 ChoiceSkin[2] ="ɢ𝟸𝟸 ᴄᴀsᴜᴀʟ" StattrackCheck() end
+if CfgMainG22 == 6 then ChoiceSkin[1] = 11008 ChoiceSkin[2] ="ɢ𝟸𝟸 ғʀᴏsᴛ ᴡʏʀᴍ" StattrackCheck() end
+if CfgMainG22 == 7 then ChoiceSkin[1] = 71104 ChoiceSkin[2] ="ɢ𝟸𝟸 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ" StattrackCheck() end 
+if CfgMainG22 == 8 then ChoiceSkin[1] = 81107 ChoiceSkin[2] ="ɢ𝟸𝟸 ᴄᴀʀʙᴏɴ" StattrackCheck() end 
+if CfgMainG22 == 9 then ChoiceSkin[1] = 41102 ChoiceSkin[2] ="ɢ𝟸𝟸 sᴛᴀʀғᴀʟʟ" StattrackCheck() end 
+if CfgMainG22 == 10 then return ChoiceWeapon() end 
+end
+end
+
+function usp()
+gg.setVisible(false)
+CfgMainUsp = gg.choice({
+"ᴜsᴘ ɢᴇɴᴇsɪs",
+"ᴜsᴘ ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"ᴜsᴘ 𝟸 ʏᴇᴀʀs ʀᴇᴅ", 
+"ᴜsᴘ sᴛᴏɴᴇ ᴄᴏʟᴅ",
+"ᴜsᴘ 𝟸 ʏᴇᴀʀs",
+"ᴜsᴘ sᴛɪᴄᴋᴇʀʙᴏᴍʙ",
+"ᴜsᴘ ᴄʜᴀᴍᴇʟᴇᴏɴ",
+"ᴜsᴘ ᴘɪsᴄᴇs",
+"ᴜsᴘ ᴘᴜʀᴘʟᴇ ᴄᴀᴍᴏ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴜsᴘ" )
+if CfgMainUsp == nil then return gg.setVisible(false) else
+if CfgMainUsp == 1 then ChoiceSkin[1] = 12001 ChoiceSkin[2] ="ᴜsᴘ ɢᴇɴᴇsɪs" Save() end
+if CfgMainUsp == 2 then ChoiceSkin[1] = 81200 ChoiceSkin[2] ="ᴜsᴘ ɢᴇᴏᴍᴇᴛʀɪᴄ" StattrackCheck() end
+if CfgMainUsp == 3 then ChoiceSkin[1] = 12003 ChoiceSkin[2] ="ᴜsᴘ 𝟸 ʏᴇᴀʀs ʀᴇᴅ" StattrackCheck() end
+if CfgMainUsp == 4 then ChoiceSkin[1] = 61201 ChoiceSkin[2] ="ᴜsᴘ sᴛᴏɴᴇ ᴄᴏʟᴅ" StattrackCheck() end
+if CfgMainUsp == 5 then ChoiceSkin[1] = 12002 ChoiceSkin[2] ="ᴜsᴘ 𝟸 ʏᴇᴀʀs" StattrackCheck() end
+if CfgMainUsp == 6 then ChoiceSkin[1] = 161200 ChoiceSkin[2] ="ᴜsᴘ sᴛɪᴄᴋᴇʀʙᴏᴍʙ" StattrackCheck() end
+if CfgMainUsp == 7 then ChoiceSkin[1] = 121200 ChoiceSkin[2] ="ᴜsᴘ ᴄʜᴀᴍᴇʟᴇᴏɴ" StattrackCheck() end 
+if CfgMainUsp == 8 then ChoiceSkin[1] = 41212 ChoiceSkin[2] ="ᴜsᴘ ᴘɪsᴄᴇs" StattrackCheck() end 
+if CfgMainUsp == 9 then ChoiceSkin[1] = 170020 ChoiceSkin[2] ="ᴜsᴘ ᴘᴜʀᴘʟᴇ sᴀᴍᴏ" StattrackCheck() end 
+if CfgMainUsp == 10 then return ChoiceWeapon() end 
+end
+end
+
+function akr()
+gg.setVisible(false)
+CfgMainAkr = gg.choice({
+"ᴀᴋʀ ғᴀʙʀɪᴄ sᴛᴏʀᴍ",
+"ᴀᴋʀ 𝟸 ʏᴇᴀʀs ʀᴇᴅ",
+"ᴀᴋʀ ᴛʀᴇᴀsᴜʀᴇ ʜᴜɴᴛᴇʀ",
+"ᴀᴋʀ ᴛᴀɢ ᴋɪɴɢ", 
+"ᴀᴋʀ ᴅʀᴀɢᴏɴ",
+"ᴀᴋʀ ɴɪɢʜᴛ ғᴜʀʏ",
+"ᴀᴋʀ ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"ᴀᴋʀ sᴘᴏʀᴛ",
+"ᴀᴋʀ ᴄᴀʀʙᴏɴ",
+"ᴀᴋʀ ɴᴀɴᴏ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴀᴋʀ" )
+if CfgMainAkr == nil then return gg.setVisible(false) else
+if CfgMainAkr == 1 then ChoiceSkin[1] = 54401 ChoiceSkin[2] ="ᴀᴋʀ ғᴀʙʀɪᴄ sᴛᴏʀᴍ" Save() end
+if CfgMainAkr == 2 then ChoiceSkin[1] = 44007 ChoiceSkin[2] ="ᴀᴋʀ 𝟸 ʏᴇᴀʀs ʀᴇᴅ" StattrackCheck() end
+if CfgMainAkr == 3 then ChoiceSkin[1] = 44002 ChoiceSkin[2] ="ᴀᴋʀ ᴛʀᴇᴀsᴜʀᴇ ʜᴜɴᴛᴇʀ" StattrackCheck() end
+if CfgMainAkr == 4 then ChoiceSkin[1] = 170001 ChoiceSkin[2] ="ᴀᴋʀ ᴛᴀɢ ᴋɪɴɢ" StattrackCheck() end
+if CfgMainAkr == 5 then ChoiceSkin[1] = 84402 ChoiceSkin[2] ="ᴀᴋʀ ᴅʀᴀɢᴏɴ" StattrackCheck() end
+if CfgMainAkr == 6 then ChoiceSkin[1] = 144400 ChoiceSkin[2] ="ᴀᴋʀ ɴɪɢʜᴛ ғᴜʀʏ" StattrackCheck() end
+if CfgMainAkr == 7 then ChoiceSkin[1] = 44005 ChoiceSkin[2] ="ᴀᴋʀ ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ" StattrackCheck() end
+if CfgMainAkr == 8 then ChoiceSkin[1] = 44004 ChoiceSkin[2] ="ᴀᴋʀ sᴘᴏʀᴛ" StattrackCheck() end 
+if CfgMainAkr == 9 then ChoiceSkin[1] = 44006 ChoiceSkin[2] ="ᴀᴋʀ ᴄᴀʀʙᴏɴ" StattrackCheck() end 
+if CfgMainAkr == 10 then ChoiceSkin[1] = 84403 ChoiceSkin[2] ="ᴀᴋʀ ɴᴀɴᴏ" StattrackCheck() end 
+if CfgMainAkr == 11 then return ChoiceWeapon() end 
+end
+end
+
+function fnfal()
+gg.setVisible(false)
+CfgMainFnfal = gg.choice({
+"ꜰɴ ꜰᴀʟ ʟᴇᴀᴛʜᴇʀ",
+"ꜰɴ ꜰᴀʟ ᴘʜᴇᴏɴɪx ʀɪsᴇɴ",
+"ꜰɴ ꜰᴀʟ ᴄʜʀɪsᴛᴍᴀs sʏᴍʙᴏʟ", 
+"ꜰɴ ꜰᴀʟ ᴛᴀᴄᴛɪᴄᴀʟ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ꜰɴ ꜰᴀʟ" )
+if CfgMainFnfal == nil then return gg.setVisible(false) else
+if CfgMainFnfal == 1 then ChoiceSkin[1] = 44901 ChoiceSkin[2] ="ꜰɴ ꜰᴀʟ ʟᴇᴀᴛʜᴇʀ" StattrackCheck() end
+if CfgMainFnfal == 2 then ChoiceSkin[1] = 84900 ChoiceSkin[2] ="ꜰɴ ꜰᴀʟ ᴘʜᴇᴏɴɪx ʀɪsᴇɴ" StattrackCheck() end
+if CfgMainFnfal == 3 then ChoiceSkin[1] = 154900 ChoiceSkin[2] ="ꜰɴ ꜰᴀʟ ᴄʜʀɪsᴛᴍᴀs sʏᴍʙᴏʟ" StattrackCheck() end
+if CfgMainFnfal == 4 then ChoiceSkin[1] = 44903 ChoiceSkin[2] ="ꜰɴ ꜰᴀʟ ᴛᴀᴄᴛɪᴄᴀʟ" StattrackCheck() end
+if CfgMainFnfal == 5 then return ChoiceWeapon() end 
+end
+end
+
+function deagle()
+gg.setVisible(false)
+CfgMainDeagle = gg.choice({
+"ᴅᴇsᴇʀᴛ ʏᴀᴋᴜᴢᴀ",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴍᴏʀɢᴀɴ", 
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴘʀᴇᴅᴀᴛᴏʀ", 
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴏʀᴏᴄʜɪ",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴘɪʀᴀɴɪʜᴀ",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ʀᴇᴅ ᴅʀᴀɢᴏɴ",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴀᴄᴇ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ" )
+if CfgMainDeagle == nil then return gg.setVisible(false) else
+if CfgMainDeagle == 1 then ChoiceSkin[1] = 131500 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ʏᴀᴋᴜᴢᴀ" StattrackCheck() end
+if CfgMainDeagle == 2 then ChoiceSkin[1] = 15001 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴍᴏʀɢᴀɴ" StattrackCheck() end
+if CfgMainDeagle == 3 then ChoiceSkin[1] = 15003 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴘʀᴇᴅᴀᴛᴏʀ" StattrackCheck() end
+if CfgMainDeagle == 4 then ChoiceSkin[1] = 121500 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴏʀᴏᴄʜɪ" StattrackCheck() end
+if CfgMainDeagle == 5 then ChoiceSkin[1] = 170003 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴘɪʀᴀɴɪʜᴀ" StattrackCheck() end
+if CfgMainDeagle == 6 then ChoiceSkin[1] = 15006 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴅʀᴀɢᴏɴ ɢʟᴀss" StattrackCheck() end
+if CfgMainDeagle == 7 then ChoiceSkin[1] = 15004 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ʀᴇᴅ ᴅʀᴀɢᴏɴ" StattrackCheck() end 
+if CfgMainDeagle == 8 then ChoiceSkin[1] = 41502 ChoiceSkin[2] ="ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴀᴄᴇ" StattrackCheck() end 
+if CfgMainDeagle == 9 then return ChoiceWeapon() end 
+end
+end
+
+function ump45()
+gg.setVisible(false)
+CfgMainUmp45 = gg.choice({
+"ᴜᴍᴘ𝟺𝟻 ᴄʏʙᴇʀᴘᴜɴᴋ",
+"ᴜᴍᴘ𝟺𝟻 ʙᴇᴀsᴛ",
+"ᴜᴍᴘ𝟺𝟻 ɢᴀs", 
+"ᴜᴍᴘ𝟺𝟻 ᴡɪɴɢᴇᴅ",
+"ᴜᴍᴘ𝟺𝟻 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ",
+"ᴜᴍᴘ𝟺𝟻 sᴘɪʀɪᴛ",
+"ᴜᴍᴘ𝟺𝟻 ɢᴇᴏᴍᴇᴛʀɪᴄ",
+"ᴜᴍᴘ𝟺𝟻 𝟺 ʏᴇᴀʀs",
+"ᴜᴍᴘ𝟺𝟻 ᴄᴇʀʙᴇʀᴜs",
+"ᴜᴍᴘ𝟺𝟻 sʜᴀʀᴋ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴜᴍᴘ𝟺𝟻" )
+if CfgMainUmp45 == nil then return gg.setVisible(false) else
+if CfgMainUmp45 == 1 then ChoiceSkin[1] = 32001 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ᴄʏʙᴇʀᴘᴜɴᴋ" StattrackCheck() end
+if CfgMainUmp45 == 2 then ChoiceSkin[1] = 32005 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ʙᴇᴀsᴛ" StattrackCheck() end
+if CfgMainUmp45 == 3 then ChoiceSkin[1] = 73208 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ɢᴀs" StattrackCheck() end
+if CfgMainUmp45 == 4 then ChoiceSkin[1] = 32004 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ᴡɪɴɢᴇᴅ" StattrackCheck() end
+if CfgMainUmp45 == 5 then ChoiceSkin[1] = 73209 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ᴡʜɪᴛᴇ ᴄᴀʀʙᴏɴ" StattrackCheck() end
+if CfgMainUmp45 == 6 then ChoiceSkin[1] = 83201 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 sᴘɪʀɪᴛ" StattrackCheck() end
+if CfgMainUmp45 == 7 then ChoiceSkin[1] = 83200 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ɢᴇᴏᴍᴇᴛʀɪᴄ" StattrackCheck() end 
+if CfgMainUmp45 == 8 then ChoiceSkin[1] = 103200 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 𝟺 ʏᴇᴀʀs" StattrackCheck() end 
+if CfgMainUmp45 == 9 then ChoiceSkin[1] = 43202 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 ᴄᴇʀʙᴇʀᴜs" StattrackCheck() end 
+if CfgMainUmp45 == 10 then ChoiceSkin[1] = 32003 ChoiceSkin[2] ="ᴜᴍᴘ𝟺𝟻 sʜᴀʀᴋ" StattrackCheck() end 
+if CfgMainUmp45 == 11 then return ChoiceWeapon() end 
+end
+end
+
+function p90()
+gg.setVisible(false)
+CfgMainP90 = gg.choice({
+"ᴘ𝟿𝟶 sᴀᴍᴜʀᴀɪ",
+"ᴘ𝟿𝟶 ɢʜᴏᴜʟ",
+"ᴘ𝟿𝟶 ʀ.ᴏ.ɴ.ɪ.ɴ. ᴍᴋ𝟿", 
+"ᴘ𝟿𝟶 ɪʀᴏɴ ᴡɪʟʟ",
+"ᴘ𝟿𝟶 ᴏᴏᴘs",
+"ᴘ𝟿𝟶 ᴢ-𝟻𝟶 ғ.ᴜ.ᴊ.ɪ.ɴ.",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴘ𝟿𝟶" )
+if CfgMainP90 == nil then return gg.setVisible(false) else
+if CfgMainP90 == 1 then ChoiceSkin[1] = 83512 ChoiceSkin[2] ="ᴘ𝟿𝟶 sᴀᴍᴜʀᴀɪ" StattrackCheck() end
+if CfgMainP90 == 2 then ChoiceSkin[1] = 35002 ChoiceSkin[2] ="ᴘ𝟿𝟶 ɢʜᴏᴜʟ" StattrackCheck() end
+if CfgMainP90 == 3 then ChoiceSkin[1] = 133500 ChoiceSkin[2] ="ᴘ𝟿𝟶 ʀ.ᴏ.ɴ.ɪ.ɴ. ᴍᴋ𝟿" StattrackCheck() end
+if CfgMainP90 == 4 then ChoiceSkin[1] = 93500 ChoiceSkin[2] ="ᴘ𝟿𝟶 ɪʀᴏɴ ᴡɪʟʟ" StattrackCheck() end
+if CfgMainP90 == 5 then ChoiceSkin[1] = 170017 ChoiceSkin[2] ="ᴘ𝟿𝟶 ᴏᴏᴘs" StattrackCheck() end
+if CfgMainP90 == 6 then ChoiceSkin[1] = 133501 ChoiceSkin[2] ="ᴘ𝟿𝟶 ᴢ-𝟻𝟶 ғ.ᴜ.ᴊ.ɪ.ɴ." StattrackCheck() end
+if CfgMainP90 == 7 then return ChoiceWeapon() end 
+end
+end
+
+function mp7()
+gg.setVisible(false)
+CfgMainMP7 = gg.choice({
+"ᴍᴘ𝟽 ʙʟɪᴢᴢᴀʀᴅ",
+"ᴍᴘ𝟽 𝟸 ʏᴇᴀʀs ʀᴇᴅ",
+"ᴍᴘ𝟽 𝟸 ʏᴇᴀʀs",
+"ᴍᴘ𝟽 ᴘᴀʟᴀᴄᴇ",
+"ᴍᴘ𝟽 ʙᴀɴᴀɴᴀ",
+"ᴍᴘ𝟽 ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ",
+"ᴍᴘ𝟽 sᴛɪᴄᴋᴇʀʙᴏᴍʙ",
+"ᴍᴘ𝟽 ɢʀᴀғғɪᴛʏ",
+"ᴍᴘ𝟽 ᴀʀᴄᴀᴅᴇ",
+"ᴍᴘ𝟽 ʟɪᴄʜ",
+"ᴍᴘ𝟽 ʀᴇᴠɪᴠᴀʟ",
+"ᴍᴘ𝟽 ᴏғғʀᴏᴀᴅ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍᴘ𝟽" )
+if CfgMainMP7 == nil then return gg.setVisible(false) else
+if CfgMainMP7 == 1 then ChoiceSkin[1] = 93400 ChoiceSkin[2] ="ᴍᴘ𝟽 ʙʟɪᴢᴢᴀʀᴅ" Save() end
+if CfgMainMP7 == 2 then ChoiceSkin[1] = 34004 ChoiceSkin[2] ="ᴍᴘ𝟽 𝟸 ʏᴇᴀʀs ʀᴇᴅ" Save() end
+if CfgMainMP7 == 3 then ChoiceSkin[1] = 34003 ChoiceSkin[2] ="ᴍᴘ𝟽 𝟸 ʏᴇᴀʀs" Save() end
+if CfgMainMP7 == 4 then ChoiceSkin[1] = 63401 ChoiceSkin[2] ="ᴍᴘ𝟽 ᴘᴀʟᴀᴄᴇ" StattrackCheck() end
+if CfgMainMP7 == 5 then ChoiceSkin[1] = 83411 ChoiceSkin[2] ="ᴍᴘ𝟽 ʙᴀɴᴀɴᴀ" StattrackCheck() end
+if CfgMainMP7 == 6 then ChoiceSkin[1] = 63401 ChoiceSkin[2] ="ᴍᴘ𝟽 ᴡɪɴᴛᴇʀ sᴘᴏʀᴛ" StattrackCheck() end
+if CfgMainMP7 == 7 then ChoiceSkin[1] = 163400 ChoiceSkin[2] ="ᴍᴘ𝟽 sᴛɪᴄᴋᴇʀʙᴏᴍʙ" Save() end 
+if CfgMainMP7 == 8 then ChoiceSkin[1] = 83410 ChoiceSkin[2] ="ᴍᴘ𝟽 ɢʀᴀғғɪᴛʏ" StattrackCheck() end 
+if CfgMainMP7 == 9 then ChoiceSkin[1] = 34002 ChoiceSkin[2] ="ᴍᴘ𝟽 ᴀʀᴄᴀᴅᴇ" StattrackCheck() end 
+if CfgMainMP7 == 10 then ChoiceSkin[1] = 43402 ChoiceSkin[2] ="ᴍᴘ𝟽 ʟɪᴄʜ" StattrackCheck() end 
+if CfgMainMP7 == 11 then ChoiceSkin[1] = 83400 ChoiceSkin[2] ="ᴍᴘ𝟽 ʀᴇᴠɪᴠᴀʟ" StattrackCheck() end 
+if CfgMainMP7 == 12 then ChoiceSkin[1] = 34001 ChoiceSkin[2] ="ᴍᴘ𝟽 ᴏғғʀᴏᴀᴅ" StattrackCheck() end 
+if CfgMainMP7 == 13 then return ChoiceWeapon() end 
+end
+end
+
+function akr12()
+gg.setVisible(false)
+CfgMainAkr12 = gg.choice({
+"ᴀᴋʀ𝟷𝟸 ʀᴀɪʟɢᴜɴ",
+"ᴀᴋʀ𝟷𝟸 ɢᴇᴏᴍᴛʀɪᴄ",
+"ᴀᴋʀ𝟷𝟸 𝟺 ʏᴇᴀʀs", 
+"ᴀᴋʀ𝟷𝟸 ᴘɪxᴇʟ ᴄᴀᴍᴏᴜғʟᴀғᴇ",
+"ᴀᴋʀ𝟷𝟸 ғʟᴏᴡ",
+"ᴀᴋʀ𝟷𝟸 ᴄᴀʀʙᴏɴ",
+"ᴀᴋʀ𝟷𝟸 ᴛʀᴀɴsɪsᴛᴏʀ",
+"ᴀᴋʀ𝟷𝟸 sᴛᴇᴀᴍ ʙᴇᴀsᴛ",
+"ᴀᴋʀ𝟷𝟸 ᴀʀᴍᴏʀᴇᴅ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴀᴋʀ𝟷𝟸" )
+if CfgMainAkr12 == nil then return gg.setVisible(false) else
+if CfgMainAkr12 == 1 then ChoiceSkin[1] = 45001 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ʀᴀɪʟɢᴜɴ" StattrackCheck() end
+if CfgMainAkr12 == 2 then ChoiceSkin[1] = 84400 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ɢᴇᴏᴍᴇᴛʀɪᴄ" StattrackCheck() end
+if CfgMainAkr12 == 3 then ChoiceSkin[1] = 104400 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 𝟺 ʏᴇᴀʀs" StattrackCheck() end
+if CfgMainAkr12 == 4 then ChoiceSkin[1] = 45002 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ᴘɪxᴇʟ ᴄᴀᴍᴏᴜғʟᴀɢᴇ" StattrackCheck() end
+if CfgMainAkr12 == 5 then ChoiceSkin[1] = 94400 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ғʟᴏᴡ" StattrackCheck() end
+if CfgMainAkr12 == 6 then ChoiceSkin[1] = 84500 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ᴄᴀʀʙᴏɴ" StattrackCheck() end
+if CfgMainAkr12 == 7 then ChoiceSkin[1] = 134501 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ᴛʀᴀɴsɪsᴛᴏʀ" StattrackCheck() end 
+if CfgMainAkr12 == 8 then ChoiceSkin[1] = 170002 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 sᴛᴇᴀᴍ ʙᴇᴀsᴛ" StattrackCheck() end 
+if CfgMainAkr12 == 9 then ChoiceSkin[1] = 134500 ChoiceSkin[2] ="ᴀᴋʀ𝟷𝟸 ᴀʀᴍᴏʀᴇᴅ" StattrackCheck() end 
+if CfgMainAkr12 == 10 then return ChoiceWeapon() end 
+end
+end
+
+function m16()
+gg.setVisible(false)
+CfgMainM16 = gg.choice({
+"ᴍ𝟷𝟼 ᴛʀɪᴜᴍᴘʜᴀɴᴛ",
+"ᴍ𝟷𝟼 ᴡɪɴɢᴇᴅ",
+"ᴍ𝟷𝟼 ɪʀᴏɴ ᴡɪʟʟ", 
+"ᴍ𝟷𝟼 𝟺 ʏᴇᴀʀs",
+"ᴍ𝟷𝟼 ɴᴇᴇᴅʟᴇ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟷𝟼" )
+if CfgMainM16 == nil then return gg.setVisible(false) else
+if CfgMainM16 == 1 then ChoiceSkin[1] = 134700 ChoiceSkin[2] ="ᴍ𝟷𝟼 ᴛʀɪᴜᴍᴘʜᴀɴᴛ" StattrackCheck() end
+if CfgMainM16 == 2 then ChoiceSkin[1] = 47002 ChoiceSkin[2] ="ᴍ𝟷𝟼 ᴡɪɴɢᴇᴅ" StattrackCheck() end
+if CfgMainM16 == 3 then ChoiceSkin[1] = 94700 ChoiceSkin[2] ="ᴍ𝟷𝟼 ɪʀᴏɴ ᴡɪʟʟ" StattrackCheck() end
+if CfgMainM16 == 4 then ChoiceSkin[1] = 104700 ChoiceSkin[2] ="ᴍ𝟷𝟼 𝟺 ʏᴇᴀʀs" Save() end
+if CfgMainM16 == 5 then ChoiceSkin[1] = 170010 ChoiceSkin[2] ="ᴍ𝟷𝟼 ɴᴇᴇᴅʟᴇ" StattrackCheck() end
+if CfgMainM16 == 6 then return ChoiceWeapon() end 
+end
+end
+
+function famas()
+gg.setVisible(false)
+CfgMainFamas = gg.choice({
+"ғᴀᴍᴀs ᴍᴏɴsᴛᴇʀ",
+"ғᴀᴍᴀs ғᴜʀʏ",
+"ғᴀᴍᴀs ᴄʜʀɪsᴛᴍᴀs sʏᴍʙᴏʟ", 
+"ғᴀᴍᴀs ᴀᴜᴛᴜᴍɴ",
+"ғᴀᴍᴀs ʙᴇᴀɢʟᴇ",
+"ғᴀᴍᴀs ᴀɴɢᴇʀ",
+"ғᴀᴍᴀs ʜᴜʟʟ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ғᴀᴍᴀs" )
+if CfgMainFamas == nil then return gg.setVisible(false) else
+if CfgMainFamas == 1 then ChoiceSkin[1] = 74800 ChoiceSkin[2] ="ғᴀᴍᴀs ᴍᴏɴsᴛᴇʀ" StattrackCheck() end
+if CfgMainFamas == 2 then ChoiceSkin[1] = 48002 ChoiceSkin[2] ="ғᴀᴍᴀs ғᴜʀʏ" StattrackCheck() end
+if CfgMainFamas == 3 then ChoiceSkin[1] = 154800 ChoiceSkin[2] ="ғᴀᴍᴀs ᴄʜʀɪsᴛᴍᴀs sʏᴍʙᴏʟ" StattrackCheck() end
+if CfgMainFamas == 4 then ChoiceSkin[1] = 84800 ChoiceSkin[2] ="ғᴀᴍᴀs ᴀᴜᴛᴜᴍɴ" Save() end
+if CfgMainFamas == 5 then ChoiceSkin[1] = 48001 ChoiceSkin[2] ="ғᴀᴍᴀs ʙᴇᴀɢʟᴇ" StattrackCheck() end
+if CfgMainFamas == 6 then ChoiceSkin[1] = 124800 ChoiceSkin[2] ="ғᴀᴍᴀs ᴀɴɢᴇʀ" StattrackCheck() end
+if CfgMainFamas == 7 then ChoiceSkin[1] = 48003 ChoiceSkin[2] ="ғᴀᴍᴀs ʜᴜʟʟ" StattrackCheck() end
+if CfgMainFamas == 8 then return ChoiceWeapon() end 
+end
+end
+
+function sm014()
+gg.setVisible(false)
+CfgMainSm014 = gg.choice({
+"sᴍ𝟶𝟷𝟺 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"sᴍ𝟶𝟷𝟺 ᴀʀᴄᴛɪᴄ",
+"sᴍ𝟶𝟷𝟺 ʀᴀᴛʜғɪɴᴅᴇʀ", 
+"sᴍ𝟶𝟷𝟺 ᴡᴀᴠᴇ(хуй)",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ sᴍ𝟶𝟷𝟺" )
+if CfgMainSm014 == nil then return gg.setVisible(false) else
+if CfgMainSm014 == 1 then ChoiceSkin[1] = 62003 ChoiceSkin[2] ="sᴍ𝟶𝟷𝟺 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ" StattrackCheck() end
+if CfgMainSm014 == 2 then ChoiceSkin[1] = 66201 ChoiceSkin[2] ="sᴍ𝟶𝟷𝟺 ᴀʀᴄᴛɪᴄ" StattrackCheck() end
+if CfgMainSm014 == 3 then ChoiceSkin[1] = 62002 ChoiceSkin[2] ="sᴍ𝟶𝟷𝟺 ʀᴀᴛʜғɪɴᴅᴇʀ" StattrackCheck() end
+if CfgMainSm014 == 4 then ChoiceSkin[1] = 86216 ChoiceSkin[2] ="sᴍ𝟶𝟷𝟺 ᴡᴀᴠᴇ(хуй)" Save() end
+if CfgMainSm014 == 5 then return ChoiceWeapon() end 
+end
+end
+
+function fabm()
+gg.setVisible(false)
+CfgMainFabm = gg.choice({
+"ғᴀʙᴍ ʙᴏᴏᴍ",
+"ғᴀʙᴍ ʀᴇᴀᴄᴛᴏʀ",
+"ғᴀʙᴍ ᴘᴀʀʀᴏᴛ", 
+"ғᴀʙᴍ ғʟɪɢʜᴛ",
+"ғᴀʙᴍ ᴛʜɪᴇғ ᴏғ ᴛʜᴇ ᴄʜʀɪsᴛᴍᴀs",
+"ғᴀʙᴍ ᴅᴇᴀᴛʜ ʜᴇʀᴀʟᴅ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ғᴀʙᴍ" )
+if CfgMainFabm == nil then return gg.setVisible(false) else
+if CfgMainFabm == 1 then ChoiceSkin[1] = 170005 ChoiceSkin[2] ="ғᴀʙᴍ ʙᴏᴏᴍ" StattrackCheck() end
+if CfgMainFabm == 2 then ChoiceSkin[1] = 76218 ChoiceSkin[2] ="ғᴀʙᴍ ʀᴇᴀᴄᴛᴏʀ" StattrackCheck() end
+if CfgMainFabm == 3 then ChoiceSkin[1] = 86318 ChoiceSkin[2] ="ғᴀʙᴍ ᴘᴀʀʀᴏᴛ" StattrackCheck() end
+if CfgMainFabm == 4 then ChoiceSkin[1] = 86300 ChoiceSkin[2] ="ғᴀʙᴍ ғʟɪɢʜᴛ" Save() end
+if CfgMainFabm == 5 then ChoiceSkin[1] = 156300 ChoiceSkin[2] ="ғᴀʙᴍ ᴛʜɪᴇғ ᴏғ ᴛʜᴇ ᴄʜʀɪsᴛᴍᴀs" StattrackCheck() end
+if CfgMainFabm == 6 then ChoiceSkin[1] = 146300 ChoiceSkin[2] ="ғᴀʙᴍ ᴅᴇᴀᴛʜ ʜᴇʀᴀʟᴅ" StattrackCheck() end
+if CfgMainFabm == 7 then return ChoiceWeapon() end 
+end
+end
+
+function m4()
+gg.setVisible(false)
+CfgMainM4 = gg.choice({
+"ᴍ𝟺 ᴘɪxᴇʟ sᴛᴏʀᴍ",
+"ᴍ𝟺 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"ᴍ𝟺 sᴀᴍᴜʀᴀɪ",
+"ᴍ𝟺 ᴘʀᴇᴅᴀᴛᴏʀ",
+"ᴍ𝟺 ʀᴇᴠɪᴠᴀʟ",
+"ᴍ𝟺 ɴɪɢʜᴛ ᴡᴏʟғ",
+"ᴍ𝟺 ʟɪᴢᴀʀᴅ",
+"ᴍ𝟺 ʀ.ᴏ.ɴ.ɪ.ɴ. ᴍᴋ𝟻𝟼",
+"ᴍ𝟺 ɢʀᴀɴᴅ ᴘʀɪx",
+"ᴍ𝟺 ᴘʀᴏ",
+"ᴍ𝟺 ᴅᴇᴍᴏɴ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟺" )
+if CfgMainM4 == nil then return gg.setVisible(false) else
+if CfgMainM4 == 1 then ChoiceSkin[1] = 54601 ChoiceSkin[2] ="ᴍ𝟺 ᴘɪxᴇʟ sᴛᴏʀᴍ" StattrackCheck() end
+if CfgMainM4 == 2 then ChoiceSkin[1] = 46002 ChoiceSkin[2] ="ᴍ𝟺 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ" StattrackCheck() end
+if CfgMainM4 == 3 then ChoiceSkin[1] = 44603 ChoiceSkin[2] ="ᴍ𝟺 sᴀᴍᴜʀᴀɪ" StattrackCheck() end
+if CfgMainM4 == 4 then ChoiceSkin[1] = 46001 ChoiceSkin[2] ="ᴍ𝟺 ᴘʀᴇᴅᴀᴛᴏʀ" Save() end
+if CfgMainM4 == 5 then ChoiceSkin[1] = 84600 ChoiceSkin[2] ="ᴍ𝟺 ʀᴇᴠɪᴠᴀʟ" StattrackCheck() end
+if CfgMainM4 == 6 then ChoiceSkin[1] = 84624 ChoiceSkin[2] ="ᴍ𝟺 ɴɪɢʜᴛ ᴡᴏʟғ" StattrackCheck() end
+if CfgMainM4 == 7 then ChoiceSkin[1] = 44601 ChoiceSkin[2] ="ᴍ𝟺 ʟɪᴢᴀʀᴅ" StattrackCheck() end
+if CfgMainM4 == 8 then ChoiceSkin[1] = 134600 ChoiceSkin[2] ="ᴍ𝟺 ʀ.ᴏ.ɴ.ɪ.ɴ. ᴍᴋ𝟻𝟼" StattrackCheck() end 
+if CfgMainM4 == 9 then ChoiceSkin[1] = 46007 ChoiceSkin[2] ="ᴍ𝟺 ɢʀᴀɴᴅ ᴘʀɪx" StattrackCheck() end 
+if CfgMainM4 == 10 then ChoiceSkin[1] = 46006 ChoiceSkin[2] ="ᴍ𝟺 ᴘʀᴏ" StattrackCheck() end 
+if CfgMainM4 == 11 then ChoiceSkin[1] = 124600 ChoiceSkin[2] ="ᴍ𝟺 ᴅᴇᴍᴏɴ" StattrackCheck() end 
+if CfgMainM4 == 12 then return ChoiceWeapon() end 
+end
+end
+
+function m4a1()
+gg.setVisible(false)
+CfgMainM4A1 = gg.choice({
+"ᴍ𝟺ᴀ𝟷 ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ",
+"ᴍ𝟺ᴀ𝟷 ʙᴜʙʙʟᴇɢᴜᴍ",
+"ᴍ𝟺ᴀ𝟷 ɪᴍᴍᴏʀᴛᴀʟ", 
+"ᴍ𝟺ᴀ𝟷 ᴋ.ɪ.ɴ.ɢ. ᴠ𝟽.𝟶𝟹",
+"ᴍ𝟺ᴀ𝟷 sᴏᴜʀ",
+"ᴍ𝟺ᴀ𝟷 ᴋɪᴛsᴜɴᴇ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟺ᴀ𝟷" )
+if CfgMainM4A1 == nil then return gg.setVisible(false) else
+if CfgMainM4A1 == 1 then ChoiceSkin[1] = 155200 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ" StattrackCheck() end
+if CfgMainM4A1 == 2 then ChoiceSkin[1] = 124300 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 ʙᴜʙʙʟᴇɢᴜᴍ" StattrackCheck() end
+if CfgMainM4A1 == 3 then ChoiceSkin[1] = 144300 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 ɪᴍᴍᴏʀᴛᴀʟ" StattrackCheck() end
+if CfgMainM4A1 == 4 then ChoiceSkin[1] = 134300 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 ᴋ.ɪ.ɴ.ɢ. ᴠ𝟽.𝟶𝟹" Save() end
+if CfgMainM4A1 == 5 then ChoiceSkin[1] = 170009 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 sᴏᴜʀ" StattrackCheck() end
+if CfgMainM4A1 == 6 then ChoiceSkin[1] = 124301 ChoiceSkin[2] ="ᴍ𝟺ᴀ𝟷 ᴋɪᴛsᴜɴᴇ" StattrackCheck() end
+if CfgMainM4A1 == 7 then return ChoiceWeapon() end 
+end
+end
+
+function tec9()
+gg.setVisible(false)
+CfgMainTec9 = gg.choice({
+"ᴛᴇᴄ-𝟿 sᴘʟɪɴᴛᴇʀ sᴛᴏʀᴍ",
+"ᴛᴇᴄ-𝟿 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ",
+"ᴛᴇᴄ-𝟿 ʀᴇsᴛʟᴇss", 
+"ᴛᴇᴄ-𝟿 sᴛɪᴄᴋᴇʀʙᴏᴍʙ", 
+"ᴛᴇᴄ-𝟿 ғᴀʙʟᴇ",
+"ᴛᴇᴄ-𝟿 ʀᴇᴀᴄᴛᴏʀ",
+"ᴛᴇᴄ-𝟿 ʀᴏʏᴀʟ ғʀᴏsᴛ",
+"ᴛᴇᴄ-𝟿 ɴᴇᴇᴅʟᴇ",
+"ᴛᴇᴄ-𝟿 ᴛʀᴏᴘɪᴄ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴛᴇᴄ-𝟿" )
+if CfgMainTec9 == nil then return gg.setVisible(false) else
+if CfgMainTec9 == 1 then ChoiceSkin[1] = 51601 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 sᴘʟɪɴᴛᴇʀ sᴛᴏʀᴍ" Save() end
+if CfgMainTec9 == 2 then ChoiceSkin[1] = 61601 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ɴᴇᴄʀᴏᴍᴀɴᴄᴇʀ" StattrackCheck() end
+if CfgMainTec9 == 3 then ChoiceSkin[1] = 141600 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ʀᴇsᴛʟᴇss" StattrackCheck() end
+if CfgMainTec9 == 4 then ChoiceSkin[1] = 161600 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 sᴛɪᴄᴋᴇʀʙᴏᴍʙ" StattrackCheck() end
+if CfgMainTec9 == 5 then ChoiceSkin[1] = 41605 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ғᴀʙʟᴇ" StattrackCheck() end
+if CfgMainTec9 == 6 then ChoiceSkin[1] = 71607 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ʀᴇᴀᴄᴛᴏʀ" StattrackCheck() end
+if CfgMainTec9 == 7 then ChoiceSkin[1] = 151600 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ʀᴏʏᴀʟ ғʀᴏsᴛ" StattrackCheck() end
+if CfgMainTec9 == 8 then ChoiceSkin[1] = 170019 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ɴᴇᴇᴅʟᴇ" StattrackCheck() end 
+if CfgMainTec9 == 9 then ChoiceSkin[1] = 121600 ChoiceSkin[2] ="ᴛᴇᴄ-𝟿 ᴛʀᴏᴘɪᴄ" StattrackCheck() end 
+if CfgMainTec9 == 10 then return ChoiceWeapon() end 
+end
+end
+
+function m110()
+gg.setVisible(false)
+CfgMainM110 = gg.choice({
+"ᴍ𝟷𝟷𝟶 ᴄᴇʟᴇsᴛɪᴀʟ ʙᴇᴀsᴛ",
+"ᴍ𝟷𝟷𝟶 ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ",
+"ᴍ𝟷𝟷𝟶 ғʟᴏᴡ", 
+"ᴍ𝟷𝟷𝟶 sᴛɪᴄᴋᴇʀʙᴏᴍʙ",
+"ᴍ𝟷𝟷𝟶 ᴛʀᴀɴsɪᴛɪᴏɴ",
+"ᴍ𝟷𝟷𝟶 ᴢᴏ𝟽 ᴍ.ᴀ.ʀ.ᴋ.s.ᴍ.ᴀ.ɴ.",
+"ᴍ𝟷𝟷𝟶 ᴄʏʙᴇʀ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟷𝟷𝟶" )
+if CfgMainM110 == nil then return gg.setVisible(false) else
+if CfgMainM110 == 1 then ChoiceSkin[1] = 145300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ᴄᴇʟᴇsᴛɪᴀʟ ʙᴇᴀsᴛ" StattrackCheck() end
+if CfgMainM110 == 2 then ChoiceSkin[1] = 155300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ" StattrackCheck() end
+if CfgMainM110 == 3 then ChoiceSkin[1] = 95300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ғʟᴏᴡ" StattrackCheck() end
+if CfgMainM110 == 4 then ChoiceSkin[1] = 165300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 sᴛɪᴄᴋᴇʀʙᴏᴍʙ" Save() end
+if CfgMainM110 == 5 then ChoiceSkin[1] = 85300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ᴛʀᴀɴsɪᴛɪᴏɴ" StattrackCheck() end
+if CfgMainM110 == 6 then ChoiceSkin[1] = 135300 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ᴢᴏ𝟽 ᴍ.ᴀ.ʀ.ᴋ.s.ᴍ.ᴀ.ɴ." StattrackCheck() end
+if CfgMainM110 == 7 then ChoiceSkin[1] = 45301 ChoiceSkin[2] ="ᴍ𝟷𝟷𝟶 ᴄʏʙᴇʀ" StattrackCheck() end
+if CfgMainM110 == 8 then return ChoiceWeapon() end 
+end
+end
+
+function m60()
+gg.setVisible(false)
+CfgMainM60 = gg.choice({
+"ᴍ𝟼𝟶 ᴍᴇᴄʜᴀ",
+"ᴍ𝟼𝟶 ɢʀᴜɴɢᴇ",
+"ᴍ𝟼𝟶 ʏ-𝟸𝟶 ʀ.ᴀ.ɪ.ᴊ.ɪ.ɴ.", 
+"ᴍ𝟼𝟶 sᴛᴇᴀᴍ ʙᴇᴀsᴛ",
+"ᴍ𝟼𝟶 ᴅᴇᴍᴏɴɪᴄ ғᴏɢ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍ𝟼𝟶" )
+if CfgMainM60 == nil then return gg.setVisible(false) else
+if CfgMainM60 == 1 then ChoiceSkin[1] = 136400 ChoiceSkin[2] ="ᴍ𝟼𝟶 ᴍᴇᴄʜᴀ" StattrackCheck() end
+if CfgMainM60 == 2 then ChoiceSkin[1] = 126400 ChoiceSkin[2] ="ᴍ𝟼𝟶 ɢʀᴜɴɢᴇ" StattrackCheck() end
+if CfgMainM60 == 3 then ChoiceSkin[1] = 136401 ChoiceSkin[2] ="ᴍ𝟼𝟶 ʏ-𝟸𝟶 ʀ.ᴀ.ɪ.ᴊ.ɪ.ɴ." StattrackCheck() end
+if CfgMainM60 == 4 then ChoiceSkin[1] = 126401 ChoiceSkin[2] ="ᴍ𝟼𝟶 sᴛᴇᴀᴍ ʙᴇᴀsᴛ" StattrackCheck() end
+if CfgMainM60 == 5 then ChoiceSkin[1] = 146400 ChoiceSkin[2] ="ᴍ𝟼𝟶 ᴅᴇᴍᴏɴɪᴄ ғᴏɢ" StattrackCheck() end
+if CfgMainM60 == 6 then return ChoiceWeapon() end 
+end
+end
+
+function mp5()
+gg.setVisible(false)
+CfgMainMP5 = gg.choice({
+"ᴍᴘ𝟻 ᴢᴏɴᴇ",
+"ᴍᴘ𝟻 ʀᴇᴀᴄᴛᴏʀ",
+"ᴍᴘ𝟻 ᴘʀᴏᴊᴇᴄᴛ ᴢ𝟿", 
+"ᴍᴘ𝟻 𝟺 ʏᴇᴀʀs",
+"ᴍᴘ𝟻 ɴᴏʀᴛʜᴇʀɴ ғᴜʀʏ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ sᴋɪɴ ᴍᴘ𝟻" )
+if CfgMainMP5 == nil then return gg.setVisible(false) else
+if CfgMainMP5 == 1 then ChoiceSkin[1] = 73612 ChoiceSkin[2] ="ᴍᴘ𝟻 ᴢᴏɴᴇ" StattrackCheck() end
+if CfgMainMP5 == 2 then ChoiceSkin[1] = 73611 ChoiceSkin[2] ="ᴍᴘ𝟻 ʀᴇᴀᴄᴛᴏʀ" StattrackCheck() end
+if CfgMainMP5 == 3 then ChoiceSkin[1] = 73610 ChoiceSkin[2] ="ᴍᴘ𝟻 ᴘʀᴏᴊᴇᴄᴛ ᴢ𝟿" StattrackCheck() end
+if CfgMainMP5 == 4 then ChoiceSkin[1] = 103500 ChoiceSkin[2] ="ᴍᴘ𝟻 𝟺 ʏᴇᴀʀs" StattrackCheck() end
+if CfgMainMP5 == 5 then ChoiceSkin[1] = 93600 ChoiceSkin[2] ="ᴍᴘ𝟻 ɴᴏʀᴛʜᴇʀɴ ғᴜʀʏ" StattrackCheck() end
+if CfgMainMP5 == 6 then return ChoiceWeapon() end 
+end
+end
+
+function ChoiceWeapon()
+gg.setVisible(false)
+CfgMain55 = gg.choice({
+"ɢ𝟸𝟸 sᴋɪɴs",
+"ᴜsᴘ sᴋɪɴs",
+"ᴘ𝟹𝟻𝟶 sᴋɪɴs",
+"ᴛᴇᴄ-𝟿 sᴋɪɴs",
+"ғ/s sᴋɪɴs",
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ sᴋɪɴs",
+"ғᴀʙᴍ sᴋɪɴs",
+"sᴍ𝟶𝟷𝟺 sᴋɪɴs",
+"ᴍ𝟼𝟶 sᴋɪɴs",
+"ᴜᴍᴘ𝟺𝟻 sᴋɪɴs",
+"ᴍᴘ𝟻 sᴋɪɴs",
+"ᴍᴘ𝟽 sᴋɪɴs",
+"ᴘ𝟿𝟶 sᴋɪɴs",
+"ғɴ ғᴀʟ sᴋɪɴs",
+"ꜰᴀᴍᴀs sᴋɪɴs",
+"ᴀᴋʀ sᴋɪɴs",
+"ᴍ𝟺 sᴋɪɴs",
+"ᴍ𝟺ᴀ𝟷 sᴋɪɴs",
+"ᴀᴋʀ𝟷𝟸 sᴋɪɴs ", 
+"ᴍ𝟷𝟼 sᴋɪɴs",
+"ᴍ𝟺𝟶 sᴋɪɴs",
+"ᴀᴡᴍ sᴋɪɴs",
+"ᴍ𝟷𝟷𝟶 sᴋɪɴs",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴡᴇᴀᴘᴏɴ" )
+if CfgMain55 == nil then return gg.setVisible(false) else
+if CfgMain55 == 1 then return g22() end 
+if CfgMain55 == 2 then return usp() end 
+if CfgMain55 == 3 then return p350() end 
+if CfgMain55 == 4 then return tec9() end
+if CfgMain55 == 5 then return fives() end
+if CfgMain55 == 6 then return deagle() end 
+if CfgMain55 == 7 then return fabm() end 
+if CfgMain55 == 8 then return sm014() end 
+if CfgMain55 == 9 then return m60() end
+if CfgMain55 == 10 then return ump45() end
+if CfgMain55 == 11 then return mp5() end 
+if CfgMain55 == 12 then return mp7() end 
+if CfgMain55 == 13 then return p90() end 
+if CfgMain55 == 14 then return fnfal() end
+if CfgMain55 == 15 then return famas() end
+if CfgMain55 == 16 then return akr() end 
+if CfgMain55 == 17 then return m4() end 
+if CfgMain55 == 18 then return m4a1() end 
+if CfgMain55 == 19 then return akr12() end
+if CfgMain55 == 20 then return m16() end
+if CfgMain55 == 21 then return m40() end 
+if CfgMain55 == 22 then return awm() end 
+if CfgMain55 == 23 then return m110() end 
+if CfgMain55 == 24 then return SkinChoice() end
+end
+end
+ 
+function ChoiceGloves()
+gg.setVisible(false)
+GlovesMainMenu0 = gg.choice({
+'ɢʟᴏᴠᴇs ᴘʜᴏᴇɴɪx',
+'ɢʟᴏᴠᴇs ᴀᴜᴛᴜᴍɴ',
+'ɢʟᴏᴠᴇs ɢᴇᴏᴍᴇᴛʀɪᴄ', 
+'ɢʟᴏᴠᴇs ʀᴇᴛʀᴏᴡᴀᴠᴇ',
+'ɢʟᴏᴠᴇs ʟɪᴠɪɴɢғʟᴀᴍᴇ',
+'ɢʟᴏᴠᴇs ɴᴇᴜʀᴏ',
+"ɢʟᴏᴠᴇs ᴘᴜɴᴋ",
+"ɢʟᴏᴠᴇs ʙᴜʀɴɪɴɢꜰɪsᴛs", 
+"ɢʟᴏᴠᴇs ᴄʜᴀᴍᴘɪᴏɴ", 
+"ɢʟᴏᴠᴇs sᴛᴇᴀᴍʀɪᴅᴇ",
+"ɢʟᴏᴠᴇs ʏᴇᴀʀ ᴏꜰ ᴛʜᴇ ᴛɪɢᴇʀ",  
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ɢʟᴏᴠᴇs" )
+if GlovesMainMenu0 == nil then return gg.setVisible(false) else
+if GlovesMainMenu0 == 1 then ChoiceSkin[1] = 3000 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ᴘʜᴏᴇɴɪx" Save() end
+if GlovesMainMenu0 == 2 then ChoiceSkin[1] = 3001 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ᴀᴜᴛᴜᴍɴ" Save() end
+if GlovesMainMenu0 == 3 then ChoiceSkin[1] = 3002 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ɢᴇᴏᴍᴇᴛʀɪᴄ" Save() end
+if GlovesMainMenu0 == 4 then ChoiceSkin[1] = 3003 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ʀᴇᴛʀᴏᴡᴀᴠᴇ" Save() end
+if GlovesMainMenu0 == 5 then ChoiceSkin[1] = 3004 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ʟɪᴠɪɴɢғʟᴀᴍᴇ" Save() end
+if GlovesMainMenu0 == 6 then ChoiceSkin[1] = 3005 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ɴᴇᴜʀᴏ" Save() end
+if GlovesMainMenu0 == 7 then ChoiceSkin[1] = 3007 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ᴘᴜɴᴋ" Save() end 
+if GlovesMainMenu0 == 8 then ChoiceSkin[1] = 3006 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ʙᴜʀɴɪɴɢꜰɪsᴛs" Save() end 
+if GlovesMainMenu0 == 9 then ChoiceSkin[1] = 3008 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ᴄʜᴀᴍᴘɪᴏɴ" Save() end 
+if GlovesMainMenu0 == 10 then ChoiceSkin[1] = 3009 ChoiceSkin[2] ="ɢʟᴏᴠᴇs sᴛᴇᴀᴍʀɪᴅᴇ" Save() end 
+if GlovesMainMenu0 == 11 then ChoiceSkin[1] = 3010 ChoiceSkin[2] ="ɢʟᴏᴠᴇs ʏᴇᴀʀ ᴏꜰ ᴛʜᴇ ᴛɪɢᴇʀ" Save() end 
+if GlovesMainMenu0 == 12 then return SkinChoice() end 
+end
+end
+
+function scorpion()
+gg.setVisible(false)
+CfgMainKnifeScorp = gg.choice({
+"sᴄᴏʀᴘɪᴏɴ sᴄʀᴀᴛᴄʜ",
+"sᴄᴏʀᴘɪᴏɴ sᴛᴀʀғᴀʟʟ",
+"sᴄᴏʀᴘɪᴏɴ ᴄᴏʟᴅ ғʟᴀᴍᴇ", 
+"sᴄᴏʀᴘɪᴏɴ sᴇᴀ ᴇʏᴇ",
+"sᴄᴏʀᴘɪᴏɴ ʜᴏʟɪᴅᴀʏ ғʀᴏsᴛ",
+"sᴄᴏʀᴘɪᴏɴ ᴠᴇɪʟ", 
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ sᴄᴏʀᴘɪᴏɴ" )
+if CfgMainKnifeScorp == nil then return gg.setVisible(false) else
+if CfgMainKnifeScorp == 1 then ChoiceSkin[1] = 87921 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ sᴄʀᴀᴛᴄʜ" Save() end
+if CfgMainKnifeScorp == 2 then ChoiceSkin[1] = 87922 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ sᴛᴀʀғᴀʟʟ" Save() end
+if CfgMainKnifeScorp == 3 then ChoiceSkin[1] = 97900 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ ᴄᴏʟᴅ ғʟᴀᴍᴇ" Save() end
+if CfgMainKnifeScorp == 4 then ChoiceSkin[1] = 87920 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ sᴇᴀ ᴇʏᴇ" Save() end
+if CfgMainKnifeScorp == 5 then ChoiceSkin[1] = 157900 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ ʜᴏʟɪᴅᴀʏ ғʀᴏsᴛ" Save() end
+if CfgMainKnifeScorp == 6 then ChoiceSkin[1] = 87919 ChoiceSkin[2] ="sᴄᴏʀᴘɪᴏɴ ᴠᴇɪʟ" Save() end
+if CfgMainKnifeScorp == 7 then return SkinChoice() end 
+end
+end
+
+function tanto()
+gg.setVisible(false)
+CfgMainKnifeTanto = gg.choice({
+"ᴛᴀɴᴛᴏ ᴘᴇᴀʀʟ ᴀʙʏss",
+"ᴛᴀɴᴛᴏ ʏᴀᴋᴜᴢᴀ",
+"ᴛᴀɴᴛᴏ ᴍᴀʟᴀᴄʜɪᴛᴇ", 
+"ᴛᴀɴᴛᴏ ᴅᴏᴊᴏ",
+"ᴛᴀɴᴛᴏ ᴛʀᴀɴsɪsᴛᴏʀ",
+"ᴛᴀɴᴛᴏ ʀᴇsᴛʟᴇss", 
+"ᴛᴀɴᴛᴏ ғʟᴏᴡ",
+"ᴛᴀɴᴛᴏ ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴛᴀɴᴛᴏ" )
+if CfgMainKnifeTanto == nil then return gg.setVisible(false) else
+if CfgMainKnifeTanto == 1 then ChoiceSkin[1] = 138003 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ᴘᴇᴀʀʟ ᴀʙʏss" Save() end
+if CfgMainKnifeTanto == 2 then ChoiceSkin[1] = 138001 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ʏᴀᴋᴜᴢᴀ" Save() end
+if CfgMainKnifeTanto == 3 then ChoiceSkin[1] = 138002 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ᴍᴀʟᴀᴄʜɪᴛᴇ" Save() end
+if CfgMainKnifeTanto == 4 then ChoiceSkin[1] = 138000 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ᴅᴏᴊᴏ" Save() end
+if CfgMainKnifeTanto == 5 then ChoiceSkin[1] = 138004 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ᴛʀᴀɴsɪsᴛᴏʀ" Save() end
+if CfgMainKnifeTanto == 6 then ChoiceSkin[1] = 148000 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ʀᴇsᴛʟᴇss" Save() end
+if CfgMainKnifeTanto == 7 then ChoiceSkin[1] = 138005 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ғʟᴏᴡ" Save() end
+if CfgMainKnifeTanto == 8 then ChoiceSkin[1] = 158000 ChoiceSkin[2] ="ᴛᴀɴᴛᴏ ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ" Save() end
+if CfgMainKnifeTanto == 9 then return SkinChoice() end 
+end
+end
+
+function dagger()
+gg.setVisible(false)
+CfgMainKnifeDagger = gg.choice({
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ʜᴀʀᴍᴏɴʏ",
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴀᴄɪᴅ",
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴍöʟᴛᴇɴ", 
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴅᴇᴍᴏɴɪᴄ sᴛᴇᴇʟ",
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ɢʀᴜɴɢᴇ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ" )
+if CfgMainKnifeDagger == nil then return gg.setVisible(false) else
+if CfgMainKnifeDagger == 1 then ChoiceSkin[1] = 180000 ChoiceSkin[2] ="ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ʜᴀʀᴍᴏɴʏ" Save() end
+if CfgMainKnifeDagger == 2 then ChoiceSkin[1] = 170021 ChoiceSkin[2] ="ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴀᴄɪᴅ" Save() end
+if CfgMainKnifeDagger == 3 then ChoiceSkin[1] = 170024 ChoiceSkin[2] ="ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴍöʟᴛᴇɴ" Save() end
+if CfgMainKnifeDagger == 4 then ChoiceSkin[1] = 170022 ChoiceSkin[2] ="ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ᴅᴇᴍᴏɴɪᴄ sᴛᴇᴇʟ" Save() end
+if CfgMainKnifeDagger == 5 then ChoiceSkin[1] = 170023 ChoiceSkin[2] ="ᴅᴜᴀʟ ᴅᴀɢɢᴇʀ ɢʀᴜɴɢᴇ" Save() end
+if CfgMainKnifeDagger == 6 then return SkinChoice() end 
+end
+end
+
+function kunai()
+gg.setVisible(false)
+CfgMainKnifeKunai = gg.choice({
+"ᴋᴜɴᴀɪ ᴘᴏɪsᴏɴ",
+"ᴋᴜɴᴀɪ ʙᴏɴᴇ",
+"ᴋᴜɴᴀɪ ʀᴀᴅɪᴀᴛɪᴏɴ", 
+"ᴋᴜɴᴀɪ sɴᴏᴡ ᴄᴀᴍᴏ",
+"ᴋᴜɴᴀɪ ʟᴜxᴜʀʏ",
+"ᴋᴜɴᴀɪ ᴄᴏʟᴅ ғʟᴀᴍᴇ", 
+"ᴋᴜɴᴀɪ ᴀᴜɢᴜsᴛɪᴛᴇ",
+"ᴋᴜɴᴀɪ ʀᴇᴀᴘᴇʀ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴋᴜɴᴀɪ" )
+if CfgMainKnifeKunai == nil then return gg.setVisible(false) else
+if CfgMainKnifeKunai == 1 then ChoiceSkin[1] = 77815 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ᴘᴏɪsᴏɴ" Save() end
+if CfgMainKnifeKunai == 2 then ChoiceSkin[1] = 77813 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ʙᴏɴᴇ" Save() end
+if CfgMainKnifeKunai == 3 then ChoiceSkin[1] = 77816 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ʀᴀᴅɪᴀᴛɪᴏɴ" Save() end
+if CfgMainKnifeKunai == 4 then ChoiceSkin[1] = 97801 ChoiceSkin[2] ="ᴋᴜɴᴀɪ sɴᴏᴡ ᴄᴀᴍᴏ" Save() end
+if CfgMainKnifeKunai == 5 then ChoiceSkin[1] = 77814 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ʟᴜxᴜʀʏ" Save() end
+if CfgMainKnifeKunai == 6 then ChoiceSkin[1] = 97800 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ᴄᴏʟᴅ ғʟᴀᴍᴇ" Save() end
+if CfgMainKnifeKunai == 7 then ChoiceSkin[1] = 157800 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ᴀᴜɢᴜsᴛɪᴛᴇ" Save() end
+if CfgMainKnifeKunai == 8 then ChoiceSkin[1] = 77817 ChoiceSkin[2] ="ᴋᴜɴᴀɪ ʀᴇᴀᴘᴇʀ" Save() end
+if CfgMainKnifeKunai == 9 then return SkinChoice() end 
+end
+end
+
+function flip()
+gg.setVisible(false)
+CfgMainKnifeFlip = gg.choice({
+"ғʟɪᴘ sᴛᴏɴᴇ ᴄᴏʟᴅ",
+"ғʟɪᴘ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"ғʟɪᴘ ᴠᴏʀᴛᴇx", 
+"ғʟɪᴘ ғʀᴏᴢᴇɴ",
+"ғʟɪᴘ ʜᴏʟɪᴅᴀʏ ғʀᴏsᴛ",
+"ғʟɪᴘ ᴀʀᴄᴛɪᴄ", 
+"ғʟɪᴘ sɴᴏᴡ ᴄᴀᴍᴏ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ғʟɪᴘ ᴋɴɪғᴇ" )
+if CfgMainKnifeFlip == nil then return gg.setVisible(false) else
+if CfgMainKnifeFlip == 1 then ChoiceSkin[1] = 67703 ChoiceSkin[2] ="ғʟɪᴘ sᴛᴏɴᴇ ᴄᴏʟᴅ" Save() end
+if CfgMainKnifeFlip == 2 then ChoiceSkin[1] = 67701 ChoiceSkin[2] ="ғʟɪᴘ ᴅʀᴀɢᴏɴ ɢʟᴀss" Save() end
+if CfgMainKnifeFlip == 3 then ChoiceSkin[1] = 67704 ChoiceSkin[2] ="ғʟɪᴘ ᴠᴏʀᴛᴇx" Save() end
+if CfgMainKnifeFlip == 4 then ChoiceSkin[1] = 67705 ChoiceSkin[2] ="ғʟɪᴘ ғʀᴏᴢᴇɴ" Save() end
+if CfgMainKnifeFlip == 5 then ChoiceSkin[1] = 157700 ChoiceSkin[2] ="ғʟɪᴘ ʜᴏʟɪᴅᴀʏ ғʀᴏsᴛ" Save() end
+if CfgMainKnifeFlip == 6 then ChoiceSkin[1] = 67702 ChoiceSkin[2] ="ғʟɪᴘ ᴀʀᴄᴛɪᴄ" Save() end
+if CfgMainKnifeFlip == 7 then ChoiceSkin[1] = 97700 ChoiceSkin[2] ="ғʟɪᴘ sɴᴏᴡ ᴄᴀᴍᴏ" Save() end
+if CfgMainKnifeFlip == 8 then return SkinChoice() end 
+end
+end
+
+function butterfly()
+gg.setVisible(false)
+CfgMainKnifeButer = gg.choice({
+"ʙᴜᴛᴛᴇʀғʟʏ ғɪʀᴇ sᴛᴏʀᴍ",
+"ʙᴜᴛᴛᴇʀғʟʏ ʟᴇɢᴀᴄʏ",
+"ʙᴜᴛᴛᴇʀғʟʏ ᴅʀᴀɢᴏɴ ɢʟᴀss", 
+"ʙᴜᴛᴛᴇʀғʟʏ ᴄᴏʟᴅ ғʟᴀᴍᴇ",
+"ʙᴜᴛᴛᴇʀғʟʏ ᴋᴜᴍᴏ",
+"ʙᴜᴛᴛᴇʀғʟʏ ʙʟᴀᴄᴋ ᴡɪɴᴅᴏᴡ", 
+"ʙᴜᴛᴛᴇʀғʟʏ sɴᴏᴡ sᴛᴀʀғᴀʟʟ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ʙᴜᴛᴛᴇʀғʟʏ" )
+if CfgMainKnifeButer == nil then return gg.setVisible(false) else
+if CfgMainKnifeButer == 1 then ChoiceSkin[1] = 57501 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ғɪʀᴇ sᴛᴏʀᴍ" Save() end
+if CfgMainKnifeButer == 2 then ChoiceSkin[1] = 47502 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ʟᴇɢᴀᴄʏ" Save() end
+if CfgMainKnifeButer == 3 then ChoiceSkin[1] = 47503 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ᴅʀᴀɢᴏɴ ɢʟᴀss" Save() end
+if CfgMainKnifeButer == 4 then ChoiceSkin[1] = 97500 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ᴄᴏʟᴅ ғʟᴀᴍᴇ" Save() end
+if CfgMainKnifeButer == 5 then ChoiceSkin[1] = 157500 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ᴋᴜᴍᴏ" Save() end
+if CfgMainKnifeButer == 6 then ChoiceSkin[1] = 47504 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ ʙʟᴀᴄᴋ ᴡɪɴᴅᴏᴡ" Save() end
+if CfgMainKnifeButer == 7 then ChoiceSkin[1] = 47505 ChoiceSkin[2] ="ʙᴜᴛᴛᴇʀғʟʏ sᴛᴀʀғᴀʟʟ" Save() end
+if CfgMainKnifeButer == 8 then return SkinChoice() end 
+end
+end
+
+function jkom()
+gg.setVisible(false)
+CfgMainKnifeJK = gg.choice({
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ғʟᴏʀᴀʟ",
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ғʀᴏᴢᴇɴ",
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ᴀᴜɢᴜsᴛɪᴛᴇ", 
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ʟᴜxᴜʀʏ",
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ʀᴇᴀᴘᴇʀ",
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ ᴀɴᴄɪᴇɴᴛ", 
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴊᴋᴏᴍᴍᴀɴᴅᴏ" )
+if CfgMainKnifeJK == nil then return gg.setVisible(false) else
+if CfgMainKnifeJK == 1 then ChoiceSkin[1] = 73004 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ғʟᴏʀᴀʟ" Save() end
+if CfgMainKnifeJK == 2 then ChoiceSkin[1] = 97300 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ғʀᴏᴢᴇɴ" Save() end
+if CfgMainKnifeJK == 3 then ChoiceSkin[1] = 157300 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ᴀᴜɢᴜsᴛɪᴛᴇ" Save() end
+if CfgMainKnifeJK == 4 then ChoiceSkin[1] = 73006 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ʟᴜxᴜʀʏ" Save() end
+if CfgMainKnifeJK == 5 then ChoiceSkin[1] = 73003 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ʀᴇᴀᴘᴇʀ" Save() end
+if CfgMainKnifeJK == 6 then ChoiceSkin[1] = 73002 ChoiceSkin[2] ="ᴊᴋᴏᴍᴍᴀɴᴅᴏ ᴀɴᴄɪᴇɴᴛ" Save() end
+if CfgMainKnifeJK == 7 then return SkinChoice() end 
+end
+end
+ 
+function karambit()
+gg.setVisible(false)
+CfgMainKnifeKer = gg.choice({
+"ᴋᴀʀᴀᴍʙɪᴛ ɢᴏʟᴅ",
+"ᴋᴀʀᴀᴍʙɪᴛ ᴄʟᴀᴡ",
+"ᴋᴀʀᴀᴍʙɪᴛ ᴜɴɪᴠᴇʀsᴇ", 
+"ᴋᴀʀᴀᴍʙɪᴛ ғʀᴏᴢᴇɴ",
+"ᴋᴀʀᴀᴍʙɪᴛ ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"ᴋᴀʀᴀᴍʙɪᴛ sᴄʀᴀᴛᴄʜ", 
+"ᴋᴀʀᴀᴍʙɪᴛ sɴᴏᴡ ᴄᴀᴍᴏ",
+"ᴋᴀʀᴀᴍʙɪᴛ ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ",
+"ᴋᴀʀᴀᴍʙɪᴛ ᴄᴏʟᴅ ғʟᴀᴍᴇ",
+"veteran",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴋᴀʀᴀᴍʙɪᴛ" )
+if CfgMainKnifeKer == nil then return gg.setVisible(false) else
+if CfgMainKnifeKer == 1 then ChoiceSkin[1] = 72003 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ɢᴏʟᴅ" Save() end
+if CfgMainKnifeKer == 2 then ChoiceSkin[1] = 72002 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ᴄʟᴀᴡ" Save() end
+if CfgMainKnifeKer == 3 then ChoiceSkin[1] = 72007 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ᴜɴɪᴠᴇʀsᴇ" Save() end
+if CfgMainKnifeKer == 4 then ChoiceSkin[1] = 97201 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ғʀᴏᴢᴇɴ" Save() end
+if CfgMainKnifeKer == 5 then ChoiceSkin[1] = 72004 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ᴅʀᴀɢᴏɴ ɢʟᴀss" Save() end
+if CfgMainKnifeKer == 6 then ChoiceSkin[1] = 72006 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ sᴄʀᴀᴛᴄʜ" Save() end
+if CfgMainKnifeKer == 7 then ChoiceSkin[1] = 97203 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ sɴᴏᴡ ᴄᴀᴍᴏ" Save() end
+if CfgMainKnifeKer == 8 then ChoiceSkin[1] = 157200 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ʏᴇᴀʀ ᴏғ ᴛʜᴇ ᴛɪɢᴇʀ" Save() end
+if CfgMainKnifeKer == 9 then ChoiceSkin[1] = 97200 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ᴄᴏʟᴅ ғʟᴀᴍᴇ" Save() end
+if CfgMainKnifeKer == 10 then ChoiceSkin[1] = 105 ChoiceSkin[2] ="ᴋᴀʀᴀᴍʙɪᴛ ᴄᴏʟᴅ ғʟᴀᴍᴇ" Save() end
+if CfgMainKnifeKer == 11 then return SkinChoice() end 
+end
+end
+ 
+function m9()
+gg.setVisible(false)
+CfgMainKnifeM9 = gg.choice({
+"ᴍ𝟿 ᴅʀᴀɢᴏɴ ɢʟᴀss",
+"ᴍ𝟿 ᴜɴɪᴠᴇʀsᴇ",
+"ᴍ𝟿 sᴄʀᴀᴛᴄʜ", 
+"ᴍ𝟿 ʙʟᴜᴇ ʙʟᴏᴏᴅ",
+"ᴍ𝟿 ғʀᴏᴢᴇɴ",
+"ᴍ𝟿 ᴋᴜᴍᴏ", 
+"ᴍ𝟿 ᴀɴᴄɪᴇɴᴛ",
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ғᴏʀ ᴍ𝟿" )
+if CfgMainKnifeM9 == nil then return gg.setVisible(false) else
+if CfgMainKnifeM9 == 1 then ChoiceSkin[1] = 71005 ChoiceSkin[2] ="ᴍ𝟿 ᴅʀᴀɢᴏɴ ɢʟᴀss" Save() end
+if CfgMainKnifeM9 == 2 then ChoiceSkin[1] = 71004 ChoiceSkin[2] ="ᴍ𝟿 ᴜɴɪᴠᴇʀsᴇ" Save() end
+if CfgMainKnifeM9 == 3 then ChoiceSkin[1] = 71003 ChoiceSkin[2] ="ᴍ𝟿 sᴄʀᴀᴛᴄʜ" Save() end
+if CfgMainKnifeM9 == 4 then ChoiceSkin[1] = 71001 ChoiceSkin[2] ="ᴍ𝟿 ʙʟᴜᴇ ʙʟᴏᴏᴅ" Save() end
+if CfgMainKnifeM9 == 5 then ChoiceSkin[1] = 97100 ChoiceSkin[2] ="ᴍ𝟿 ғʀᴏᴢᴇɴ" Save() end
+if CfgMainKnifeM9 == 6 then ChoiceSkin[1] = 157100 ChoiceSkin[2] ="ᴍ𝟿 ᴋᴜᴍᴏ" Save() end
+if CfgMainKnifeM9 == 7 then ChoiceSkin[1] = 71002 ChoiceSkin[2] ="ᴍ𝟿 ᴀɴᴄɪᴇɴᴛ" Save() end
+if CfgMainKnifeM9 == 8 then return SkinChoice() end 
+end
+end
+ 
+function ChoiceKnife()
+gg.setVisible(false)
+CfgMainKnife = gg.choice({
+"ᴅᴜᴀʟ ᴅᴀɢɢᴇʀs sᴋɪɴs",
+"ᴛᴀɴᴛᴏ sᴋɪɴs",
+"sᴄᴏʀᴘɪᴏɴ sᴋɪɴs",
+"ᴋɪɴᴀɪ sᴋɪɴs",
+"ꜰʟɪᴘ ᴋɴɪꜰᴇ sᴋɪɴs",
+"ʙᴜᴛᴛᴇʀꜰʟʏ sᴋɪɴs", 
+"ᴊᴋᴏᴍᴍᴀɴᴅᴏ sᴋɪɴs", 
+"ᴋᴀʀᴀᴍʙɪᴛ sᴋɪɴs", 
+"ᴍ9 sᴋɪɴs", 
+"ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴋɴɪꜰᴇ" )
+if CfgMainKnife == nil then return gg.setVisible(false) else
+if CfgMainKnife == 1 then return dagger() end 
+if CfgMainKnife == 2 then return tanto() end 
+if CfgMainKnife == 3 then return scorpion() end 
+if CfgMainKnife == 4 then return kunai() end
+if CfgMainKnife == 5 then return flip() end
+if CfgMainKnife == 6 then return butterfly() end 
+if CfgMainKnife == 7 then return jkom() end 
+if CfgMainKnife == 8 then return karambit() end 
+if CfgMainKnife == 9 then return m9() end
+if CfgMainKnife == 10 then return SkinChoice() end
+end
+end
+ 
+function SkinChoice()
+gg.setVisible(false)
+ChoiceMainMenu0 = gg.choice({
+"ᴋɴɪꜰᴇ",
+"ᴡᴇᴀᴘᴏɴ",
+"ɢʟᴏᴠᴇs",
+"medals",
+"↩ ʙᴀᴄᴋ"
+}, nil, "ᴄʜᴏᴏsᴇ ᴛʜᴇ sᴋɪɴ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ" )
+if ChoiceMainMenu0 == nil then return gg.setVisible(false) else
+if ChoiceMainMenu0 == 1 then return ChoiceKnife() end
+if ChoiceMainMenu0 == 2 then return ChoiceWeapon() end
+if ChoiceMainMenu0 == 3 then return ChoiceGloves() end
+if ChoiceMainMenu0 == 4 then return ChoiceMedals() end
+if ChoiceMainMenu0 == 5 then return AddFunction() end
+end
+end
+ 
+function AddFunction()
+gg.setVisible(false)
+AddMainMenu0 = gg.choice({
+"ᴘ90 ᴘɪʟᴏᴛ  -->  " .. Installed[1],
+"ᴘ90 ᴊᴜɴɢʟᴇ  -->  " .. Installed[2],
+"sᴍ1014 ʙʀᴀɴᴄʜᴇs  -->  " .. Installed[3],
+"sᴍ1014 ɴᴏʀʜᴛᴇʀɴ  -->  " .. Installed[4],
+"sᴍ1014 ʙʟᴀsᴛᴇʀ  -->  " .. Installed[5],
+"ꜰɴꜰᴀʟ ᴀǫᴜᴀᴍᴀʀɪɴᴇ  -->  " .. Installed[6],
+"ꜰɴꜰᴀʟ ᴀᴄɪᴅ ᴄᴀʀʙᴏɴ  -->  " .. Installed[7],
+"ɢ22 ʏᴇʟʟᴏᴡ ʟɪɴᴇ  -->  " .. Installed[8],
+"ɢ22 ᴘᴀᴛᴛᴇʀɴ  -->  " .. Installed[9],
+"ᴜᴍᴘ45 ᴘɪxᴇʟ  -->  " .. Installed[10],
+"ᴜᴍᴘ45 ᴠ2  -->  " .. Installed[11],
+"ᴜᴍᴘ45 ɪʀᴏɴ  -->  " .. Installed[12],
+"ᴘ350 sᴋᴜʟʟ  -->  " .. Installed[13], 
+"ᴘ350 sᴀᴠᴀɴɴᴀʜ  -->  " .. Installed[14],
+"ᴛᴇᴄ9 ᴅᴀʟᴍᴀᴛɪᴀɴ  --> " .. Installed[15],
+"ᴅᴇsᴇʀᴛ ᴇᴀɢʟᴇ ᴛʜᴜɴᴅᴇʀ  -->  " .. Installed[16],
+"ᴜsᴘ ʟɪɴᴇ  -->  " .. Installed[17],
+"ᴅᴇᴀɢʟᴇ ᴡɪɴɴᴇʀ  -->  " .. Installed[18], 
+"ꜰᴀʙᴍ ᴡᴀsᴛᴇ  -->  " .. Installed[19],
+"ᴍᴘ7 ᴛʜᴏʀɴ  -->  " .. Installed[20],
+"↩ ʙᴀᴄᴋ"
+}, nil, "ᴄᴜʀʀᴇɴᴛʟʏ ɪɴsᴛᴀʟʟᴇᴅ " .. skincounter .. " sᴋɪɴs" )
+if AddMainMenu0 == nil then return gg.setVisible(false) else
+if AddMainMenu0 == 1 then Function[1] = 1 serialcounter = 1 serialcounter0 = 1 SkinChoice() end
+if AddMainMenu0 == 2 then Function[3] = 1 serialcounter = 3 serialcounter0 = 2 SkinChoice() end
+if AddMainMenu0 == 3 then Function[5] = 1 serialcounter = 5 serialcounter0 = 3 SkinChoice() end
+if AddMainMenu0 == 4 then Function[7] = 1 serialcounter = 7 serialcounter0 = 4 SkinChoice() end
+if AddMainMenu0 == 5 then Function[9] = 1 serialcounter = 9 serialcounter0 = 5 SkinChoice() end
+if AddMainMenu0 == 6 then Function[11] = 1 serialcounter = 11 serialcounter0 = 6 SkinChoice() end
+if AddMainMenu0 == 7 then Function[13] = 1 serialcounter = 13 serialcounter0 = 7 SkinChoice() end
+if AddMainMenu0 == 8 then Function[15] = 1  serialcounter = 15 serialcounter0 = 8 SkinChoice() end
+if AddMainMenu0 == 9 then Function[17] = 1  serialcounter = 17 serialcounter0 = 9 SkinChoice() end
+if AddMainMenu0 == 10 then Function[19] = 1 serialcounter = 19 serialcounter0 = 10 SkinChoice() end
+if AddMainMenu0 == 11 then Function[21] = 1 serialcounter = 21 serialcounter0 = 11 SkinChoice() end
+if AddMainMenu0 == 12 then Function[23] = 1 serialcounter = 23 serialcounter0 = 12 SkinChoice() end
+if AddMainMenu0 == 13 then Function[25] = 1 serialcounter = 25 serialcounter0 = 13 SkinChoice() end
+if AddMainMenu0 == 14 then Function[27] = 1 serialcounter = 27 serialcounter0 = 14 SkinChoice() end
+if AddMainMenu0 == 15 then Function[29] = 1 serialcounter = 29 serialcounter0 = 15 SkinChoice() end
+if AddMainMenu0 == 16 then Function[31] = 1 serialcounter = 31 serialcounter0 = 16 SkinChoice() end
+if AddMainMenu0 == 17 then Function[33] = 1 serialcounter = 33 serialcounter0 = 17 SkinChoice() end
+if AddMainMenu0 == 18 then Function[35] = 1 serialcounter = 35 serialcounter0 = 18 SkinChoice() end
+if AddMainMenu0 == 19 then Function[37] = 1 serialcounter = 37 serialcounter0 = 19 SkinChoice() end
+if AddMainMenu0 == 20 then Function[39] = 1 serialcounter = 39 serialcounter0 = 20 SkinChoice() end
+if AddMainMenu0 == 21 then return CfgMainMenu() end
+end
+end
+ 
+function ClearFunction()
+gg.setVisible(false)
+ChoiceSkin = {0, 0}
+Installed = {'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ',
+'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ', 'ɴᴜʟʟ',}
+Load = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+Function = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+gg.toast('ᴄᴏɴꜰɪɢ ʟɪsᴛ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ!')
+return CfgMainMenu()
+end
+ 
+function DeleteFunction() 
+gg.setVisible(false)
+deleteconfig()
+delete = os.remove(file)
+if not delete then
+gg.toast('ᴄᴏɴꜰɪɢ ᴡᴀs ɴᴏᴛ ᴄʀᴇᴀᴛᴇᴅ!')
+return CfgMainMenu()
+else
+gg.toast('ᴄᴏɴꜰɪɢ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ!')
+return CfgMainMenu()
+end end
+ 
+function CfgMainMenu()
+gg.setVisible(false)
+CfgMain0 = gg.choice({
+  "ᴀᴅᴅ ꜰᴜɴᴄᴛɪᴏɴ",
+  "sᴀᴠᴇ ɪɴ ᴄᴏɴꜰɪɢ",
+  "ʟᴏᴀᴅ ɪɴ ɢᴀᴍᴇ",
+  "ᴄʟᴇᴀʀ ᴄᴏɴꜰɪɢ",
+  "ᴅᴇʟᴇᴛᴇ ᴄᴏɴꜰɪɢ",
+  "ʙᴀᴄᴋ"
+}, nil,"ʏᴀɪᴄᴀᴡᴀʀᴇ ᴄғɢ ʙᴜɪʟᴅᴇʀ" )
+if CfgMain0 == nil then return gg.setVisible(false) else
+if CfgMain0 == 1 then return AddFunction() end 
+if CfgMain0 == 2 then return SaveFunction() end 
+if CfgMain0 == 3 then return LoadFunction() end 
+if CfgMain0 == 4 then return ClearFunction() end
+if CfgMain0 == 5 then return DeleteFunction() end
+if CfgMain0 == 6 then return configs() end 
+end
+end
+ 
+function saveconfig()
+if config == 1 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config1.lua", "w+")
+end
+if config == 2 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config2.lua", "w+")
+end
+if config == 3 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config3.lua", "w+")
+end
+if config == 4 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config4.lua", "w+")
+end end
+ 
+function deleteconfig()
+if config == 1 then
+file = gg.EXT_FILES_DIR .. "/.config1.lua"
+end
+if config == 2 then
+file = gg.EXT_FILES_DIR .. "/.config2.lua"
+end
+if config == 3 then
+file = gg.EXT_FILES_DIR .. "/.config3.lua"
+end
+if config == 4 then
+file = gg.EXT_FILES_DIR .. "/.config4.lua"
+end end 
+ 
+function loadconfig()
+if config == 1 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config1.lua", "r")
+end
+if config == 2 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config2.lua", "r")
+end
+if config == 3 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config3.lua", "r")
+end
+if config == 4 then
+file = io.open(gg.EXT_FILES_DIR .. "/.config4.lua", "r")
+end end 
+ 
+function checkconfigs()
+if io.open(gg.EXT_FILES_DIR .. "/.config1.lua", "r") == nil then
+config1 = "ɴᴜʟʟ"
+else
+config1 = "sᴀᴠᴇᴅ ᴄғɢ 1"
+end
+if io.open(gg.EXT_FILES_DIR .. "/.config2.lua", "r") == nil then
+config2 = "ɴᴜʟʟ"
+else
+config2 = "sᴀᴠᴇᴅ ᴄғɢ 2"
+end
+if io.open(gg.EXT_FILES_DIR .. "/.config3.lua", "r") == nil then
+config3 = "ɴᴜʟʟ"
+else
+config3 = "sᴀᴠᴇᴅ ᴄғɢ 3"
+end
+if io.open(gg.EXT_FILES_DIR .. "/.config4.lua", "r") == nil then
+config4 = "ɴᴜʟʟ"
+else
+config4 = "sᴀᴠᴇᴅ ᴄғɢ 4"
+end end  
+ 
+ 
+function configs()
+checkconfigs()
+config = gg.choice({
+    "ᴄᴏɴꜰɪɢ 1 --> " .. config1,
+    "ᴄᴏɴꜰɪɢ 2 --> " .. config2,
+    "ᴄᴏɴꜰɪɢ 3 --> " .. config3,
+    "ᴄᴏɴꜰɪɢ 4 --> " .. config4,
+    "ʙᴀᴄᴋ"
+}, nil, "ʏᴀɪᴄᴀᴡᴀʀᴇ ᴄғɢ ʙᴜɪʟᴅᴇʀ\nᴛɢ @ʏᴀɪᴄᴀᴡᴀʀᴇ")
+if config == nil then return gg.setVisible(false) else
+if config == 1 then config = 1  Love = 32 CfgMainMenu() end
+if config == 2 then config = 2  Love = 32 CfgMainMenu() end
+if config == 3 then config = 3  Love = 32 CfgMainMenu() end
+if config == 4 then config = 4  Love = 32 CfgMainMenu() end
+if config == 5 then config = 0 os.exit() end
+end
+HOMEDM= -1
+end
+ 
+ 
+while true do
+if gg.isVisible(true) then
+HOMEDM = 1
+gg.setVisible(false)
+if HOMEDM == 1 then
+configs()
+end
+end
+end

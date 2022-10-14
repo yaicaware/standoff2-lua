@@ -1,0 +1,423 @@
+Welcome = [[
+ 
+                          .___      .__  .__  _______________________                                  .___            
+  ____ _____    ____    __| _/____  |  | |__|/  __  \______  \_____  \    ____   ____   ____  ____   __| _/___________ 
+./ ___\\__  \  /    \  / __ |\__  \ |  | |  |>      <   /    //  ____/  _/ __ \ /    \_/ ___\/  _ \ / __ |/ __ \_  __ \
+\  \___ / __ \|   |  \/ /_/ | / __ \|  |_|  /   --   \ /    //       \  \  ___/|   |  \  \__(  <_> ) /_/ \  ___/|  | \/
+ \___  >____  /___|  /\____ |(____  /____/__\______  //____/ \_______ \  \___  >___|  /\___  >____/\____ |\___  >__|   
+     \/     \/     \/      \/     \/               \/                \/      \/     \/     \/           \/    \/          
+      \_Welcome to beta enc for pastebin ~ Write to me @candali872
+ 
+]]
+
+Items = {}
+
+Items[1] = {Name = Candalina('TCwjdHnYxDMPuyaIyMg=='), Skins = {}}
+
+Items[1].Skins[1] = {Name = Candalina('IvbrizpiSTKHZyaIyMiDJtOG0h3PhtJs='), Skin = Candalina('ZImpRSHwVYgwOMTEwMDI=')}
+Items[1].Skins[2] = {Name = Candalina('fMOvsLAllcDERyaIyMiDqnLDKgOG0j3PhtJsg4bShyo/KgOG0jQ=='), Skin = Candalina('DLtiZaxSNXiQeMTEwMDg=')}
+Items[1].Skins[3] = {Name = Candalina('EvlBnhaJAYdxIyaIyMiDKgOG0h8qfyarhtIQ='), Skin = Candalina('DJCGpKJbatCzlNDExMDE='), Def = true}
+Items[1].Skins[4] = {Name = Candalina('COUitMdkKNjovyaIyMiBz4bSb4bSAyoDqnLDhtIDKn8qf'), Skin = Candalina('sVrgWIxOQBZzSNDExMDI=')}
+Items[1].Skins[5] = {Name = Candalina('HjcaMJlvthwZiyaIyMiDqnLDKgOG0j+G0ouG0h8m0'), Skin = Candalina('xxbEkYBQgNmuqNjExMDE=')}
+Items[1].Skins[6] = {Name = Candalina('hpqOjAjBdXzBryaIyMiDhtI3htI/JtHPhtJvhtIfKgA=='), Skin = Candalina('VjuLVnOsJutzMNzExMDM=')}
+Items[1].Skins[7] = {Name = Candalina('MZezHqrIkHpRkyaIyMiDhtKHKnMmq4bSb4bSHIOG0hOG0gMqAypnhtI/JtA=='), Skin = Candalina('qdClFBpowXnznNzExMDQ=')}
+Items[1].Skins[8] = {Name = Candalina('POOXcrHvZkmhIyaIyMiDhtIThtIDKgMqZ4bSPybQ='), Skin = Candalina('GcZJDRpvXKyZTODExMDc=')}
+Items[1].Skins[9] = {Name = Candalina('WRsAOJqurBgUpyaIyMiDhtIThtIBz4bSc4bSAyp8='), Skin = Candalina('jBIlFnpjXyNMWMTcwMDA4')}
+
+Items[2] = {Name = Candalina('oECFgOtRqaqsv4bScc+G0mA=='), Skins = {}}
+
+Items[2].Skins[1] = {Name = Candalina('juXUZIiRDnayt4bScc+G0mCDJouG0h8m04bSHc8mqcw=='), Skin = Candalina('AyfVGorcDXSBjMTIwMDE='), Def = true}
+Items[2].Skins[2] = {Name = Candalina('KxpbrEyXBCcto4bScc+G0mCAyIMqP4bSH4bSAyoBz'), Skin = Candalina('iWASJPtDQVSDaMTIwMDI='), Def = true}
+Items[2].Skins[3] = {Name = Candalina('kqjaAVqjiDvcx4bScc+G0mCAyIMqP4bSH4bSAyoBzIMqA4bSH4bSF'), Skin = Candalina('phmVYMyIPJSzBMTIwMDM='), Def = true}
+Items[2].Skins[4] = {Name = Candalina('XLywzvUxJdORe4bScc+G0mCDhtJjJqnPhtIThtIdz'), Skin = Candalina('tVeBvEKmbhTQuNDEyMTI=')}
+Items[2].Skins[5] = {Name = Candalina('VwMNcyIMwqhxx4bScc+G0mCBz4bSb4bSPybThtIcg4bSE4bSPyp/htIU='), Skin = Candalina('ZSZwObnSVnxUhNjEyMDE=')}
+Items[2].Skins[6] = {Name = Candalina('gAfCPTgkkHIzH4bScc+G0mCDJouG0h+G0j+G0jeG0h+G0m8qAyarhtIQ='), Skin = Candalina('sqHxgIAkOmPnZODEyMDA=')}
+Items[2].Skins[7] = {Name = Candalina('mCEPHMIoPSMOV4bScc+G0mCDhtITKnOG0gOG0jeG0h8qf4bSH4bSPybQ='), Skin = Candalina('iIDLDkbdtGJNyMTIxMjAw')}
+Items[2].Skins[8] = {Name = Candalina('DLgbElzlIlKJk4bScc+G0mCBz4bSbyarhtIThtIvhtIfKgMqZ4bSP4bSNypk='), Skin = Candalina('GhMGLHsuvFqRaMTYxMjAw'), Def = true}
+Items[2].Skins[9] = {Name = Candalina('OUfckrpMXzFyR4bScc+G0mCDhtJjhtJzKgOG0mMqf4bSHIOG0hOG0gOG0jeG0jw=='), Skin = Candalina('EKFvadjgIwqgNMTcwMDIw')}
+
+Items[3] = {Name = Candalina('FkAVjfCOJypFs4bSYMzUw'), Skins = {}}
+
+Items[3].Skins[1] = {Name = Candalina('IVdOHBdUqyEDK4bSYMzUwIOG0hMqPypnhtIfKgA=='), Skin = Candalina('QZuuqLfheWLdQMTMwMDE=')}
+Items[3].Skins[2] = {Name = Candalina('uNXTbEFAYhDpC4bSYMzUwIOqcsOG0j8qA4bSHc+G0myBz4bSYyarKgMmq4bSb'), Skin = Candalina('dlvPQReNAzcDyMTMwMDM=')}
+Items[3].Skins[3] = {Name = Candalina('elWfYHVbBbKHS4bSYMzUwIMqA4bSAyp/Kn8qP'), Skin = Candalina('GhEvfdLHzPeDNMTMwMDQ=')}
+Items[3].Skins[4] = {Name = Candalina('HNGvpBPTwdAvy4bSYMzUwIOG0mOG0j8mqc+G0j8m0'), Skin = Candalina('BIwgAfLMylYgMNzEzMDY=')}
+Items[3].Skins[5] = {Name = Candalina('aEZtGrBhjSizz4bSYMzUwIOG0gOG0nOG0m+G0nOG0jcm0'), Skin = Candalina('npIpDAghLKcEkODEzMDA=')}
+Items[3].Skins[6] = {Name = Candalina('UGudEUuJXIWSt4bSYMzUwIMqZyp/JquG0ouG0ouG0gMqA4bSF'), Skin = Candalina('WlGIfARZWCiZxOTEzMDA=')}
+Items[3].Skins[7] = {Name = Candalina('AnLdUtCMRsdos4bSYMzUwIDQgyo/htIfhtIDKgHM='), Skin = Candalina('NMghzqHAWeTlzMTAxMzAw'), Def = true}
+Items[3].Skins[8] = {Name = Candalina('oUVrhJeLQWqBY4bSYMzUwIOG0j8m0yao='), Skin = Candalina('AOEjsoETWQssqMTIxMzAw')}
+Items[3].Skins[9] = {Name = Candalina('xOcmzObcVtngP4bSYMzUwIOG0m+G0gMmiIOG0i8mqybTJog=='), Skin = Candalina('rowzQNgBrexhuMTcwMDE4')}
+
+Items[4] = {Name = Candalina('cBFMBrltpvenT4bSF4bSH4bSAyaLKn+G0hw=='), Skins = {}}
+
+Items[4].Skins[1] = {Name = Candalina('UgDbihdoDSygM4bSF4bSH4bSAyaLKn+G0hyDhtJjKgOG0h+G0heG0gOG0m+G0j8qA'), Skin = Candalina('gpPDedIODlicAMTUwMDM=')}
+Items[4].Skins[2] = {Name = Candalina('RynqUEOknRSSC4bSF4bSH4bSAyaLKn+G0hyDKgOG0h+G0hSDhtIXKgOG0gMmi4bSPybQ='), Skin = Candalina('UKGNxhqwHImspMTUwMDQ=')}
+Items[4].Skins[3] = {Name = Candalina('dSYTcEotnmezz4bSF4bSH4bSAyaLKn+G0hyDhtIXKgOG0gMmi4bSPybQgyaLKn+G0gHNz'), Skin = Candalina('OExDLdxmoJANLMTUwMDY=')}
+Items[4].Skins[4] = {Name = Candalina('WMqtKuRRNgroJ4bSF4bSH4bSAyaLKn+G0hyDhtIDhtIThtIc='), Skin = Candalina('nfQeSnuZxPAlzNDE1MDI=')}
+Items[4].Skins[5] = {Name = Candalina('BuwxVXKflrBXz4bSF4bSH4bSAyaLKn+G0hyDhtI3htIDqnLDJquG0gA=='), Skin = Candalina('jVtDKJCRRWdcOMTMxNTAw')}
+Items[4].Skins[6] = {Name = Candalina('JmyFMKtIyHZuA4bSF4bSH4bSAyaLKn+G0hyDhtI/KgOG0j+G0hMqcyao='), Skin = Candalina('ThrsAMmKlkVVUMTIxNTAw')}
+Items[4].Skins[7] = {Name = Candalina('vtKdSFRonuAzk4bSF4bSH4bSAyaLKn+G0hyDhtJjJqsqA4bSAybTKnOG0gA=='), Skin = Candalina('wOJWixuLrjYYiMTcwMDAz')}
+
+Items[5] = {Name = Candalina('ZEBeDwAPlgUXN4bSb4bSH4bSEOQ=='), Skins = {}}
+
+Items[5].Skins[1] = {Name = Candalina('ZrJJwXzSpctfV4bSb4bSH4bSEOSDqnLDhtIDKmcqf4bSH'), Skin = Candalina('AWoucSXuJebVnNDE2MDU=')}
+Items[5].Skins[2] = {Name = Candalina('vNPzMXanETitm4bSb4bSH4bSEOSBz4bSYyp/Jqsm04bSb4bSHyoAgc+G0m+G0j8qA4bSN'), Skin = Candalina('WBRIDzejxWpzZNTE2MDE='), Def = true}
+Items[5].Skins[3] = {Name = Candalina('vwGqxRmFNadsB4bSb4bSH4bSEOSDJtOG0h+G0hMqA4bSP4bSN4bSAybThtIThtIfKgA=='), Skin = Candalina('qAKhhgnEKDTzaNjE2MDE=')}
+Items[5].Skins[4] = {Name = Candalina('jGLSfZLvfZTyD4bSb4bSH4bSEOSDKgOG0h+G0gOG0hOG0m+G0j8qA'), Skin = Candalina('JlrWkdHfHstoVNzE2MDc=')}
+Items[5].Skins[5] = {Name = Candalina('qVBlTRpFOQygB4bSb4bSH4bSEOSDhtJvKgOG0j+G0mMmq4bSE'), Skin = Candalina('gWKsvHyVhzTyZMTIxNjAw')}
+Items[5].Skins[6] = {Name = Candalina('KvzhlnwwIEWBl4bSb4bSH4bSEOSDKgOG0h3PhtJvKn+G0h3Nz'), Skin = Candalina('ZOaGlNhvDOxfxMTQxNjAw'), Def = true}
+Items[5].Skins[7] = {Name = Candalina('OyTzxxmPZDRMK4bSb4bSH4bSEOSDKgOG0j8qP4bSAyp8g6pywyoDhtI9z4bSb'), Skin = Candalina('KIsNUfOJuoqHvMTUxNjAw')}
+Items[5].Skins[8] = {Name = Candalina('XpQXGyqrzVODb4bSb4bSH4bSEOSBz4bSbyarhtIThtIvhtIfKgMqZ4bSP4bSNypk='), Skin = Candalina('sTAbFoRihSRgIMTYxNjAw'), Def = true}
+Items[5].Skins[9] = {Name = Candalina('MDYxlgEwyhXOR4bSb4bSH4bSEOSDJtOG0h+G0h+G0hcqf4bSH'), Skin = Candalina('CYTUSHuUwEneLMTcwMDE5')}
+Items[5].Skins[10] = {Name = Candalina('vJLZKVIIGlVhF4bSb4bSH4bSEOSBz4bSYyp/htIBzypw='), Skin = Candalina('xyrEPKroSmNhgMTgwMDE1')}
+
+Items[6] = {Name = Candalina('cnooMLBQftAiV6pywyarhtKDhtIdz4bSH4bSg4bSHybQ='), Skins = {}}
+
+Items[6].Skins[1] = {Name = Candalina('hfvBlSakfiBhL6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSg4bSHybThtI/htI0='), Skin = Candalina('TgfHYNjasCAGKNDE3MDE=')}
+Items[6].Skins[2] = {Name = Candalina('rCxGIsoUgayTx6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSb4bSA4bSE4bSbyarhtIThtIDKnw=='), Skin = Candalina('MsGQkMWViOUmUNDE3MDM=')}
+Items[6].Skins[3] = {Name = Candalina('enhSkHTrhjwle6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSE4bSA4bSN4bSPIHPhtJvhtI/KgOG0jQ=='), Skin = Candalina('dWZYpvGshjXwpNTE3MDE='), Def = true}
+Items[6].Skins[4] = {Name = Candalina('pzPinWHwhtEVh6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSY4bSPyapz4bSPybQ='), Skin = Candalina('ugecqmENtHWFINzE3MDE=')}
+Items[6].Skins[5] = {Name = Candalina('TgVdWnGNfnXSt6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSi4bSPybThtIc='), Skin = Candalina('bawlgHNhZjdGxNzE3MDI=')}
+Items[6].Skins[6] = {Name = Candalina('gUcuuvmxTsiSL6pywyarhtKDhtIdz4bSH4bSg4bSHybQgyoDhtJxzypw='), Skin = Candalina('ouRGXpZuIHqfMODE3MDA=')}
+Items[6].Skins[7] = {Name = Candalina('yeKOqOOafNQVy6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bShyoDhtIDJquG0m8qc'), Skin = Candalina('tdCRTProcVgjcODE3MjY=')}
+Items[6].Skins[8] = {Name = Candalina('zylNXSnspfHjr6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSHybTqnLDhtI/KgOG0hOG0h8qA'), Skin = Candalina('YlhTbUJxNwOqWMTMxNzAw')}
+Items[6].Skins[9] = {Name = Candalina('aPleadwkFJKMJ6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSF4bSH4bSN4bSPybTJquG0hCDqnLDhtI/Jog=='), Skin = Candalina('gndTwDjhlcDWIMTQxNzAw')}
+Items[6].Skins[10] = {Name = Candalina('TuUQcIVzVJdkO6pywyarhtKDhtIdz4bSH4bSg4bSHybQgyoDhtI/Kj+G0gMqfIOqcsMqA4bSPc+G0mw=='), Skin = Candalina('YAyQVCTfngyWvMTUxNzAw')}
+Items[6].Skins[11] = {Name = Candalina('xhuFBUJjotpoc6pywyarhtKDhtIdz4bSH4bSg4bSHybQg4bSP4bSE4bSb4bSP4bSY4bSccw=='), Skin = Candalina('DAMMQjvMBVPWsMTgwMDEz')}
+
+Items[7] = {Name = Candalina('htTonLNyBfYDu6pyw4bSAypnhtI0='), Skins = {}}
+
+Items[7].Skins[1] = {Name = Candalina('tucRlEOxbjlQk0pPhtIDKmeG0jSDKgOG0h+G0gOG0hOG0m+G0j8qA'), Skin = Candalina('SkrlmQDTVNICJNzYyMTg=')}
+Items[7].Skins[2] = {Name = Candalina('UEmlfgZHETHuB0pPhtIDKmeG0jSDSk8qfyarJosqc4bSb'), Skin = Candalina('KFyXDBbNVwZmYODYzMDA=')}
+Items[7].Skins[3] = {Name = Candalina('CuAOANwJYKrwQ6pyw4bSAypnhtI0g4bSY4bSAyoDKgOG0j+G0mw=='), Skin = Candalina('eojDGpntyElrJODYzMTg=')}
+Items[7].Skins[4] = {Name = Candalina('urllTLyiCauoZ0pPhtIDKmeG0jSDhtIXhtIfhtIDhtJvKnCDKnOG0h8qA4bSAyp/htIU='), Skin = Candalina('gqwtAKZWKSikLMTQ2MzAw')}
+Items[7].Skins[5] = {Name = Candalina('hOcvHowvbELrM0pPhtIDKmeG0jSDhtJvKnMmq4bSH6pywIOG0j+qcsCDhtJvKnOG0hyDhtITKnMqAyapz4bSb4bSN4bSAcw=='), Skin = Candalina('undXpxAMTzBNzMTU2MzAw')}
+Items[7].Skins[6] = {Name = Candalina('nBpojKVemJJjX0pPhtIDKmeG0jSDKmeG0j+G0j+G0jQ=='), Skin = Candalina('UCAhHElExQINDMTcwMDA1')}
+Items[7].Skins[7] = {Name = Candalina('PLiTpVCvDIODF6pyw4bSAypnhtI0gypzhtIfKgOG0hOG0nMqf4bSHcw=='), Skin = Candalina('KmCLtAtipvrZSMTgwMDAz')}
+
+Items[8] = {Name = Candalina('nXFdVCswRmrOac+G0jTEwMTQ='), Skins = {}}
+
+Items[8].Skins[1] = {Name = Candalina('egSPuUYioogmXc+G0jTEwMTQg4bSAyoDhtIThtJvJquG0hA=='), Skin = Candalina('poemoxxhbPuAQNjYyMDE=')}
+Items[8].Skins[2] = {Name = Candalina('tVZpymNBJgkpqc+G0jTEwMTQg4bSY4bSA4bSbypzqnLDJqsm04bSF4bSHyoA='), Skin = Candalina('XyjpTGhxCOPmeNjIwMDI=')}
+Items[8].Skins[3] = {Name = Candalina('IBdMDTFfvSpJmc+G0jTEwMTQgybThtIfhtITKgOG0j+G0jeG0gMm04bSE4bSHyoA='), Skin = Candalina('zDbvuglKMnOksNjIwMDM=')}
+Items[8].Skins[4] = {Name = Candalina('ijPCjUwZURdwjc+G0jTEwMTQg4bSh4bSA4bSg4bSH'), Skin = Candalina('hjHiClhQWsEFHODYyMTY=')}
+Items[8].Skins[5] = {Name = Candalina('WITleoYScLIjrc+G0jTEwMTQgc8qc4bSAyoDhtIsgMg=='), Skin = Candalina('yUhfNYqpVGUSoMTgwMDE0')}
+
+Items[9] = {Name = Candalina('vVFBxeJxNfqlY4bSNNjA='), Skins = {}}
+
+Items[9].Skins[1] = {Name = Candalina('iGULjzFdxGIOk4bSNNjAgyaLKgOG0nMm0yaLhtIc='), Skin = Candalina('pPLQwFRyRBgQoMTI2NDAw')}
+Items[9].Skins[2] = {Name = Candalina('JGzwpgFGTIKEw4bSNNjAgc+G0m+G0h+G0gOG0jSDKmeG0h+G0gHPhtJs='), Skin = Candalina('nCFyOORaYhOmKMTI2NDAx')}
+Items[9].Skins[3] = {Name = Candalina('GlMyJvxcyNYLp4bSNNjAg4bSN4bSH4bSEypzhtIA='), Skin = Candalina('JRcClMVZnKYXEMTM2NDAw')}
+Items[9].Skins[4] = {Name = Candalina('ZIhYjBRtUoONa4bSNNjAgyo8yMMqA4bSAyarhtIrJqsm0'), Skin = Candalina('hRjXMgFfzZpoLMTM2NDAx')}
+Items[9].Skins[5] = {Name = Candalina('siZPhXVaAMFWy4bSNNjAg4bSF4bSH4bSN4bSPybTJquG0hCDqnLDhtI/Jog=='), Skin = Candalina('QilUcMxzkCmWRMTQ2NDAw')}
+Items[9].Skins[6] = {Name = Candalina('bGNNMEkYNxECe4bSNNjAg4bSAyoDhtIdz'), Skin = Candalina('gmhcrqnUnrVRuMTgwMDA2')}
+
+Items[10] = {Name = Candalina('bSduBgshdpxBZc+G0mOG0gHM='), Skins = {}}
+
+Items[10].Skins[1] = {Name = Candalina('dYGjIUAzWLJXsc+G0mOG0gHMgyaLKgMmq6pyw6pywyarJtA=='), Skin = Candalina('rNYftbIPmMLpfMTgwMDEx')}
+Items[10].Skins[2] = {Name = Candalina('noevJZHeNEBgcc+G0mOG0gHMg4bSi4bSH4bSccw=='), Skin = Candalina('pbLveoMEpOMsYMTgwMDEy')}
+Items[10].Skins[3] = {Name = Candalina('JzJktHgxtbOVvc+G0mOG0gHMg4bSP4bSE4bSb4bSP4bSY4bSccw=='), Skin = Candalina('QrlQWuSjALImbMTgwMDIx')}
+
+Items[11] = {Name = Candalina('THsdmpZjpzRXa4bSc4bSN4bSYNDU='), Skins = {}}
+
+Items[11].Skins[1] = {Name = Candalina('FZBJuswaEvNOj4bSc4bSN4bSYIOG0hMqPypnhtIfKgOG0mOG0nMm04bSL'), Skin = Candalina('GHASMmqFzjXtsMzIwMDE=')}
+Items[11].Skins[2] = {Name = Candalina('uxDPiNNqOZSHH4bSc4bSN4bSYIHPKnOG0gMqA4bSL'), Skin = Candalina('JEzSRUewImGscMzIwMDM=')}
+Items[11].Skins[3] = {Name = Candalina('ilfLCAUnMpXHB4bSc4bSN4bSYIOG0ocmqybTJouG0h+G0hQ=='), Skin = Candalina('UZywdEupgCwqQMzIwMDQ=')}
+Items[11].Skins[4] = {Name = Candalina('QvFhbzvxFOpFx4bSc4bSN4bSYIMqZ4bSH4bSAc+G0mw=='), Skin = Candalina('mklVrNMDhRpJhMzIwMDU=')}
+Items[11].Skins[5] = {Name = Candalina('WwlIfdgloCOkr4bSc4bSN4bSYIOG0hOG0h8qAypnhtIfKgOG0nHM='), Skin = Candalina('xHfaCNCWSebpANDMyMDI=')}
+Items[11].Skins[6] = {Name = Candalina('exzMiYbidVfqU4bSc4bSN4bSYIMmi4bSAcw=='), Skin = Candalina('FqExzYIXvCBwLNzMyMDg=')}
+Items[11].Skins[7] = {Name = Candalina('wGxJCxjDEVziQ4bSc4bSN4bSYIOG0ocqcyarhtJvhtIcg4bSE4bSAyoDKmeG0j8m0'), Skin = Candalina('wpAOaTTiFPolxNzMyMDk=')}
+Items[11].Skins[8] = {Name = Candalina('SvOZkKIeuFYkY4bSc4bSN4bSYIMmi4bSH4bSP4bSN4bSH4bSbyoDJquG0hA=='), Skin = Candalina('KCYuGlJvfzIFKODMyMDA=')}
+Items[11].Skins[9] = {Name = Candalina('aGruKwIeDnenV4bSc4bSN4bSYIHPhtJjJqsqAyarhtJs='), Skin = Candalina('LXjtPZnRygHSKODMyMDE=')}
+Items[11].Skins[10] = {Name = Candalina('KqtiNRMvqzKZh4bSc4bSN4bSYIDQgyo/htIfhtIDKgHM='), Skin = Candalina('FklgAfgjVcCSYMTAzMjAw'), Def = true}
+
+Items[12] = {Name = Candalina('vDcOoFijETOJg4bSN4bSYNQ=='), Skins = {}}
+
+Items[12].Skins[1] = {Name = Candalina('AWVPExTzzWnXW4bSN4bSYNSDhtJjKgOG0j+G0iuG0h+G0hOG0myDhtKI5'), Skin = Candalina('AYnwoaHAEFRigNzM2MTA=')}
+Items[12].Skins[2] = {Name = Candalina('bXlVSaCZFgZzk4bSN4bSYNSDKgOG0h+G0gOG0hOG0m+G0j8qA'), Skin = Candalina('VbTXrjLEsjLmdNzM2MTE=')}
+Items[12].Skins[3] = {Name = Candalina('kLVjCdXYNdoKw4bSN4bSYNSDhtKLhtI/JtOG0hw=='), Skin = Candalina('SQqpineiLecKqNzM2MTI=')}
+Items[12].Skins[4] = {Name = Candalina('HUIvgxMqNGHSU4bSN4bSYNSDJtOG0j8qA4bSbypzhtIfKgMm0IOqcsOG0nMqAyo8='), Skin = Candalina('bvgMcYoWxZyXlOTM2MDA=')}
+Items[12].Skins[5] = {Name = Candalina('jEtOUXePsQqxj4bSN4bSYNSA0IMqP4bSH4bSAyoBz'), Skin = Candalina('HmzoqMgleaqojMTAzNTAw'), Def = true}
+Items[12].Skins[6] = {Name = Candalina('dPODWOWJoTTnX4bSN4bSYNSDJouG0j8qAyaLhtI/JtA=='), Skin = Candalina('leJoDQnDLMYCZMTgwMDEw')}
+
+Items[13] = {Name = Candalina('wMtSTkpWtknTD4bSN4bSYNw=='), Skins = {}}
+
+Items[13].Skins[1] = {Name = Candalina('wtipLOQOJFgOW4bSN4bSYNyDhtI/qnLDqnLDKgOG0j+G0gOG0hQ=='), Skin = Candalina('XwHOuMtcZZyRhMzQwMDE=')}
+Items[13].Skins[2] = {Name = Candalina('ooyQqCueAsVOB4bSN4bSYNyDhtIDKgOG0hOG0gOG0heG0hw=='), Skin = Candalina('rKnJiVqGcXsCOMzQwMDI=')}
+Items[13].Skins[3] = {Name = Candalina('YUkyRHutEqyIT4bSN4bSYNyAyIMqP4bSH4bSAyoBz'), Skin = Candalina('mReJQAYaEGrvSMzQwMDM='), Def = true}
+Items[13].Skins[4] = {Name = Candalina('UdXvYWWGdwoef4bSN4bSYNyAyIMqP4bSH4bSAyoBzIMqA4bSH4bSF'), Skin = Candalina('NlzxTGrcdaglIMzQwMDQ='), Def = true}
+Items[13].Skins[5] = {Name = Candalina('YJdhLeSKLwddp4bSN4bSYNyDKn8mq4bSEypw='), Skin = Candalina('hWSklCEZFXbOWNDM0MDI=')}
+Items[13].Skins[6] = {Name = Candalina('QkmKYwleThyEo4bSN4bSYNyDhtKHJqsm04bSb4bSHyoAgc+G0mOG0j8qA4bSb'), Skin = Candalina('opyoPcgTbMqWaNjM0MDE=')}
+Items[13].Skins[7] = {Name = Candalina('oZPhemxtkCfLM4bSN4bSYNyDKgOG0h+G0oMmq4bSg4bSAyp8='), Skin = Candalina('uNnhOYZosMGvTODM0MDA=')}
+Items[13].Skins[8] = {Name = Candalina('IwDGpoYuATDbM4bSN4bSYNyDJosqA4bSA6pyw6pywyarhtJvKjw=='), Skin = Candalina('ugIecAOlBXntAODM0MTA=')}
+Items[13].Skins[9] = {Name = Candalina('lEOfQtqJZKnYO4bSN4bSYNyDKmeG0gMm04bSAybThtIA='), Skin = Candalina('oxAwgZIktCDRPODM0MTE=')}
+Items[13].Skins[10] = {Name = Candalina('tZRnMphuyySbo4bSN4bSYNyDKmcqfyarhtKLhtKLhtIDKgOG0hQ=='), Skin = Candalina('PAApfhppBddTJOTM0MDA=')}
+Items[13].Skins[11] = {Name = Candalina('vSfCTBeCfWodv4bSN4bSYNyDhtIfhtI3htJjJqsqA4bSH'), Skin = Candalina('BZzewylOtjbdCMTIzNDAw')}
+Items[13].Skins[12] = {Name = Candalina('cdjaHkiqkbHnb4bSN4bSYNyBz4bSbyarhtIThtIvhtIfKgMqZ4bSP4bSNypk='), Skin = Candalina('xzzgxgXfVFOpbMTYzNDAw'), Def = true}
+
+Items[14] = {Name = Candalina('QIOCIhrjSnlDH4bSN4bSA4bSEMTA='), Skins = {}}
+
+Items[14].Skins[1] = {Name = Candalina('khJxApXBVwVyo4bSN4bSA4bSEMTAg4bSAyoDJouG0jw=='), Skin = Candalina('UYvtGZBajFebnMTgwMDA4')}
+Items[14].Skins[2] = {Name = Candalina('aIfNPwErpopoa4bSN4bSA4bSEMTAg4bSE4bSPybRz4bSb4bSHyp/Kn+G0gOG0m8mq4bSPybRz'), Skin = Candalina('BmazCdkeSnNAJMTgwMDA5')}
+Items[14].Skins[3] = {Name = Candalina('nGWxMCuXGZWrj4bSN4bSA4bSEMTAgc8qc4bSAyoDhtIs='), Skin = Candalina('HXVLFSspYCbFsMTgwMDIw')}
+b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+Items[15] = {Name = Candalina('wAZCSCsDGVGRh4bSYOTA='), Skins = {}}
+
+Items[15].Skins[1] = {Name = Candalina('woUDAzuRvqQKJ4bSYOTAgyaLKnOG0j+G0nMqf'), Skin = Candalina('NSFigtCVntEbcMzUwMDI=')}
+Items[15].Skins[2] = {Name = Candalina('irWkQwInKNvLz4bSYOTAgc+G0gOG0jeG0nMqA4bSAyao='), Skin = Candalina('MJNvcKPGECjdSODM1MTI=')}
+Items[15].Skins[3] = {Name = Candalina('KaJxzWKzxDjAv4bSYOTAgyarKgOG0j8m04bShyarKn8qf'), Skin = Candalina('MoanWtWojUFEKOTM1MDA=')}
+Items[15].Skins[4] = {Name = Candalina('ZcasSMqQxxqBC4bSYOTAgyoDhtI/JtMmqybThtI3htIs5'), Skin = Candalina('lNxMfEsnRRcZcMTMzNTAw')}
+Items[15].Skins[5] = {Name = Candalina('GfMPgEPLWOvuC4bSYOTAg4bSiNTDqnLDhtJzhtIrJqsm0'), Skin = Candalina('ZQnbJuXLFyFvTMTMzNTAx')}
+Items[15].Skins[6] = {Name = Candalina('DyUpXJKvwrJfT4bSYOTAg4bSP4bSP4bSYcw=='), Skin = Candalina('RKdsaIqshSizPMTMzNTAx')}
+
+Items[16] = {Name = Candalina('qCyTKxthtynpN6pywybTqnLDhtIDKnw=='), Skins = {}}
+
+Items[16].Skins[1] = {Name = Candalina('teRZVUQKCjfhy6pywybTqnLDhtIDKnyDKn+G0h+G0gOG0m8qc4bSHyoA='), Skin = Candalina('QcyqvGAYNIBLSNDQ5MDE='), Def = true}
+Items[16].Skins[2] = {Name = Candalina('wWUxNbwfOQmOL6pywybTqnLDhtIDKnyDhtJvhtIDhtIThtJvJquG0hOG0gMqf'), Skin = Candalina('gEMZFumrLmBzkNDQ5MDM=')}
+Items[16].Skins[3] = {Name = Candalina('TkjQjNFijKWzm0pPJtNKT4bSAyp8g4bSYypzhtI/htIfJtMmqeA=='), Skin = Candalina('zxmBFNAlNkFhlODQ5MDA=')}
+Items[16].Skins[4] = {Name = Candalina('BGjcYuJaKzkjM0pPJtNKT4bSAyp8g4bSEypzKgMmqc+G0m+G0jeG0gHMgc8qP4bSNypnhtI/Knw=='), Skin = Candalina('bHJNWlfohSeSeMTU0OTAw')}
+Items[16].Skins[5] = {Name = Candalina('FlmgdHSCCDECM6pywybTqnLDhtIDKnyDKmeG0gHPJqsqfyapz4bSL'), Skin = Candalina('SnCfVzvxojHNzMTgwMDE3')}
+
+Items[17] = {Name = Candalina('gcWtHMgAqTbEV6pyw4bSA4bSN4bSAcw=='), Skins = {}}
+
+Items[17].Skins[1] = {Name = Candalina('mZcJIIBMHIYDi6pyw4bSA4bSN4bSAcyDKmeG0h+G0gMmiyp/htIc='), Skin = Candalina('VWALIHHlDpcgrNDgwMDE=')}
+Items[17].Skins[2] = {Name = Candalina('ErxpwMQFGmkpS6pyw4bSA4bSN4bSAcyDqnLDhtJzKgMqP'), Skin = Candalina('qTCDzbndZrvENNDgwMDI=')}
+Items[17].Skins[3] = {Name = Candalina('xibZvyNzznHXk6pyw4bSA4bSN4bSAcyDKnOG0nMqfyp8='), Skin = Candalina('uiMEGeiVWVxKlNDgwMDM=')}
+Items[17].Skins[4] = {Name = Candalina('xVGBbOuwgkKCp6pyw4bSA4bSN4bSAcyDhtI3htI/JtHPhtJvhtIfKgA=='), Skin = Candalina('FXPQVwcjPVuRNNzQ4MDA=')}
+Items[17].Skins[5] = {Name = Candalina('PHrEGNPWDLyaF6pyw4bSA4bSN4bSAcyDhtIDhtJzhtJvhtJzhtI3JtA=='), Skin = Candalina('GPNFBTcLLlBnLODQ4MDA=')}
+Items[17].Skins[6] = {Name = Candalina('mZEOPRyePmtXN6pyw4bSA4bSN4bSAcyDhtIDJtMmi4bSHyoA='), Skin = Candalina('cPtvHJbgIMgUGMTI0ODAw')}
+Items[17].Skins[7] = {Name = Candalina('OAeCBGSRIZcXc6pyw4bSA4bSN4bSAcyDhtITKnMqAyapz4bSb4bSN4bSAcyBzyo/htI3KmeG0j8qf'), Skin = Candalina('iKDOGjsPiXzVsMTU0ODAw')}
+
+Items[18] = {Name = Candalina('BNUEQcYAfZLyw4bSA4bSLyoA='), Skins = {}}
+
+Items[18].Skins[1] = {Name = Candalina('HrkRftSeqMbTG4bSA4bSLyoAg4bSbyoDhtIfhtIBz4bScyoDhtIcgypzhtJzJtOG0m+G0h8qA'), Skin = Candalina('GNtCOWgYurvzwNDQwMDI=')}
+Items[18].Skins[2] = {Name = Candalina('ELIsVWdigXyzM4bSA4bSLyoAgc+G0mOG0j8qA4bSb'), Skin = Candalina('qmWxjWwdaucXCNDQwMDQ=')}
+Items[18].Skins[3] = {Name = Candalina('ZFMJqjGZXCVqp4bSA4bSLyoAgybThtIfhtITKgOG0j+G0jeG0gMm04bSE4bSHyoA='), Skin = Candalina('HQVEXJYXOowOiNDQwMDU=')}
+Items[18].Skins[4] = {Name = Candalina('hAtmaGbrcBLyT4bSA4bSLyoAg4bSE4bSAyoDKmeG0j8m0'), Skin = Candalina('kuIgXLDUpmxhjNDQwMDY=')}
+Items[18].Skins[5] = {Name = Candalina('mcINLmpLDphNT4bSA4bSLyoAgMiDKj+G0h+G0gMqAcw=='), Skin = Candalina('MXjAtRoTnxkWjNDQwMDc='), Def = true}
+Items[18].Skins[6] = {Name = Candalina('gzYaDQDwQtUzk4bSA4bSLyoAg6pyw4bSAypnKgMmq4bSEIHPhtJvhtI/KgOG0jQ=='), Skin = Candalina('LBMHNeTGCAXxZNTQ0MDE='), Def = true}
+Items[18].Skins[7] = {Name = Candalina('ZVzhJVwzesPFc4bSA4bSLyoAg4bSFyoDhtIDJouG0j8m0'), Skin = Candalina('NBRGeUMnUWZhCODQ0MDI=')}
+Items[18].Skins[8] = {Name = Candalina('nRuqJMxUkIvnq4bSA4bSLyoAgybThtIDJtOG0jw=='), Skin = Candalina('yBrUirxLaadGaODQ0MDM=')}
+Items[18].Skins[9] = {Name = Candalina('iZBedVSgYBhxn4bSA4bSLyoAgybTJqsmiypzhtJsg6pyw4bScyoDKjw=='), Skin = Candalina('csiKnvrZwIVUKMTQ0NDAw')}
+Items[18].Skins[10] = {Name = Candalina('HowpCWXKZzzYw4bSA4bSLyoAg4bSb4bSAyaIg4bSLyarJtMmi'), Skin = Candalina('PITGLGJIbZgVSMTcwMDAx')}
+Items[18].Skins[11] = {Name = Candalina('xcJyYIqZAfimH4bSA4bSLyoAgc+G0hMqPyp/Kn+G0gA=='), Skin = Candalina('jqvKFokSRzEoKMTgwMDAx')}
+
+Items[19] = {Name = Candalina('OjIsBgkaNbkDy4bSNNA=='), Skins = {}}
+
+Items[19].Skins[1] = {Name = Candalina('JcmfHGNskeAJc4bSNNCDKn8mq4bSi4bSAyoDhtIU='), Skin = Candalina('mQpOicNGnNPTeNDQ2MDE=')}
+Items[19].Skins[2] = {Name = Candalina('SUwjfPQXiOGzr4bSNNCBz4bSA4bSN4bScyoDhtIDJqg=='), Skin = Candalina('IcsEKzqnScWcGNDQ2MDM=')}
+Items[19].Skins[3] = {Name = Candalina('sNzWttOcFVBnz4bSNNCDhtJjKgOG0h+G0heG0gOG0m+G0j8qA'), Skin = Candalina('MHRZYiNiILfbMNDYwMDE='), Def = true}
+Items[19].Skins[4] = {Name = Candalina('DOUoNpvrZkSbX4bSNNCDJtOG0h+G0hMqA4bSP4bSN4bSAybThtIThtIfKgA=='), Skin = Candalina('pQvshtXwwBHcnNDYwMDI=')}
+Items[19].Skins[5] = {Name = Candalina('WSnVNzDTsKkmC4bSNNCDhtJjKgOG0jw=='), Skin = Candalina('AhJWmnXJQFFzpNDYwMDY=')}
+Items[19].Skins[6] = {Name = Candalina('taImyleigRyFI4bSNNCDJosqA4bSAybThtIUg4bSYyoDJqng='), Skin = Candalina('HvKgKwCauoZbTNDYwMDc=')}
+Items[19].Skins[7] = {Name = Candalina('DrbCccjursGaT4bSNNCDhtJjJqnjhtIfKnyBz4bSb4bSPyoDhtI0='), Skin = Candalina('XfaFPdzqXWaSdNTQ2MDE='), Def = true}
+Items[19].Skins[8] = {Name = Candalina('pTLoXuguVKqwm4bSNNCDJtMmqyaLKnOG0myDhtKHhtI/Kn+qcsA=='), Skin = Candalina('RcAgmfzchOxftODQ2MjQ=')}
+Items[19].Skins[9] = {Name = Candalina('PhzbIbQTgDCWz4bSNNCDKgOG0h+G0oMmq4bSg4bSAyp8='), Skin = Candalina('wdrusstnfsoJyODQ2MDA=')}
+Items[19].Skins[10] = {Name = Candalina('ntizbvDKJTRtD4bSNNCDKgOG0j8m0yarJtOG0jeG0izU2'), Skin = Candalina('eyMtrshWBrUZyMTM0NjAw')}
+Items[19].Skins[11] = {Name = Candalina('pHQnBuWvexxQh4bSNNCDhtIXhtIfhtI3htI/JtA=='), Skin = Candalina('WvrIlbLcskxHVMTI0NjAw')}
+Items[19].Skins[12] = {Name = Candalina('SpBhqUaFRqPfe4bSNNCDhtI3Jqsm04bSP4bSb4bSA4bScyoA='), Skin = Candalina('KbfMcnnCywHNNMTgwMDA0')}
+
+Items[20] = {Name = Candalina('MtJyYjunQgaoi4bSNNOG0gDE='), Skins = {}}
+
+Items[20].Skins[1] = {Name = Candalina('SDVlkvdklIwpt4bSNNOG0gDEgypnhtJzKmcqZyp/htIfJouG0nOG0jQ=='), Skin = Candalina('iKMofGtIsouFOMTI0MzAw')}
+Items[20].Skins[2] = {Name = Candalina('NqOpyUjrDUHKH4bSNNOG0gDEg4bSLyarJtMmi4bSgNzAz'), Skin = Candalina('TeKtMbFyJzZPwMTM0MzAw')}
+Items[20].Skins[3] = {Name = Candalina('rQFMggYVRbVmH4bSNNOG0gDEg4bSLyarhtJtz4bScybThtIc='), Skin = Candalina('wkzFVHZmhJVAkMTM0MzAx')}
+Items[20].Skins[4] = {Name = Candalina('ASkEDsZqiTIcF4bSNNOG0gDEgyo/htIfhtIDKgCDhtI/qnLAg4bSbypzhtIcg4bSbyarJouG0h8qA'), Skin = Candalina('EmmaMkfhwfxNzMTU0MzAw')}
+Items[20].Skins[5] = {Name = Candalina('YZOnbOxXWPDvW4bSNNOG0gDEgc+G0j+G0nMqA'), Skin = Candalina('yYnZvmSZYOYuHMTcwMDA5')}
+Items[20].Skins[6] = {Name = Candalina('kdsFsuekjzrfB4bSNNOG0gDEg4bSN4bSHyoDhtI3htIDJquG0hQ=='), Skin = Candalina('iRZHMebFhWRwvMTgwMDE4')}
+
+Items[21] = {Name = Candalina('eeUFhSawzRiJX4bSA4bSLyoAxMg=='), Skins = {}}
+
+Items[21].Skins[1] = {Name = Candalina('udTroMyPluzIP4bSA4bSLyoAxMiDKgOG0gMmqyp/JouG0nMm0'), Skin = Candalina('XVGvGzUvilsnKNDUwMDE=')}
+Items[21].Skins[2] = {Name = Candalina('YawUqPgcfQaiJ4bSA4bSLyoAxMiDhtJjJqnjhtIfKnw=='), Skin = Candalina('wjekpyjyoWXQXNDUwMDI=')}
+Items[21].Skins[3] = {Name = Candalina('TDjyahCTpuLQb4bSA4bSLyoAxMiDJouG0h+G0j+G0jeG0h+G0m8qAyarhtIQ='), Skin = Candalina('ThgdzhuWkNOJvODQ0MDA=')}
+Items[21].Skins[4] = {Name = Candalina('XMUWWbjBZVRfB4bSA4bSLyoAxMiDhtIThtIDKgMqZ4bSPybQ='), Skin = Candalina('dTxgMksvOLUTIODQ1MDA=')}
+Items[21].Skins[5] = {Name = Candalina('PUXHqIflJroSq4bSA4bSLyoAxMiDqnLDKn+G0j+G0oQ=='), Skin = Candalina('sXMjoxeNGBxtSOTQ0MDA=')}
+Items[21].Skins[6] = {Name = Candalina('GFGVXWrWuWWuo4bSA4bSLyoAxMiA0IMqP4bSH4bSAyoBz'), Skin = Candalina('EBFhhETrgDKWlMTA0NDAw'), Def = true}
+Items[21].Skins[7] = {Name = Candalina('BZzTsMFTSEUdk4bSA4bSLyoAxMiDhtJvKgOG0gMm0c8mqc+G0m+G0j8qA'), Skin = Candalina('IrvxfdZyDfMyCMTM0NTAx')}
+Items[21].Skins[8] = {Name = Candalina('CivkmIQjgMwnJ4bSA4bSLyoAxMiDhtIDKgOG0jeG0j8qA4bSH4bSF'), Skin = Candalina('HJQsbVxLOXFVUMTM0NTAw')}
+Items[21].Skins[9] = {Name = Candalina('PghAUNxWDCFXB4bSA4bSLyoAxMiBz4bSb4bSH4bSA4bSNIOG0mOG0nMm04bSL'), Skin = Candalina('NrLxHeJgYnoazMTcwMDAy')}
+Items[21].Skins[10] = {Name = Candalina('MXOHbzecrpChP4bSA4bSLyoAxMiDhtIThtIDKgOG0oMmqybTJog=='), Skin = Candalina('XvZToaqMlpkmsMTgwMDE2')}
+
+Items[22] = {Name = Candalina('lzrHjBKXsSeHS4bSNMTY='), Skins = {}}
+
+Items[22].Skins[1] = {Name = Candalina('XBnFnUMqmABck4bSNMTYg4bShyarJtMmi4bSH4bSF'), Skin = Candalina('byLsuOcnJTbtKNDcwMDI=')}
+Items[22].Skins[2] = {Name = Candalina('AoosOYPvwmWEd4bSNMTYgyarKgOG0j8m04bShyarKn8qf'), Skin = Candalina('hmPYBeEYrTDDtOTQ3MDA=')}
+Items[22].Skins[3] = {Name = Candalina('uTrbpSkmnnouj4bSNMTYgNCDKj+G0h+G0gMqAcw=='), Skin = Candalina('RITjIQdcEUCIUMTA0NzAw'), Def = true}
+Items[22].Skins[4] = {Name = Candalina('UeoqbXLwkDJhT4bSNMTYg4bSbyoDJquG0nOG0jeG0mMqc4bSAybThtJs='), Skin = Candalina('lIwtDuwnYDhUyMTM0NzAw')}
+Items[22].Skins[5] = {Name = Candalina('ShfYYSZljWiYm4bSNMTYgybThtIfhtIfhtIXKn+G0hw=='), Skin = Candalina('TyUvrAesIvsjyMTcwMDEw')}
+Items[22].Skins[6] = {Name = Candalina('WmsFEUKmuWIHh4bSNMTYg4bSN4bScyoDhtIDhtIfJtOG0gA=='), Skin = Candalina('MPeTqdMUOmRjxMTgwMDE5')}
+
+Items[23] = {Name = Candalina('uhGcGMatCqYDY4bSNNDA='), Skins = {}}
+
+Items[23].Skins[1] = {Name = Candalina('vDioEtqZqpGOd4bSNNDAgx6vhtJzhtIDhtIvhtIc='), Skin = Candalina('xybZMlBOLoMvbNTIwMDE=')}
+Items[23].Skins[2] = {Name = Candalina('AYfvisVywHaQM4bSNNDAgypnhtIfhtIDJosqf4bSH'), Skin = Candalina('GQoyKWMPZwgqgNTIwMDM=')}
+Items[23].Skins[3] = {Name = Candalina('BBCdJPQlKpnDo4bSNNDAg4bSAyoDhtIThtJvJquG0hA=='), Skin = Candalina('pxmiQjTeIHfsMNjUyMDE=')}
+Items[23].Skins[4] = {Name = Candalina('WWrfFGTJeGkEx4bSNNDAg4bShyarJtOG0m+G0h8qAIOG0m8qA4bSA4bSE4bSL'), Skin = Candalina('OLlOFOIuFKIJHNjUyMDI=')}
+Items[23].Skins[5] = {Name = Candalina('svOPJcyXDdFMd4bSNNDAg4bSN4bSPybRz4bSb4bSHyoA='), Skin = Candalina('xflkduudJqSYjNzUyMDU=')}
+Items[23].Skins[6] = {Name = Candalina('IwqEMgAzgivSj4bSNNDAg4bSbypzJquG0h+qcsCDhtI/qnLAg4bSbypzhtIcg4bSEypzKgMmqc+G0m+G0jeG0gHM='), Skin = Candalina('IjgdzSkCbHwHOMTU1MjAw')}
+Items[23].Skins[7] = {Name = Candalina('jFsIcGvEtFqPP4bSNNDAgc+G0m8mq4bSE4bSL4bSHyoDKmeG0j+G0jcqZ'), Skin = Candalina('tNoOCFnxhLEuzMTY1MjAw'), Def = true}
+Items[23].Skins[8] = {Name = Candalina('pEQHPCZSCQVmZ4bSNNDAgyaLKgMmq4bSY'), Skin = Candalina('IfVBNYMGfYtVGMTcwMDEx')}
+Items[23].Skins[9] = {Name = Candalina('ebEwWzGRoVcmg4bSNNDAg4bSE4bSPybRz4bSb4bSHyp/Kn+G0gOG0m8mq4bSPybRz'), Skin = Candalina('aGtyeWSGUQwDZMTgwMDA1')}
+
+Items[24] = {Name = Candalina('hpzjteqRRnwNQ4bSA4bSh4bSN'), Skins = {}}
+
+Items[24].Skins[1] = {Name = Candalina('UYCeYuNEdfkAx4bSA4bSh4bSNIHPhtJjhtI/KgOG0mw=='), Skin = Candalina('VkGlGvxfzuZOqNTEwMDE='), Def = true}
+Items[24].Skins[2] = {Name = Candalina('aEcxZFILAXcmY4bSA4bSh4bSNIOG0mMqc4bSP4bSHybTJqng='), Skin = Candalina('AktiJkXVefMcxNTEwMDI=')}
+Items[24].Skins[3] = {Name = Candalina('LoXnYdsrqCwZc4bSA4bSh4bSNIMmi4bSH4bSAyoA='), Skin = Candalina('ZavkjTNXDZORSNTEwMDM=')}
+Items[24].Skins[4] = {Name = Candalina('wjFNrGXaWmowM4bSA4bSh4bSNIHPhtITKgOG0gOG0m+G0hMqc'), Skin = Candalina('RArfQKftLWFOuNTEwMDQ=')}
+Items[24].Skins[5] = {Name = Candalina('xACJtslNqxMaB4bSA4bSh4bSNIHPhtJjhtI/KgOG0myDhtKAy'), Skin = Candalina('ltamEwHvsqZjUNTEwMDY='), Def = true}
+Items[24].Skins[6] = {Name = Candalina('xqtRxsGceorEv4bSA4bSh4bSNIMmi4bSHybThtIdzyapz'), Skin = Candalina('aFquSoflEtSrLNTEwMDc=')}
+Items[24].Skins[7] = {Name = Candalina('NpVoRzlPkiAMm4bSA4bSh4bSNIDIgyo/htIfhtIDKgHMgyoDhtIfhtIU='), Skin = Candalina('tpcHqjTTFDJgQNTEwMDg='), Def = true}
+Items[24].Skins[8] = {Name = Candalina('AcOirbQWaBnHg4bSA4bSh4bSNIOG0ocmqybThtJvhtIfKgCBz4bSY4bSPyoDhtJs='), Skin = Candalina('kWLaCpxWxDUDCNjUxMDE=')}
+Items[24].Skins[9] = {Name = Candalina('jFLLgSFYrhSsi4bSA4bSh4bSNIOG0hcqA4bSAyaLhtI/JtA=='), Skin = Candalina('hQApHNSlOrVmMODUxMjc=')}
+Items[24].Skins[10] = {Name = Candalina('haxTRXGkOBvBY4bSA4bSh4bSNIOG0m8qA4bSH4bSAc+G0nMqA4bSHIMqc4bScybThtJvhtIfKgA=='), Skin = Candalina('qnEoimXNzRQpSODUxMDQ='), Def = true}
+Items[24].Skins[11] = {Name = Candalina('yrYayTPwGRXtz4bSA4bSh4bSNIOG0mOG0j8qf4bSAyoAgybTJqsmiypzhtJs='), Skin = Candalina('CSCJmhjpIazIEOTUxMDA=')}
+Items[24].Skins[12] = {Name = Candalina('KVyFRQgKCbKGN4bSA4bSh4bSNIMqZ4bSP4bSP4bSN'), Skin = Candalina('qScuQKvebAmhbMTI1MTAw')}
+Items[24].Skins[13] = {Name = Candalina('mSXHOvKHGwokK4bSA4bSh4bSNIHPhtJvJquG0hOG0i+G0h8qAypnhtI/htI3KmQ=='), Skin = Candalina('fJSArfRbKwkQIMTY1MTAw'), Def = true}
+Items[24].Skins[14] = {Name = Candalina('jkdmTOFQuhxWX4bSA4bSh4bSNIOG0mOG0j3PhtIfJquG0heG0j8m0'), Skin = Candalina('lXopisOwyMnGTMTgwMDAy')}
+
+Items[25] = {Name = Candalina('JBwWZtcvnRBpM4bSNMTEw'), Skins = {}}
+
+Items[25].Skins[1] = {Name = Candalina('TWULrHQWTuBbm4bSNMTEwIOG0hMqP4bSY4bSHyoA='), Skin = Candalina('zAZIfmwokPGLSNDUzMDE=')}
+Items[25].Skins[2] = {Name = Candalina('vrNyXJeCdbUbz4bSNMTEwIOG0m8qA4bSAybRzyarhtJvJquG0j8m0'), Skin = Candalina('FsHDgXYhsQmavODUzMDA=')}
+Items[25].Skins[3] = {Name = Candalina('MGlfjHbcuKvqZ4bSNMTEwIOqcsMqf4bSP4bSh'), Skin = Candalina('QSZfpUiFROYKvOTUzMDA=')}
+Items[25].Skins[4] = {Name = Candalina('gvcNIuRKEAIma4bSNMTEwIOG0ojA34bSN4bSAyoDhtItz4bSN4bSAybQ='), Skin = Candalina('oXpnzGxtKmGHqMTM1MzAw')}
+Items[25].Skins[5] = {Name = Candalina('RuCQmOkbUYNgH4bSNMTEwIOG0hOG0h8qf4bSHc+G0m8mq4bSAyp8gypnhtIfhtIBz4bSb'), Skin = Candalina('RFmnpSNMBhlZgMTQ1MzAw')}
+Items[25].Skins[6] = {Name = Candalina('XQsRXvuKHeDwz4bSNMTEwIMqP4bSH4bSAyoAg4bSP6pywIOG0m8qc4bSHIOG0m8mqyaLhtIfKgA=='), Skin = Candalina('ChFFtyGNernQNMTU1MzAw')}
+Items[25].Skins[7] = {Name = Candalina('lXEiaYGrSoqHR4bSNMTEwIHPhtJvJquG0hOG0i+G0h8qAypnhtI/htI3KmQ=='), Skin = Candalina('XyVnMmAdrSXQpMTY1MzAw'), Def = true}
+Items[25].Skins[8] = {Name = Candalina('busFHgRLvQNmE4bSNMTEwIOG0m8qc4bSH4bSNyapz'), Skin = Candalina('GzqRvrjWOgeqzMTgwMDA3')}
+
+Items[26] = {Name = Candalina('AWPXYoVIqkJJA4bSN4bSH4bSF4bSAyp8='), Skins = {}}
+
+Items[26].Skins[1] = {Name = Candalina('JFvcwNVMhnMfB4bSN4bSH4bSF4bSAyp8g4bSAc3PJqnPhtJvhtIDJtOG0hOG0hw=='), Skin = Candalina('IHlpIefXnqQJKMTAw'), FiveButt = true}
+Items[26].Skins[2] = {Name = Candalina('CaQMAHEbabWSM4bSN4bSH4bSF4bSAyp8g4bSg4bSH4bSb4bSHyoDhtIDJtCAyMDE4'), Skin = Candalina('mdwbaFAMxyEIwMTA1'), FourButt = true}
+Items[26].Skins[3] = {Name = Candalina('JbZpwfrnRUYbC4bSN4bSH4bSF4bSAyp8g4bSg4bSH4bSb4bSHyoDhtIDJtCAyMDE5'), Skin = Candalina('duLkkxQbcmEkBMTA5'), FourButt = true}
+Items[26].Skins[4] = {Name = Candalina('MytzlSDttvbPR4bSN4bSH4bSF4bSAyp8gMiDKj+G0h+G0gMqAcw=='), Skin = Candalina('AWHHwoYufSLPaMTEz'), Years = true}
+Items[26].Skins[5] = {Name = Candalina('AHgiCGzrTbify4bSN4bSH4bSF4bSAyp8g4bSE4bSP4bSN4bSY4bSH4bSbyarhtJvJquG0oOG0hw=='), Skin = Candalina('uuEMuQGxFCfVIMTE1'), FiveButt = true}
+Items[26].Skins[6] = {Name = Candalina('sxdBGkvgtaVDY4bSN4bSH4bSF4bSAyp8gybThtIfhtKEgyo/htIfhtIDKgCAyMDIw'), Skin = Candalina('VozDeVVFRMAqZMTIw'), FourButt = true}
+Items[26].Skins[7] = {Name = Candalina('MgZlQsBLwDECo4bSN4bSH4bSF4bSAyp8g4bSg4bSH4bSb4bSHyoDhtIDJtCAyMDIw'), Skin = Candalina('KCxNcYlaxzweKMTI1'), FourButt = true}
+Items[26].Skins[8] = {Name = Candalina('TOQyjrgNITqwa4bSN4bSH4bSF4bSAyp8g4bSYyoDhtI/htIrhtIfhtIThtJsg4bSiOQ=='), Skin = Candalina('SunfVIRahiXdkMTI5'), FiveButt = true}
+Items[26].Skins[9] = {Name = Candalina('EzEuvzTRESWsVypnhtIDhtIXJouG0hyDKgOG0h+G0oMmq4bSg4bSAyp8='), Skin = Candalina('IEnxsoQTCXeAuMTM0'), DragoCursed = true}
+Items[26].Skins[10] = {Name = Candalina('BdQIqNNNgnLQz4bSN4bSH4bSF4bSAyp8gybThtIfhtKEgyo/htIfhtIDKgCAyMDIx'), Skin = Candalina('hjWYVsmQmsBmlMTQw'), RevivalYear = true}
+Items[26].Skins[11] = {Name = Candalina('GFSzkAnPDuoFb4bSN4bSH4bSF4bSAyp8g4bSg4bSH4bSb4bSHyoDhtIDJtCAyMDIx'), Skin = Candalina('AsshUefAEPaPJMTQ2'), FiveButt = true}
+Items[26].Skins[12] = {Name = Candalina('bPKhnvVvHhDbk4bSN4bSH4bSF4bSAyp8gNCDKj+G0h+G0gMqAcw=='), Skin = Candalina('MBpPzdwrBownSMTUx'), Years = true}
+Items[26].Skins[13] = {Name = Candalina('JcSOxkvNQkFae4bSN4bSH4bSF4bSAyp8g4bSFyoDhtIDJouG0j8m0IMqAyapz4bSH'), Skin = Candalina('QCWnGaXFuKIyuMTUz'), DragoCursed = true}
+Items[26].Skins[14] = {Name = Candalina('BoljneJaTBXwH4bSN4bSH4bSF4bSAyp8g4bSE4bScyoBz4bSH4bSFIHPhtI/htJzKn3M='), Skin = Candalina('pqYxIkVJpTIDWMTU5'), DragoCursed = true}
+Items[26].Skins[15] = {Name = Candalina('gGljVoUslOSQh4bSN4bSH4bSF4bSAyp8g4bShyarJtOG0m+G0h8qAIOqcsOG0nMm0'), Skin = Candalina('AoEdytxPooTdeMTY1'), RevivalYear = true}
+Items[26].Skins[16] = {Name = Candalina('hinDGQSATcGsC4bSN4bSH4bSF4bSAyp8g4bSg4bSH4bSb4bSHyoDhtIDJtCAyMDIy'), Skin = Candalina('oXDCmYahEZmWSMTcx'), FiveButt = true}
+Items[26].Skins[17] = {Name = Candalina('ZjAzbZSiHQMwz4bSN4bSH4bSF4bSAyp8gNSDKj+G0h+G0gMqAcw=='), Skin = Candalina('xRMhklGIRTFQdMTc2'), Years = true}
+Items[26].Skins[18] = {Name = Candalina('uWZSfybMROotvypnhtIDhtIXJouG0hyDKn+G0h8mi4bSHybThtIVz'), Skin = Candalina('WKsFbKwIGeCTPMTc4'), RevivalYear = true}
+
+Items[27] = {Name = Candalina('xVbGOhveSmQptyaLKn+G0j+G0oOG0h3M='), Skins = {}}
+
+Items[27].Skins[1] = {Name = Candalina('xmGjqQMYfNqsxyaLKn+G0j+G0oOG0h3Mg4bSYypzhtI/htIfJtMmqeA=='), Skin = Candalina('YXTOZJWRKswftMzAwMA=='), Def = true}
+Items[27].Skins[2] = {Name = Candalina('YSryAmMUKHlkxyaLKn+G0j+G0oOG0h3Mg4bSA4bSc4bSb4bSc4bSNybQ='), Skin = Candalina('mOhVZAhykIBaqMzAwMQ=='), Def = true}
+Items[27].Skins[3] = {Name = Candalina('wTjNJlWoxWtdtyaLKn+G0j+G0oOG0h3MgyaLhtIfhtI/htI3htIfhtJvKgMmq4bSE'), Skin = Candalina('MQcQbBQwPkxGtMzAwMg=='), Def = true}
+Items[27].Skins[4] = {Name = Candalina('JHOMEPTPzHMLeyaLKn+G0j+G0oOG0h3MgyoDhtIfhtJvKgOG0j+G0oeG0gOG0oOG0hw=='), Skin = Candalina('HqRVmMEjUvvKPMzAwMw=='), Def = true}
+Items[27].Skins[5] = {Name = Candalina('LWinahGVvoUdLyaLKn+G0j+G0oOG0h3Mgyp/JquG0oMmqybTJoiDqnLDKn+G0gOG0jeG0hw=='), Skin = Candalina('lZkLgvXOkVfsWMzAwNA=='), Def = true}
+Items[27].Skins[6] = {Name = Candalina('ksVjiPZzPDxLAyaLKn+G0j+G0oOG0h3MgybThtIfhtJzKgOG0jw=='), Skin = Candalina('IxYBRlnauEiLcMzAwNQ=='), Def = true}
+Items[27].Skins[7] = {Name = Candalina('aitMrHwSsGaOayaLKn+G0j+G0oOG0h3MgypnhtJzKgMm0yarJtMmiIOqcsMmqc+G0m3M='), Skin = Candalina('xbCeFCPKkYyXbMzAwNg=='), Def = true}
+Items[27].Skins[8] = {Name = Candalina('FUVEIuJJXhYCryaLKn+G0j+G0oOG0h3Mg4bSY4bScybThtIs='), Skin = Candalina('TFBQAKVXqIsLZMzAwNw=='), Def = true}
+Items[27].Skins[9] = {Name = Candalina('YlXkvVcJzfhDPyaLKn+G0j+G0oOG0h3Mg4bSEypzhtIDhtI3htJjJquG0j8m0'), Skin = Candalina('LcbHaxSfaHSNkMzAwOA=='), Def = true}
+Items[27].Skins[10] = {Name = Candalina('AoaLeWiDfCvOAyaLKn+G0j+G0oOG0h3Mgc+G0m+G0h+G0gOG0jcqAyarhtIXhtIfKgA=='), Skin = Candalina('tmNbOFZbEJYsoMzAwOQ=='), Def = true}
+Items[27].Skins[11] = {Name = Candalina('OgrVvDFtQvalayaLKn+G0j+G0oOG0h3Mgyo/htIfhtIDKgCDhtI/qnLAg4bSbypzhtIcg4bSbyarJouG0h8qA'), Skin = Candalina('QwPhFkoEtiPuRMzAxMA=='), Def = true}
+
+Items[28] = {Name = Candalina('crCAEwrxTrKhu4bSNOQ=='), Skins = {}}
+
+Items[28].Skins[1] = {Name = Candalina('jgiinKVlMSQMy4bSNOSDKmcqf4bSc4bSHIMqZyp/htI/htI/htIU='), Skin = Candalina('iKYElcZyNDGUeNzEwMDE='), Def = true}
+Items[28].Skins[2] = {Name = Candalina('qSvHHxfAyqxKq4bSNOSDhtIDJtOG0hMmq4bSHybThtJs='), Skin = Candalina('emDPYJVoXrECnNzEwMDI='), Def = true}
+Items[28].Skins[3] = {Name = Candalina('jnmIqDynRdBnC4bSNOSBz4bSEyoDhtIDhtJvhtITKnA=='), Skin = Candalina('OmNxzksjwtBqyNzEwMDM='), Def = true}
+Items[28].Skins[4] = {Name = Candalina('ApXVavipDxLhA4bSNOSDhtJzJtMmq4bSg4bSHyoBz4bSH'), Skin = Candalina('bEYXWUNsDjBgfNzEwMDQ='), Def = true}
+Items[28].Skins[5] = {Name = Candalina('GPAhyTSnwYntu4bSNOSDhtIXKgOG0gMmi4bSPybQgyaLKn+G0gHNz'), Skin = Candalina('rfZzQTQjQJvChNzEwMDU='), Def = true}
+Items[28].Skins[6] = {Name = Candalina('pLBBEDcAHJobm4bSNOSDqnLDKgOG0j+G0ouG0h8m0'), Skin = Candalina('BkzZxjxfrZWqzOTcxMDA='), Def = true}
+Items[28].Skins[7] = {Name = Candalina('iJtyOtuibRdBO4bSNOSDhtIvhtJzhtI3htI8='), Skin = Candalina('PBbkFbvhaBxaaMTU3MTAw'), Def = true}
+
+Items[29] = {Name = Candalina('sYJoyihriOOFV4bSL4bSAyoDhtIDhtI3Kmcmq4bSb'), Skins = {}}
+
+Items[29].Skins[1] = {Name = Candalina('HiqPZwtlcSKOU4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIOG0hMqf4bSA4bSh'), Skin = Candalina('GOxNVBzhISFTgNzIwMDI='), Def = true}
+Items[29].Skins[2] = {Name = Candalina('CUUcJLuoiYheE4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIMmi4bSPyp/htIU='), Skin = Candalina('ZJwxUUHAOvYtUNzIwMDM='), Def = true}
+Items[29].Skins[3] = {Name = Candalina('QmpGmlyPpdtkL4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIOG0hcqA4bSAyaLhtI/JtCDJosqf4bSAc3M='), Skin = Candalina('PjeYRNEXYWcurNzIwMDQ='), Def = true}
+Items[29].Skins[4] = {Name = Candalina('UyhlkPJLmFVMC4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIHPhtITKgOG0gOG0m+G0hMqc'), Skin = Candalina('riXhQjOYEhtHVNzIwMDY='), Def = true}
+Items[29].Skins[5] = {Name = Candalina('ljGVPucyddIKi4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIOG0nMm0yarhtKDhtIfKgHPhtIc='), Skin = Candalina('VPZwfurpqbaHVNzIwMDc='), Def = true}
+Items[29].Skins[6] = {Name = Candalina('UWEDzFEhgLain4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIOG0hOG0j8qf4bSF6pywyp/htIDhtI3htIc='), Skin = Candalina('ThoGPvEPDbTVtOTcyMDA='), Def = true}
+Items[29].Skins[7] = {Name = Candalina('dqFbRjOBzwIln4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIOqcsMqA4bSP4bSi4bSHybQ='), Skin = Candalina('DuKGjJEgXGYMKOTcyMDE='), Def = true}
+Items[29].Skins[8] = {Name = Candalina('rdaboazqewtOp4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIHPJtOG0j+G0oeG0hOG0gOG0jeG0jw=='), Skin = Candalina('ogpgPLQLuHGLxOTcyMDM='), Def = true}
+Items[29].Skins[9] = {Name = Candalina('xcFGEQKUoXaAN4bSL4bSAyoDhtIDhtI3Kmcmq4bSbIMqP4bSH4bSAyoAg4bSP6pywIOG0m8qc4bSHIOG0m8mqyaLhtIfKgA=='), Skin = Candalina('KRWuLUSFNMwqhMTU3MjAw'), Def = true}
+
+Items[30] = {Name = Candalina('qoOLLNrNectnD4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8='), Skins = {}}
+
+Items[30].Skins[1] = {Name = Candalina('SwutqSntIGmHY4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8g4bSAybThtITJquG0h8m04bSb'), Skin = Candalina('RFDpidSxjvLGyNzMwMDI='), Def = true}
+Items[30].Skins[2] = {Name = Candalina('foDOYMWKXiPwt4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8gyoDhtIfhtIDhtJjhtIfKgA=='), Skin = Candalina('HurQEvnwWtPpHNzMwMDM='), Def = true}
+Items[30].Skins[3] = {Name = Candalina('leuMsAfWRKBXz4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8g6pywyp/htI/KgOG0gMqf'), Skin = Candalina('GfHQWNUetGasLNzMwMDQ='), Def = true}
+Items[30].Skins[4] = {Name = Candalina('LjjcFEZiDSwLl4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8gyp/htJx44bScyoDKjw=='), Skin = Candalina('ctCedoSuXCnwzNzMwMDY='), Def = true}
+Items[30].Skins[5] = {Name = Candalina('FTOefcihNYhJq4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8g6pywyoDhtI/htKLhtIfJtA=='), Skin = Candalina('uInbkIobYyfBPOTczMDA='), Def = true}
+Items[30].Skins[6] = {Name = Candalina('HTRhvGNzVIDZR4bSK4bSL4bSP4bSN4bSN4bSAybThtIXhtI8g4bSA4bScyaLhtJxz4bSbyarhtJvhtIc='), Skin = Candalina('TAwAQXyvTAsibMTU3MzAw'), Def = true}
+
+Items[31] = {Name = Candalina('ZbPluAVXzACbGypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8='), Skins = {}}
+
+Items[31].Skins[1] = {Name = Candalina('HTQkKvqNQqbphypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8gyp/htIfJouG0gOG0hMqP'), Skin = Candalina('zkexNOlwKVbuSNDc1MDI='), Def = true}
+Items[31].Skins[2] = {Name = Candalina('whlTHlBDMWvadypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8g4bSFyoDhtIDJouG0j8m0IMmiyp/htIBzcw=='), Skin = Candalina('ARyrbllwwVPFGNDc1MDM='), Def = true}
+Items[31].Skins[3] = {Name = Candalina('skMZrbJfEqnZEypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8gypnKn+G0gOG0hOG0iyDhtKHJquG0heG0j+G0oQ=='), Skin = Candalina('KpgavbBcQKKZGNDc1MDQ='), Def = true}
+Items[31].Skins[4] = {Name = Candalina('zpsFVIQldtnCsypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8gc+G0m+G0gMqA6pyw4bSAyp/Knw=='), Skin = Candalina('DpTmKvHBAWWZpNDc1MDU='), Def = true}
+Items[31].Skins[5] = {Name = Candalina('tCikrWBhQHpHKypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8g6pywyarKgOG0hyBz4bSb4bSPyoDhtI0='), Skin = Candalina('uQkNERuQFQdIuNTc1MDE='), Def = true}
+Items[31].Skins[6] = {Name = Candalina('ADULveUyiRnJWypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8g4bSE4bSPyp/htIXqnLDKn+G0gOG0jeG0hw=='), Skin = Candalina('HFIIWEaqlREzAOTc1MDA='), Def = true}
+Items[31].Skins[7] = {Name = Candalina('bllFIdiDDXArNypnhtJzhtJvhtJvhtIfKgOqcsMqfyo8g4bSL4bSc4bSN4bSP'), Skin = Candalina('kpwJUfEPGWFRPMTU3NTAw'), Def = true}
+
+Items[32] = {Name = Candalina('GOxOOnsTnakUK6pywyp/JquG0mOG0i8m0yarqnLDhtIc='), Skins = {}}
+
+Items[32].Skins[1] = {Name = Candalina('KRkJxhmGePEPk6pywyp/JquG0mOG0i8m0yarqnLDhtIcg4bSFyoDhtIDJouG0j8m0IMmiyp/htIBzcw=='), Skin = Candalina('QEjZnCZIAZPUsNjc3MDE='), Def = true}
+Items[32].Skins[2] = {Name = Candalina('RqZikvvYdixGz6pywyp/JquG0mOG0i8m0yarqnLDhtIcg4bSAyoDhtIThtJvJquG0hA=='), Skin = Candalina('zzLlAlVMIhjoJNjc3MDI='), Def = true}
+Items[32].Skins[3] = {Name = Candalina('OmNxJrHhXCMgr6pywyp/JquG0mOG0i8m0yarqnLDhtIcgc+G0m+G0j8m04bSHIOG0hOG0j8qf4bSF'), Skin = Candalina('sXmVBlWxoUFZZNjc3MDM='), Def = true}
+Items[32].Skins[4] = {Name = Candalina('iGcRhjPhwsOuD6pywyp/JquG0mOG0i8m0yarqnLDhtIcg4bSg4bSPyoDhtJvhtId4'), Skin = Candalina('yQebhboUCdXwnNjc3MDQ='), Def = true}
+Items[32].Skins[5] = {Name = Candalina('LEyspDpSYlXiM6pywyp/JquG0mOG0i8m0yarqnLDhtIcg6pywyoDhtI/htKLhtIfJtA=='), Skin = Candalina('BrvTrKgSbZwIWNjc3MDU='), Def = true}
+Items[32].Skins[5] = {Name = Candalina('pnZjMWqyHtNfS6pywyp/JquG0mOG0i8m0yarqnLDhtIcgypzhtI/Kn8mq4bSF4bSAyo8g6pywyoDhtI9z4bSb'), Skin = Candalina('nnhcDQCzQBFcgMTU3NzAw'), Def = true}
+
+Items[33] = {Name = Candalina('NZrtYjgfrGeWR4bSL4bScybThtIDJqg=='), Skins = {}}
+
+Items[33].Skins[1] = {Name = Candalina('jPFNdZzwOxERQ4bSL4bScybThtIDJqiDKmeG0j8m04bSH'), Skin = Candalina('bchFpBtKPSWYWNzc4MTM='), Def = true}
+Items[33].Skins[2] = {Name = Candalina('bOOuZUioywWom4bSL4bScybThtIDJqiDKn+G0nHjhtJzKgMqP'), Skin = Candalina('tijGnZTgEqMeeNzc4MTQ='), Def = true}
+Items[33].Skins[3] = {Name = Candalina('blygqjMnoMqtx4bSL4bScybThtIDJqiDhtJjhtI/JqnPhtI/JtA=='), Skin = Candalina('gqJLdLdxhOYDTNzc4MTU='), Def = true}
+Items[33].Skins[4] = {Name = Candalina('pxQXdzWgwqmxI4bSL4bScybThtIDJqiDKgOG0gOG0hcmq4bSA4bSbyarhtI/JtA=='), Skin = Candalina('xpywXhIGdwLvCNzc4MTY='), Def = true}
+Items[33].Skins[5] = {Name = Candalina('bEfnTYzZYofql4bSL4bScybThtIDJqiDKgOG0h+G0gOG0mOG0h8qA'), Skin = Candalina('dpjRltAqzeBKNNzc4MTc='), Def = true}
+Items[33].Skins[6] = {Name = Candalina('GmjoDdaOcVGEg4bSL4bScybThtIDJqiDhtIThtI/Kn+G0heqcsMqf4bSA4bSN4bSH'), Skin = Candalina('AMjoTWWVdBzFMOTc4MDA='), Def = true}
+Items[33].Skins[7] = {Name = Candalina('KUQZlYrYePrrN4bSL4bScybThtIDJqiBzybThtI/htKHhtIThtIDhtI3htI8='), Skin = Candalina('gYJNQTpVnYdotOTc4MDE='), Def = true}
+Items[33].Skins[8] = {Name = Candalina('xwBPlIwIjHzQn4bSL4bScybThtIDJqiDhtIDhtJzJouG0nHPhtJvJquG0m+G0hw=='), Skin = Candalina('lOhrYrQijUNFwMTU3ODAw'), Def = true}
+
+Items[34] = {Name = Candalina('IzaZWZnFjpPyJc+G0hOG0j8qA4bSYyarhtI/JtA=='), Skins = {}}
+
+Items[34].Skins[1] = {Name = Candalina('nZnYOHoulCBuec+G0hOG0j8qA4bSYyarhtI/JtCDhtKDhtIfJqsqf'), Skin = Candalina('RZAUzKQYTAlKAODc5MTk='), Def = true}
+Items[34].Skins[2] = {Name = Candalina('dChVKKUKWqOuAc+G0hOG0j8qA4bSYyarhtI/JtCBz4bSH4bSAIOG0h8qP4bSH'), Skin = Candalina('LpyNIPqkcgkjuODc5MjA='), Def = true}
+Items[34].Skins[3] = {Name = Candalina('pSFzCLUdfbbqEc+G0hOG0j8qA4bSYyarhtI/JtCBz4bSEyoDhtIDhtJvhtITKnA=='), Skin = Candalina('QxJEvOkJzSQUdODc5MjE='), Def = true}
+Items[34].Skins[4] = {Name = Candalina('ldGDfEPqeMxckc+G0hOG0j8qA4bSYyarhtI/JtCBz4bSb4bSAyoDqnLDhtIDKn8qf'), Skin = Candalina('jhLbsqfdVGhDRODc5MjI='), Def = true}
+Items[34].Skins[5] = {Name = Candalina('avUehHrYqxnGGc+G0hOG0j8qA4bSYyarhtI/JtCDhtIThtI/Kn+G0hSDqnLDKn+G0gOG0jeG0hw=='), Skin = Candalina('QSnIVBNIAslxvOTc5MDA='), Def = true}
+Items[34].Skins[6] = {Name = Candalina('BbFzsimPqPsMVc+G0hOG0j8qA4bSYyarhtI/JtCDKnOG0j8qfyarhtIXhtIDKjyDqnLDKgOG0j3PhtJs='), Skin = Candalina('OlBblZCBEERGFMTU3OTAw'), Def = true}
+
+Items[35] = {Name = Candalina('JVtGuzmEtqViR4bSb4bSAybThtJvhtI8='), Skins = {}}
+
+Items[35].Skins[1] = {Name = Candalina('UDwqJqtEQBOKN4bSb4bSAybThtJvhtI8g4bSF4bSP4bSK4bSP'), Skin = Candalina('guXByNqgIVGyJMTM4MDAw'), Def = true}
+Items[35].Skins[2] = {Name = Candalina('UiOgRVpDDcfZj4bSb4bSAybThtJvhtI8g4bSN4bSA6pywyarhtIA='), Skin = Candalina('MPOuDlkmzNTirMTM4MDAx'), Def = true}
+Items[35].Skins[3] = {Name = Candalina('MEmJqqNDjDVKc4bSb4bSAybThtJvhtI8g4bSN4bSAyp/htIDhtITKnMmq4bSb4bSH'), Skin = Candalina('BzrFfDaBsnEUfMTM4MDAy'), Def = true}
+Items[35].Skins[4] = {Name = Candalina('XMTNOuFFPHYLg4bSb4bSAybThtJvhtI8g4bSY4bSH4bSAyoDKnyDhtIDKmcqPc3M='), Skin = Candalina('LcrbweAohxXYvMTM4MDAz'), Def = true}
+Items[35].Skins[5] = {Name = Candalina('RwNxumQoCvZgK4bSb4bSAybThtJvhtI8g4bSbyoDhtIDJtHPJqnPhtJvhtI/KgA=='), Skin = Candalina('feyVQXuBjcyboMTM4MDA0'), Def = true}
+Items[35].Skins[6] = {Name = Candalina('kEDrWSFEHdneM4bSb4bSAybThtJvhtI8g6pywyp/htI/htKE='), Skin = Candalina('RaQqyalNenlwsMTM4MDA1'), Def = true}
+Items[35].Skins[7] = {Name = Candalina('VtcSNDZdmjosu4bSb4bSAybThtJvhtI8gyoDhtIdz4bSbyp/htIdzcw=='), Skin = Candalina('SpAlPweHGgHEQMTQ4MDAw'), Def = true}
+Items[35].Skins[8] = {Name = Candalina('SacIorPbAnrwP4bSb4bSAybThtJvhtI8gyo/htIfhtIDKgCDhtI/qnLAg4bSbypzhtIcg4bSbyarJouG0h8qA'), Skin = Candalina('BQdjSvKFvxtOPMTU4MDAw'), Def = true}
+
+Items[36] = {Name = Candalina('BcgaJjCCynqEL4bSF4bSAyaLJouG0h8qA'), Skins = {}}
+
+Items[36].Skins[1] = {Name = Candalina('YtsqVpyeEiKqI4bSF4bSAyaLJouG0h8qAIOG0gOG0hMmq4bSF'), Skin = Candalina('hHUBtSbmidPKsMTcwMDIx'), Def = true}
+Items[36].Skins[2] = {Name = Candalina('AWxKoxXzprkjt4bSF4bSAyaLJouG0h8qAIOG0heG0h+G0jeG0j8m0yarhtIQgc+G0m+G0h+G0h8qf'), Skin = Candalina('kFTFmOYfoqaWxMTcwMDIy'), Def = true}
+Items[36].Skins[3] = {Name = Candalina('HMzCmUxpqIkPF4bSF4bSAyaLJouG0h8qAIMmiyoDhtJzJtMmi4bSH'), Skin = Candalina('rkUSNpkZQTRoTMTcwMDIz'), Def = true}
+Items[36].Skins[4] = {Name = Candalina('XainZPRCuHXdz4bSF4bSAyaLJouG0h8qAIOG0jeG0j8qf4bSb4bSHybQ='), Skin = Candalina('ZGPtlktRSXxtAMTcwMDI0'), Def = true}
+Items[36].Skins[5] = {Name = Candalina('sUQXRsVvrEzXi4bSF4bSAyaLJouG0h8qAIMqc4bSAyoDhtI3htI/JtMqP'), Skin = Candalina('niErvAmFVNqfIMTgwMDAw'), Def = true}
+Items[36].Skins[6] = {Name = Candalina('ebmAUmelILVvG4bSF4bSAyaLJouG0h8qAIOG0iuG0gOG0oXM='), Skin = Candalina('wlGnHgEOUdRceMTgwMDI4'), Def = true}
+
+Items[37] = {Name = Candalina('yWFXseCuAucaW4bSL4bSc4bSLyoDJqg=='), Skins = {}}
+
+Items[37].Skins[1] = {Name = Candalina('elMcIqqOZjZpv4bSL4bSc4bSLyoDJqiDhtIDKgOG0h3M='), Skin = Candalina('zRbeGNdlxWejZMTgwMDIy'), Def = true}
+Items[37].Skins[2] = {Name = Candalina('MLkpDWbPwkAuk4bSL4bSc4bSLyoDJqiDhtJjKgOG0j+G0mMqc4bSH4bSb'), Skin = Candalina('dznAyCvIvHBKxMTgwMDIz'), Def = true}
+Items[37].Skins[3] = {Name = Candalina('INvEGwClfobGi4bSL4bSc4bSLyoDJqiDJouG0j8qf4bSFIOG0m8qAyarhtI0='), Skin = Candalina('DmTYToBYUPgbaMTgwMDI0'), Def = true}
+Items[37].Skins[4] = {Name = Candalina('SoGghVdwzsgOb4bSL4bSc4bSLyoDJqiDhtIDJtOG0m8mqx6vhtJzhtIcgc8mqyp/htKDhtIfKgA=='), Skin = Candalina('OuroSIfhrudakMTgwMDI1'), Def = true}
+Items[37].Skins[5] = {Name = Candalina('UTZjoWLJlcuCp4bSL4bSc4bSLyoDJqiDhtIThtI/JtHPhtJvhtIfKn8qf4bSA4bSbyarhtI/JtHM='), Skin = Candalina('qUBAbLgQLUwwMMTgwMDI2'), Def = true}
+Items[37].Skins[5] = {Name = Candalina('zjXHAdwQEpueY4bSL4bSc4bSLyoDJqiDhtIXJquG0oMmqybThtIcg4bSY4bSP4bSh4bSHyoA='), Skin = Candalina('DoKqgpQdINlmKMTgwMDI3'), Def = true}

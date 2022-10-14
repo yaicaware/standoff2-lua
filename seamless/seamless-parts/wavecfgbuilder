@@ -1,0 +1,451 @@
+gg.setVisible(true)
+
+R = "『⛈️』"
+TitleAll = R.."ᴄғɢ ʙᴜɪʟᴅᴇʀ | ᴀᴜᴛᴏ"
+
+function CFGMenu()
+CheckSkins = io.open(AllFile)
+if CheckSkins == nil then gg.saveList("/storage/emulated/0/Notes/Skins.lua") io.open(AllFile, "w"):write(Defolt):close() end
+CFGCh = gg.choice({
+R.."ᴀᴅᴅ sᴋɪɴs",
+R.."ʀᴇᴡʀɪᴛᴇ ᴛᴏ ꜰɪʟᴇ",
+R.."ʟᴏᴀᴅ ꜰɪʟᴇ",
+R.."ᴄʟᴇᴀʀ ᴄᴏɴꜰɪɢ",
+R.."ᴇxɪᴛ"..dadissue
+}, nil, TitleAll)
+if CFGCh == nil then else
+if CFGCh == 1 then AddSkin() end
+if CFGCh == 2 then ChangeCat() end
+if CFGCh == 3 then if ViewSkins == true then print("sᴋɪɴ ᴀᴅᴅᴇᴅ, ᴘʟᴇᴀsᴇ ʀᴇsᴛᴀʀᴛ sᴄʀɪᴘᴛ") cfgdone = true gg.setVisible(true) os.exit() end loadfile(AllFile)() gg.setVisible(true) os.exit() end
+if CFGCh == 4 then ClearSkins() end
+if CFGCh == 5 then os.exit() end
+end
+end
+
+function ChangeCat()
+Checker()
+NewCat = gg.prompt({"Выберите файл:"}, {"/storage/emulated/0/" .. package.path}, {"file"})
+if NewCat == nil or NewCat == "" then return CFGMenu() end
+io.open(NewCat[1], "w+"):write(SkinCheck):close()
+gg.toast(R.."ʀᴇᴡʀɪᴛᴇᴅ")
+CFGMenu() return
+end
+
+function ClearSkins()
+io.open(AllFile, "w"):write(Defolt):close()
+EditedSkins = {"ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ"}
+gg.toast(R.."ᴄʟᴇᴀʀᴇᴅ")
+CFGMenu() return
+end
+
+function AddSkin()
+ViewSkins = true
+loadfile(AllFile)()
+Skin = gg.multiChoice({
+R.."ᴜᴍᴘ ᴘɪxᴇʟ\n"..EditedSkins[1],
+R.."ᴜᴍᴘ ɪʀᴏɴ\n"..EditedSkins[2],
+R.."ᴜᴍᴘ ᴠ2\n"..EditedSkins[3],
+R.."ᴜᴍᴘ ᴅʀᴇᴀᴍ\n"..EditedSkins[4],
+R.."ᴅᴇsᴇʀᴛ ᴛʜᴜɴᴅᴇʀ\n"..EditedSkins[5],
+R.."ᴅᴇsᴇʀᴛ ʙʟᴏᴏᴅ\n"..EditedSkins[6],
+R.."ᴅᴇsᴇʀᴛ ᴡɪɴɴᴇʀ\n"..EditedSkins[7],
+R.."ᴅᴇᴀɢʟᴇ ɢʟᴏʀʏ\n"..EditedSkins[8],
+R.."ᴜsᴘ ʟɪɴᴇ\n"..EditedSkins[9],
+R.."ᴜsᴘ ʀᴀʏ\n"..EditedSkins[10],
+R.."ᴜsᴘ ꜰɪᴇɴᴅ\n"..EditedSkins[11],
+R.."ᴍ4 ᴛɪɢᴇʀ\n"..EditedSkins[12],
+R.."ᴀᴋʀ ᴛɪɢᴇʀ\n"..EditedSkins[13],
+R.."ᴀᴋʀ ᴡᴏʀᴍ\n"..EditedSkins[14],
+R.."ᴀᴋʀ sᴄᴀʟᴇ\n"..EditedSkins[15],
+R.."ɢ22 ᴘᴀᴛᴛᴇʀɴ\n"..EditedSkins[16],
+R.."ɢ22 ᴄᴀᴍᴏ\n"..EditedSkins[17],
+R.."ɢ22 ʏᴇʟʟᴏᴡ\n"..EditedSkins[18],
+R.."ɢ22 ɪɴꜰᴇʀɴᴏ\n"..EditedSkins[19],
+R.."ɢ22 sᴄᴀʟᴇ\n"..EditedSkins[20],
+R.."ᴘ90 ᴊᴜɴɢʟᴇ\n"..EditedSkins[21],
+R.."ᴘ90 ꜰɪssᴜʀᴇ\n"..EditedSkins[22],
+R.."ᴘ90 ᴘɪʟᴏᴛ\n"..EditedSkins[23],
+R.."ᴘ90 ʀᴀᴅɪᴀᴛɪᴏɴ\n"..EditedSkins[24],
+R.."sᴍ1014 ɴᴏʀʜᴛᴇʀɴ\n"..EditedSkins[25],
+R.."sᴍ1014 ʙʀᴀɴᴄʜᴇs\n"..EditedSkins[26],
+R.."sᴍ1014 ʙʟᴀsᴛᴇʀ\n"..EditedSkins[27],
+R.."sᴍ1014 ǫᴜᴀᴋᴇ\n"..EditedSkins[28],
+R.."sᴍ1014 ᴛʀᴏᴘɪᴄ\n"..EditedSkins[29],
+R.."sᴍ1014 ꜰᴀᴄᴇᴛ\n"..EditedSkins[30],
+R.."sᴍ1014 ʙᴏʟᴛ\n"..EditedSkins[31],
+R.."ꜰɴꜰᴀʟ ᴀǫᴜᴀᴍᴀʀɪɴᴇ\n"..EditedSkins[32],
+R.."ꜰɴꜰᴀʟ ᴀᴄɪᴅ ᴄᴀʀʙᴏɴ\n"..EditedSkins[33],
+R.."ᴛᴇᴄ9 ᴅᴀʟᴍᴀᴛɪᴀɴ\n"..EditedSkins[34],
+R.."ᴛᴇᴄ9 ᴀᴜʀᴏʀᴀ\n"..EditedSkins[35],
+R.."ᴘ350 sᴀᴠᴀɴɴᴀʜ\n"..EditedSkins[36],
+R.."ᴘ350 sᴋᴜʟʟ\n"..EditedSkins[37],
+R.."ᴘ350 ɴᴀɴᴏ\n"..EditedSkins[38],
+R.."ꜰᴀʙᴍ ᴡᴀsᴛᴇ\n"..EditedSkins[39],
+R.."ꜰᴀʙᴍ ᴄᴜʀsᴇᴅ ꜰɪʀᴇ\n"..EditedSkins[40],
+R.."ᴍᴘ7 ᴛʜᴏʀɴ\n"..EditedSkins[41],
+R.."ᴍᴘ7 ᴅᴀᴡɴ\n"..EditedSkins[42],
+R.."ᴀᴋʀ12 ᴀᴜʀᴏʀᴀ\n"..EditedSkins[43],
+R.."ᴀᴋʀ12 ᴍᴇᴄʜᴀɴɪᴄ\n"..EditedSkins[44],
+R.."ᴀᴋʀ12 sᴘʀɪɴɢ\n"..EditedSkins[45],
+R.."ᴀᴋʀ12 ʀᴏᴀʀ\n"..EditedSkins[46],
+R.."ᴍ40 ᴘʀᴏ\n"..EditedSkins[47],
+R.."ᴍ40 ᴄᴜʀsᴇᴅ ꜰɪʀᴇ\n"..EditedSkins[48],
+R.."ᴍ16 ꜰᴀᴄᴇᴛ\n"..EditedSkins[49],
+R.."ᴍ16 ᴄᴀᴍᴏᴜꜰʟᴀɢᴇ\n"..EditedSkins[50],
+R.."ᴀᴡᴍ ᴇʟᴇᴠᴀᴛɪᴏɴ\n"..EditedSkins[51],
+R.."ꜰᴀᴍᴀs ɢᴜɴsᴍᴏᴋᴇ\n"..EditedSkins[52],
+R.."ꜰɪᴠᴇsᴇᴠᴇɴ ᴢᴀᴘ\n"..EditedSkins[53],
+R.."ᴍ60 ᴛᴜʀʀᴇᴛ\n"..EditedSkins[54],
+R.."ᴍ110 ᴘᴜʀsᴜɪᴛ\n"..EditedSkins[55],
+R.."ᴍᴘ5 ᴅᴜsᴋ\n"..EditedSkins[56],
+R.."ʙᴀᴄᴋ"
+}, nil, TitleAll)
+if Skin == nil then else
+if Skin[1] == true then NewSkin = 1 SkinName = "ᴜᴍᴘ ᴘɪxᴇʟ -> " choose_weapon() end
+if Skin[2] == true then NewSkin = 2 SkinName = "ᴜᴍᴘ ɪʀᴏɴ -> " choose_weapon() end
+if Skin[3] == true then NewSkin = 3 SkinName = "ᴜᴍᴘ ᴘɪxᴇʟ ᴠ2 -> " choose_weapon() end
+if Skin[4] == true then NewSkin = 4 SkinName = "ᴜᴍᴘ ᴘᴇᴀᴄᴇꜰᴜʟ ᴅʀᴇᴀᴍ -> " choose_weapon() end
+if Skin[5] == true then NewSkin = 5 SkinName = "ᴅᴇᴀɢʟᴇ ᴛʜᴜɴᴅᴇʀ -> " choose_weapon() end
+if Skin[6] == true then NewSkin = 6 SkinName = "ᴅᴇᴀɢʟᴇ ʙʟᴏᴏᴅ -> " choose_weapon() end
+if Skin[7] == true then NewSkin = 7 SkinName = "ᴅᴇᴀɢʟᴇ ᴡɪɴɴᴇʀ -> " choose_weapon() end
+if Skin[8] == true then NewSkin = 8 SkinName = "ᴅᴇᴀɢʟᴇ ɢʟᴏʀʏ -> " choose_weapon() end
+if Skin[9] == true then NewSkin = 9 SkinName = "ᴜsᴘ ʟɪɴᴇ -> " choose_weapon() end
+if Skin[10] == true then NewSkin = 10 SkinName = "ᴜsᴘ ʀᴀʏ -> " choose_weapon() end
+if Skin[11] == true then NewSkin = 11 SkinName = "ᴜsᴘ ꜰɪᴇɴᴅ -> " choose_weapon() end
+if Skin[12] == true then NewSkin = 12 SkinName = "ᴍ4 ᴛɪɢᴇʀ -> " choose_weapon() end
+if Skin[13] == true then NewSkin = 13 SkinName = "ᴀᴋʀ ᴛɪɢᴇʀ -> " choose_weapon() end
+if Skin[14] == true then NewSkin = 14 SkinName = "ᴀᴋʀ ᴡᴏʀᴍ -> " choose_weapon() end
+if Skin[15] == true then NewSkin = 15 SkinName = "ᴀᴋʀ sᴄᴀʟᴇ -> " choose_weapon() end
+if Skin[16] == true then NewSkin = 16 SkinName = "ɢ22 ᴘᴀᴛᴛᴇʀɴ -> " choose_weapon() end
+if Skin[17] == true then NewSkin = 17 SkinName = "ɢ22 ᴅᴇsᴇʀᴛ ᴄᴀᴍᴏ -> " choose_weapon() end
+if Skin[18] == true then NewSkin = 18 SkinName = "ɢ22 ʏᴇʟʟᴏᴡ ʟɪɴᴇ -> " choose_weapon() end
+if Skin[19] == true then NewSkin = 19 SkinName = "ɢ22 ɪɴꜰᴇʀɴᴏ" choose_weapon() end
+if Skin[20] == true then NewSkin = 20 SkinName = "ɢ22 sᴄᴀʟᴇ -> " choose_weapon() end
+if Skin[21] == true then NewSkin = 21 SkinName = "ᴘ90 ᴊᴜɴɢʟᴇ -> " choose_weapon() end
+if Skin[22] == true then NewSkin = 22 SkinName = "ᴘ90 ꜰɪssᴜʀᴇ -> " choose_weapon() end
+if Skin[23] == true then NewSkin = 23 SkinName = "ᴘ90 ᴘɪʟᴏᴛ -> " choose_weapon() end
+if Skin[24] == true then NewSkin = 24 SkinName = "ᴘ90 ʀᴀᴅɪᴀᴛɪᴏɴ -> " choose_weapon() end
+if Skin[25] == true then NewSkin = 25 SkinName = "sᴍ1014 ɴᴏʀʜᴛᴇʀɴ -> " choose_weapon() end
+if Skin[26] == true then NewSkin = 26 SkinName = "sᴍ1014 ʙʀᴀɴᴄʜᴇs -> " choose_weapon() end
+if Skin[27] == true then NewSkin = 27 SkinName = "sᴍ1014 ʙʟᴀsᴛᴇʀ -> " choose_weapon() end
+if Skin[28] == true then NewSkin = 28 SkinName = "sᴍ1014 ǫᴜᴀᴋᴇ -> " choose_weapon() end
+if Skin[29] == true then NewSkin = 29 SkinName = "sᴍ1014 ᴛʀᴏᴘɪᴄ -> " choose_weapon() end
+if Skin[30] == true then NewSkin = 30 SkinName = "sᴍ1014 ꜰᴀᴄᴇᴛ -> " choose_weapon() end
+if Skin[31] == true then NewSkin = 31 SkinName = "sᴍ1014 ʙᴏʟᴛ -> " choose_weapon() end
+if Skin[32] == true then NewSkin = 32 SkinName = "ꜰɴꜰᴀʟ ᴀǫᴜᴀᴍᴀʀɪɴᴇ -> " choose_weapon() end
+if Skin[33] == true then NewSkin = 33 SkinName = "ꜰɴꜰᴀʟ ᴀᴄɪᴅ ᴄᴀʀʙᴏɴ -> " choose_weapon() end
+if Skin[34] == true then NewSkin = 34 SkinName = "ᴛᴇᴄ9 ᴅᴀʟᴍᴀᴛɪᴀɴ -> " choose_weapon() end
+if Skin[35] == true then NewSkin = 35 SkinName = "ᴛᴇᴄ9 ᴀᴜʀᴏʀᴀ -> " choose_weapon() end
+if Skin[36] == true then NewSkin = 36 SkinName = "ᴘ350 sᴀᴠᴀɴɴᴀʜ -> " choose_weapon() end
+if Skin[37] == true then NewSkin = 37 SkinName = "ᴘ350 sᴋᴜʟʟ -> " choose_weapon() end
+if Skin[38] == true then NewSkin = 38 SkinName = "ᴘ350 ɴᴀɴᴏ -> " choose_weapon() end
+if Skin[39] == true then NewSkin = 39 SkinName = "ꜰᴀʙᴍ ᴡᴀsᴛᴇ -> " choose_weapon() end
+if Skin[40] == true then NewSkin = 40 SkinName = "ꜰᴀʙᴍ ᴄᴜʀsᴇᴅ ꜰɪʀᴇ -> " choose_weapon() end
+if Skin[41] == true then NewSkin = 41 SkinName = "ᴍᴘ7 ᴛʜᴏʀɴ -> " choose_weapon() end
+if Skin[42] == true then NewSkin = 42 SkinName = "ᴍᴘ7 ᴅᴀᴡɴ -> " choose_weapon() end
+if Skin[43] == true then NewSkin = 43 SkinName = "ᴀᴋʀ12 ᴀᴜʀᴏʀᴀ -> " choose_weapon() end
+if Skin[44] == true then NewSkin = 44 SkinName = "ᴀᴋʀ12 ᴍᴇᴄʜᴀɴɪᴄ -> " choose_weapon() end
+if Skin[45] == true then NewSkin = 45 SkinName = "ᴀᴋʀ12 sᴘʀɪɴɢ -> " choose_weapon() end
+if Skin[46] == true then NewSkin = 46 SkinName = "ᴀᴋʀ12 ʀᴏᴀʀ -> " choose_weapon() end
+if Skin[47] == true then NewSkin = 47 SkinName = "ᴍ40 ᴘʀᴏ -> " choose_weapon() end
+if Skin[48] == true then NewSkin = 48 SkinName = "ᴍ40 ᴄᴜʀsᴇᴅ ꜰɪʀᴇ -> " choose_weapon() end
+if Skin[49] == true then NewSkin = 49 SkinName = "ᴍ16 ꜰᴀᴄᴇᴛ -> " choose_weapon() end
+if Skin[50] == true then NewSkin = 50 SkinName = "ᴍ16 ᴄᴀᴍᴏᴜꜰʟᴀɢᴇ -> " choose_weapon() end
+if Skin[51] == true then NewSkin = 51 SkinName = "ᴀᴡᴍ ᴇʟᴇᴠᴀᴛɪᴏɴ -> " choose_weapon() end
+if Skin[52] == true then NewSkin = 52 SkinName = "ꜰᴀᴍᴀs ɢᴜɴsᴍᴏᴋᴇ -> " choose_weapon() end
+if Skin[53] == true then NewSkin = 53 SkinName = "ꜰɪᴠᴇsᴇᴠᴇɴ ᴢᴀᴘ -> " choose_weapon() end
+if Skin[54] == true then NewSkin = 54 SkinName = "ᴍ60 ᴛᴜʀʀᴇᴛ -> " choose_weapon() end
+if Skin[55] == true then NewSkin = 55 SkinName = "ᴍ110 ᴘᴜʀsᴜɪᴛ -> " choose_weapon() end
+if Skin[56] == true then NewSkin = 56 SkinName = "ᴍᴘ5 ᴅᴜsᴋ -> " choose_weapon() end
+if Skin[57] == true then CFGMenu() end
+end
+end
+
+function Stattrack()
+SkinStattrack = gg.choice({"sᴛᴀᴛᴛʀᴀᴄᴋ","ᴅᴇғᴀᴜʟᴛ"},nil,TitleAll)
+if SkinStattrack == nil then choose_skin() else
+if SkinStattrack == 1 then Change = Change + 1000000 Statt = true Stat=" sᴛᴀᴛᴛʀᴀᴄᴋ" Edit() end
+if SkinStattrack == 2 then Edit() end
+end
+end
+
+function Years()
+YearPass = gg.choice({"sɪʟᴠᴇʀ","ɢᴏʟᴅ"},nil,TitleAll)
+if YearPass == nil then choose_skin() else
+if YearPass == 1 then MedalLegend=" sɪʟᴠᴇʀ" Edit() end
+if YearPass == 2 then Change = Change + 1 MedalLegend=" ɢᴏʟᴅ" Edit() end
+end
+end
+
+function FourButt()
+VeterPass = gg.choice({"ʙʀᴏɴᴢᴇ","sɪʟᴠᴇʀ","ɢᴏʟᴅ","ᴘʟᴀᴛɪɴᴜᴍ"},nil,TitleAll)
+if VeterPass == nil then choose_skin() else
+if VeterPass == 1 then MedalLegend=" ʙʀᴏɴᴢᴇ" Edit() end
+if VeterPass == 2 then Change = Change + 1 MedalLegend=" sɪʟᴠᴇʀ" Edit() end
+if VeterPass == 3 then Change = Change + 2 MedalLegend=" ɢᴏʟᴅ" Edit() end
+if VeterPass == 4 then Change = Change + 3 MedalLegend=" ᴘʟᴀᴛɪɴᴜᴍ" Edit() end
+end
+end
+
+function FiveButt()
+Pass5 = gg.choice({"ʙʀᴏɴᴢᴇ","sɪʟᴠᴇʀ","ɢᴏʟᴅ","ᴘʟᴀᴛɪɴᴜᴍ","ʙʀɪʟʟɪᴀɴᴛ"},nil,TitleAll)
+if Pass5 == nil then choose_skin() else
+if Pass5 == 1 then MedalLegend=" ʙʀᴏɴᴢᴇ" Edit() end
+if Pass5 == 2 then Change = Change + 1 MedalLegend=" sɪʟᴠᴇʀ" Edit() end
+if Pass5 == 3 then Change = Change + 2 MedalLegend=" ɢᴏʟᴅ" Edit() end
+if Pass5 == 4 then Change = Change + 3 MedalLegend=" ᴘʟᴀᴛɪɴᴜᴍ" Edit() end
+if Pass5 == 5 then Change = Change + 4 MedalLegend=" ʙʀɪʟʟɪᴀɴᴛ" Edit() end
+end
+end
+
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function Candalina(data)
+m=_ENV["string"]["sub"](data, "0", "13")
+data=data:gsub(m,'')
+
+data = _ENV["string"]["gsub"](data, '[^'..b..'=]', '')
+return (data:gsub('.', function(x)
+if (x == '=') then return '' end
+local r,f='',(b:find(x)-1)
+for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0')
+end return r;
+end):gsub('%d%d%d?%d?%d?%d?%d?%d?',
+function(x) if (#x ~= "8") then return '' end
+local c="0" for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or "0") end return _ENV["string"]["char"](c) end)) end
+
+function DragoCursed()
+PPass6 = gg.choice({"ʙʀᴏɴᴢᴇ","sɪʟᴠᴇʀ","ɢᴏʟᴅ","ᴇʟɪᴛᴇ ɢᴏʟᴅ","ᴘʟᴀᴛɪɴᴜᴍ","ʀᴜʙɪɴ"},nil,TitleAll)
+if PPass6 == nil then choose_skin() else
+if PPass6 == 1 then MedalLegend=" ʙʀᴏɴᴢᴇ" Edit() end
+if PPass6 == 2 then Change = Change + 1 MedalLegend=" sɪʟᴠᴇʀ" Edit() end
+if PPass6 == 3 then Change = Change + 2 MedalLegend=" ɢᴏʟᴅ" Edit() end
+if PPass6 == 4 then Change = Change + 3 MedalLegend=" ᴇʟɪᴛᴇ ɢᴏʟᴅ" Edit() end
+if PPass6 == 5 then Change = Change + 4 MedalLegend=" ᴘʟᴀᴛɪɴᴜᴍ" Edit() end
+if PPass6 == 6 then Change = Change + 5 MedalLegend=" ʀᴜʙɪɴ" Edit() end
+end
+end
+
+function RevivalYear()
+Pass6 = gg.choice({"ʙʀᴏɴᴢᴇ","sɪʟᴠᴇʀ","ɢᴏʟᴅ","ᴇʟɪᴛᴇ ɢᴏʟᴅ","ᴘʟᴀᴛɪɴᴜᴍ","ʙʀɪʟʟɪᴀɴᴛ"},nil,TitleAll)
+if Pass6 == nil then choose_skin() else
+if Pass6 == 1 then MedalLegend=" ʙʀᴏɴᴢᴇ" Edit() end
+if Pass6 == 2 then Change = Change + 1 MedalLegend=" sɪʟᴠᴇʀ" Edit() end
+if Pass6 == 3 then Change = Change + 2 MedalLegend=" ɢᴏʟᴅ" Edit() end
+if Pass6 == 4 then Change = Change + 3 MedalLegend=" ᴇʟɪᴛᴇ ɢᴏʟᴅ" Edit() end
+if Pass6 == 5 then Change = Change + 4 MedalLegend=" ᴘʟᴀᴛɪɴᴜᴍ" Edit() end
+if Pass6 == 6 then Change = Change + 5 MedalLegend=" ʙʀɪʟʟɪᴀɴᴛ" Edit() end
+end
+end
+
+function choose_weapon()
+local weapons = {}
+for i = 1, #Items do weapons[i] = R..Items[i].Name end
+weapons[34 + 1] = R.."ʙᴀᴄᴋ"
+local choose = gg.choice(weapons, nil, TitleAll)
+if choose == nil then choose_weapon() else
+if choose == 35 then return AddSkin() end
+if (choose) then
+choose_skin(choose)
+end
+end
+end
+
+function choose_skin(weapon)
+local skins = {}
+for i = 1, #Items[weapon].Skins do skins[i] = R..Items[weapon].Skins[i].Name end
+skins[20 + 1] = R.."ʙᴀᴄᴋ"
+local choose = gg.choice(skins, nil, TitleAll)
+if choose == nil then choose_weapon() else
+if (choose == 20 + 1) then return choose_weapon() end
+if (choose) then
+
+Change = Items[weapon].Skins[choose].Skin
+ChangeName = Items[weapon].Skins[choose].Name
+
+if Items[weapon].Skins[choose].Years then Medal = true Years() return end
+if Items[weapon].Skins[choose].FourButt then Medal = true FourButt() return end
+if Items[weapon].Skins[choose].FiveButt then Medal = true FiveButt() return end
+if Items[weapon].Skins[choose].DragoCursed then Medal = true DragoCursed() return end
+if Items[weapon].Skins[choose].RevivalYear then Medal = true RevivalYear() return end
+if Items[weapon].Skins[choose].Def then Def = true Edit() return end
+Stattrack()
+
+end
+end
+end
+
+function Edit()
+
+function Hello1()
+io.open(AllFile, "a"):write("LoadingSkin("):close()
+end
+
+function Hello2()
+io.open(AllFile, "a"):write(', ',Change..[[)
+]]):close()
+end
+
+if NewSkin == 1 then Hello1() io.open(AllFile, "a"):write("137447543406592"):close() Hello2() end
+if NewSkin == 2 then Hello1() io.open(AllFile, "a"):write("137464723275776"):close() Hello2() end
+if NewSkin == 3 then Hello1() io.open(AllFile, "a"):write("185546882154496"):close() Hello2() end
+if NewSkin == 4 then Hello1() io.open(AllFile, "a"):write("529139970867200"):close() Hello2() end
+if NewSkin == 5 then Hello1() io.open(AllFile, "a"):write("64454574211072"):close() Hello2() end
+if NewSkin == 6 then Hello1() io.open(AllFile, "a"):write("64433099374592"):close() Hello2() end
+if NewSkin == 7 then Hello1() io.open(AllFile, "a"):write("64445984276480"):close() Hello2() end
+if NewSkin == 8 then Hello1() io.open(AllFile, "a"):write("730161620189184"):close() Hello2() end
+if NewSkin == 9 then Hello1() io.open(AllFile, "a"):write("348811473977344"):close() Hello2() end
+if NewSkin == 10 then Hello1() io.open(AllFile, "a"):write("348815768944640"):close() Hello2() end
+if NewSkin == 11 then Hello1() io.open(AllFile, "a"):write("176956947562496"):close() Hello2() end
+if NewSkin == 12 then Hello1() io.open(AllFile, "a"):write("197581380517888"):close() Hello2() end
+if NewSkin == 13 then Hello1() io.open(AllFile, "a"):write("188991445925888"):close() Hello2() end
+if NewSkin == 14 then Hello1() io.open(AllFile, "a"):write("190700842909696"):close() Hello2() end
+if NewSkin == 15 then Hello1() io.open(AllFile, "a"):write("534293931622400"):close() Hello2() end
+if NewSkin == 16 then Hello1() io.open(AllFile, "a"):write("47266115092480"):close() Hello2() end
+if NewSkin == 17 then Hello1() io.open(AllFile, "a"):write("47248935223296"):close() Hello2() end
+if NewSkin == 18 then Hello1() io.open(AllFile, "a"):write("348356207443968"):close() Hello2() end
+if NewSkin == 19 then Hello1() io.open(AllFile, "a"):write("47270410059776"):close() Hello2() end
+if NewSkin == 20 then Hello1() io.open(AllFile, "a"):write("520120539545600"):close() Hello2() end
+if NewSkin == 21 then Hello1() io.open(AllFile, "a"):write("186839667310592"):close() Hello2() end
+if NewSkin == 22 then Hello1() io.open(AllFile, "a"):write("150336740261888"):close() Hello2() end
+if NewSkin == 23 then Hello1() io.open(AllFile, "a"):write("150341035229184"):close() Hello2() end
+if NewSkin == 24 then Hello1() io.open(AllFile, "a"):write("150328150327296"):close() Hello2() end
+if NewSkin == 25 then Hello1() io.open(AllFile, "a"):write("266305152221184"):close() Hello2() end
+if NewSkin == 26 then Hello1() io.open(AllFile, "a"):write("266313742155776"):close() Hello2() end
+if NewSkin == 27 then Hello1() io.open(AllFile, "a"):write("194570608443392"):close() Hello2() end
+if NewSkin == 28 then Hello1() io.open(AllFile, "a"):write("266309447188480"):close() Hello2() end
+if NewSkin == 29 then Hello1() io.open(AllFile, "a"):write("542029167722496"):close() Hello2() end
+if NewSkin == 30 then Hello1() io.open(AllFile, "a"):write("266292267319296"):close() Hello2() end
+if NewSkin == 31 then Hello1() io.open(AllFile, "a"):write("730204569862144"):close() Hello2() end
+if NewSkin == 32 then Hello1() io.open(AllFile, "a"):write("364668493234176"):close() Hello2() end
+if NewSkin == 33 then Hello1() io.open(AllFile, "a"):write("192852621524992"):close() Hello2() end
+if NewSkin == 34 then Hello1() io.open(AllFile, "a"):write("350525165928448"):close() Hello2() end
+if NewSkin == 35 then Hello1() io.open(AllFile, "a"):write("178674934480896"):close() Hello2() end
+if NewSkin == 36 then Hello1() io.open(AllFile, "a"):write("55843164782592"):close() Hello2() end
+if NewSkin == 37 then Hello1() io.open(AllFile, "a"):write("55856049684480"):close() Hello2() end
+if NewSkin == 38 then Hello1() io.open(AllFile, "a"):write("349279625412608"):close() Hello2() end
+if NewSkin == 39 then Hello1() io.open(AllFile, "a"):write("370728692088832"):close() Hello2() end
+if NewSkin == 40 then Hello1() io.open(AllFile, "a"):write("542454369484800"):close() Hello2() end
+if NewSkin == 41 then Hello1() io.open(AllFile, "a"):write("186405875613696"):close() Hello2() end
+if NewSkin == 42 then Hello1() io.open(AllFile, "a"):write("730213159796736"):close() Hello2() end
+if NewSkin == 43 then Hello1() io.open(AllFile, "a"):write("193290708189184"):close() Hello2() end
+if NewSkin == 44 then Hello1() io.open(AllFile, "a"):write("193286413221888"):close() Hello2() end
+if NewSkin == 45 then Hello1() io.open(AllFile, "a"):write("362929031479296"):close() Hello2() end
+if NewSkin == 46 then Hello1() io.open(AllFile, "a"):write("534723428352000"):close() Hello2() end
+if NewSkin == 47 then Hello1() io.open(AllFile, "a"):write("223346889326592"):close() Hello2() end
+if NewSkin == 48 then Hello1() io.open(AllFile, "a"):write("537729905459200"):close() Hello2() end
+if NewSkin == 49 then Hello1() io.open(AllFile, "a"):write("201876347813888"):close() Hello2() end
+if NewSkin == 50 then Hello1() io.open(AllFile, "a"):write("201867757879296"):close() Hello2() end
+if NewSkin == 51 then Hello1() io.open(AllFile, "a"):write("537304703696896"):close() Hello2() end
+if NewSkin == 52 then Hello1() io.open(AllFile, "a"):write("730170210123776"):close() Hello2() end
+if NewSkin == 53 then Hello1() io.open(AllFile, "a"):write("730174505091072"):close() Hello2() end
+if NewSkin == 54 then Hello1() io.open(AllFile, "a"):write("730195979927552"):close() Hello2() end
+if NewSkin == 55 then Hello1() io.open(AllFile, "a"):write("730200274894848"):close() Hello2() end
+if NewSkin == 56 then Hello1() io.open(AllFile, "a"):write("730208864829440"):close() Hello2() end
+
+if Medal == true then
+EditedSkins[NewSkin] = ChangeName..MedalLegend
+io.open(AllFile, "a"):write('EditedSkins[',NewSkin,'] = "',ChangeName..MedalLegend..[["
+]]):close()
+io.open(AllFile, "a"):write('--',SkinName..ChangeName..MedalLegend..[[
+
+
+]]):close()
+end
+
+if Statt == true then
+EditedSkins[NewSkin] = ChangeName..Stat
+io.open(AllFile, "a"):write('EditedSkins[',NewSkin,'] = "',ChangeName..Stat..[["
+]]):close()
+io.open(AllFile, "a"):write('--',SkinName..ChangeName..Stat..[[
+
+
+]]):close()
+end
+
+if Def == true then
+EditedSkins[NewSkin] = ChangeName
+io.open(AllFile, "a"):write('EditedSkins[',NewSkin,'] = "',ChangeName..[["
+]]):close()
+io.open(AllFile, "a"):write('--',SkinName..ChangeName..[[
+
+
+]]):close()
+end
+Medal = nil
+Statt = nil
+Def = nil
+gg.toast(R.."ᴀᴅᴅᴇᴅ ᴛᴏ ꜰɪʟᴇ")
+end
+
+SkinsBase = gg.makeRequest("https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/base_skins").content
+pcall(load(SkinsBase))
+
+AllFile = "/storage/emulated/0/Notes/Skins.lua"
+
+ExitNow = [[ᴛʜᴀɴᴋs ꜰᴏʀ ᴜsɪɴɢ ❤️
+ᴍɪʟᴏᴄʀᴇ x ᴡᴀᴠᴇ ᴄꜰɢ ʙᴜɪʟᴅᴇʀ ᴠ4
+
+ᴘ.s. sᴄʀɪᴘᴛ ɪs ᴜᴘᴅᴀᴛᴇᴅ ᴀꜰᴛᴇʀ ɢʟᴏʙᴀʟ ᴜᴘᴅᴀᴛᴇs]]
+
+Defolt = [[if gg.mixing then
+gg.clearList = gg.mixing
+gg.clearResults = gg.misher
+end
+
+EditedSkins = {"ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ","ɴᴏɴᴇ"}
+
+v = gg.getTargetInfo()["x64"]
+if v == false then offset = 24 else offset = 44 end
+
+function LoadingSkin(search, value)
+if ViewSkins == nil then
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber(search, gg.TYPE_QWORD)
+res = gg.getResults(2000)
+checkRes = {}
+finalRes = {}
+for i, v in ipairs(res) do
+  checkRes[i] = {}
+  checkRes[i].address = res[i].address + offset
+  checkRes[i].flags = gg.TYPE_QWORD
+end
+checkRes = gg.getValues(checkRes)
+for i, v in ipairs(checkRes) do
+  if v.value == 1 then table.insert(finalRes, res[i]) end
+end
+if #finalRes == 0 then 
+gg.clearResults() print("sᴋɪɴ ɴᴏᴛ ꜰᴏᴜɴᴅ") gg.setVisible(true) os.exit()
+end
+gg.addListItems(finalRes)
+editVal = {}
+for i, v in ipairs(finalRes) do
+  editVal[i] = {}
+  editVal[i].address = finalRes[i].address + 4
+  editVal[i].flags = gg.TYPE_DWORD
+  editVal[i].value = value
+end
+gg.setValues(editVal)
+gg.clearList()
+gg.clearResults()
+end
+end
+
+
+]]
+
+okey = Defolt.."LoadingSkin"
+
+function Checker()
+SkinCheck = io.input(AllFile):read('*a')
+if SkinCheck == okey then end
+if SkinCheck == Defolt then gg.alert(R.."sᴋɪɴs ꜰɪʟᴇ ᴄʟᴇᴀʀᴇᴅ!") CFGMenu() return end
+end
+
+while true do
+menuend = 0
+if gg.isVisible(true) then gg.setVisible(false)
+menuend = 1
+if menuend == 1 then CFGMenu() end
+end
+end

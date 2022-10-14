@@ -1,0 +1,12 @@
+file = io.open("/storage/emulated/0/#Config.txt/", "w+")
+file:write(
+SeitakuF[1] .. '\n' .. SeitakuF[2] .. '\n' .. SeitakuF[3] .. '\n'
+ .. SeitakuF[4] .. '\n' .. SeitakuF[5] .. '\n' .. SeitakuF[6] .. '\n' .. SeitakuF[7] .. '\n' .. SeitakuF[8]
+  .. '\n' .. SeitakuF[9] .. '\n' .. SeitakuF[10] .. '\n' .. SeitakuF[11] .. '\n' .. SeitakuF[12] .. '\n' .. SeitakuF[13]
+   .. '\n' .. SeitakuF[14] .. '\n' .. SeitakuF[15] .. '\n' .. SeitakuF[16] .. '\n' .. SeitakuF[17] .. '\n' .. SeitakuF[18]
+    .. '\n' .. SeitakuF[19].. '\n' .. SeitakuF[20] .. '\n' .. SeitakuF[21] .. '\n' .. SeitakuF[22] .. '\n' .. SeitakuF[23] .. '\n' .. SeitakuF[24] 
+.. '\n' .. SeitakuF[24] .. '\n' .. SeitakuF[25] .. '\n' ..seitakucmsg
+)
+file:close()
+gg.alert(s.."sᴀᴠᴇᴅ ɪɴ ᴅɪʀᴇᴄᴛᴏʀʏ:\n/storage/emulated/0/#Config.txt/")
+file = io.open("/storage/emulated/0/#Config.txt/", "r")

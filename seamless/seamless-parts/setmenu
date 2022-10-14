@@ -1,0 +1,84 @@
+function GlovesCfg(string)
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write(string):close()
+gg.loadList(gg.EXT_CACHE_DIR .. "/seitaku.cfg", gg.LOAD_VALUES_FREEZE)
+gg.clearList()
+gg.clearResults()
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write("$$$"):close()
+os.remove(gg.EXT_CACHE_DIR .. "/seitaku.cfg")
+gg.toast(s.."ᴇɴᴀʙʟᴇᴅ")
+end
+gg.setVisible(true)
+
+function SetSmth()
+ sss = gg.choice({
+   s.."ɢʟᴏᴠᴇs",
+   s.."ɢᴏʟᴅᴇɴ sᴋɪɴs",
+   s.."ʙᴀᴄᴋ"..dadissue
+ }, 0, s.."sᴇᴛ ᴍᴇɴᴜ ᴀʀᴍᴠ7")
+ if sss == nil then else
+ if sss == 1 then GlovesSet() end
+ if sss == 2 then GoldenSkins() end
+ if sss == 3 then gg.setVisible(true) os.exit() end
+ end
+end
+
+function GlovesSet()
+ svx = gg.choice({
+   s.."ᴛᴜʀɴ ᴏғғ",
+   s.."ʙᴜʀɴɪɴɢ ғɪsᴛs",
+   s.."sᴛᴇᴀᴍ ʀɪᴅᴇʀ",
+   s.."ᴀᴜᴛᴜᴍɴ",
+   s.."ʙᴀᴄᴋ"
+ }, 0, s.."sᴇᴛ ɢʟᴏᴠᴇs")
+ if svx == nil then else
+ if svx == 1 then NothingSet() end
+ if svx == 2 then BurningFists() end
+ if svx == 3 then SteamRider() end
+ if svx == 4 then Autumn() end
+ if svx == 5 then SetSmth() end
+ end
+end
+
+function NothingSet()
+GlovesCfg([[
+5822
+Var #088f6320|88f6320|4|e92d4c70|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6320
+Var #088f6324|88f6324|4|e28db010|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6324
+]])
+end
+
+function BurningFists()
+GlovesCfg([[
+5822
+Var #088f6320|88f6320|4|E3000BBE|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6320
+Var #088f6324|88f6324|4|E12FFF1E|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6324
+]])
+end
+
+function SteamRider()
+GlovesCfg([[
+5822
+Var #088f6320|88f6320|4|E3000BC2|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6320
+Var #088f6324|88f6324|4|E12FFF1E|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6324
+]])
+end
+
+function Autumn()
+GlovesCfg([[
+5822
+Var #088f6320|88f6320|4|E3000BB8|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6320
+Var #088f6324|88f6324|4|E12FFF1E|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8f6324
+]])
+end
+
+function GoldenSkins()
+GlovesCfg([[
+26908
+0|8B3CF60|4|e30b098e|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|a90cdc
+0|8B3CF64|4|e12fff1e|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|a90cf0
+]])
+end
+
+while(true) do
+if gg.isVisible(true) then
+gg.setVisible(false) SetSmth() end end

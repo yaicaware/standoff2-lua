@@ -1,0 +1,309 @@
+gg.setVisible(true)
+skill = dadissue
+
+function ExCfg(string, name)
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write(string):close()
+gg.loadList(gg.EXT_CACHE_DIR .. "/seitaku.cfg", gg.LOAD_VALUES_FREEZE)
+gg.clearList()
+gg.clearResults()
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write("$$$"):close()
+os.remove(gg.EXT_CACHE_DIR .. "/seitaku.cfg")
+gg.toast(s.."ᴇɴᴀʙʟᴇᴅ "..name)
+if log == true then
+print("L | "..os.date("%M:%H").." | ᴇɴᴀʙʟᴇᴅ "..name.."")
+logg = io.open("/storage/emulated/0/#Log.txt/", "a")
+logg:write("L | "..os.date("%M:%H").." | ᴇɴᴀʙʟᴇᴅ "..name.."\n")
+end
+end
+
+function EfCfg(string, name)
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write(string):close()
+gg.loadList(gg.EXT_CACHE_DIR .. "/seitaku.cfg", gg.LOAD_VALUES_FREEZE)
+gg.clearList()
+gg.clearResults()
+io.open(gg.EXT_CACHE_DIR .. "/seitaku.cfg", "w+"):write("$$$"):close()
+os.remove(gg.EXT_CACHE_DIR .. "/seitaku.cfg")
+gg.toast(s.."ᴅɪsᴀʙʟᴇᴅ "..name)
+if log == true then
+print("L | "..os.date("%M:%H").." | ᴅɪsᴀʙʟᴇᴅ "..name)
+logg = io.open("/storage/emulated/0/#Log.txt/", "a")
+logg:write("L | "..os.date("%M:%H").." | ᴅɪsᴀʙʟᴇᴅ "..name.."\n")
+end
+end
+
+
+function God32()
+ExCfg([[
+0
+Var #08ECBF78|8ecbf78|4|e3a06002|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ecbf78
+]], "ɢᴏᴅ ᴍᴏᴅᴇ")
+end
+
+function MidSpawn32()
+ExCfg([[
+0
+Var #08ECBF70|8ecbf70|4|e3a05001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ecbf70
+]], "ᴍɪᴅ sᴘᴀᴡɴ")
+end
+
+function FriendlyFire32()
+ExCfg([[
+0
+0|0|4|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2/lib/arm32/libil2cpp.so|EB4448
+0|0|4|e12fff1e|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2/lib/arm32/libil2cpp.so|eb444c
+]], "ғʀɪᴇɴᴅʟʏ ғɪʀᴇ")
+end
+
+
+
+
+function EMenu()
+  stuk10 = gg.multiChoice({
+    s.."ғʀɪᴇɴᴅʟʏ ғɪʀᴇ",
+    s.."ɢᴏᴅ ᴍᴏᴅᴇ",
+    s.."sᴘᴀᴡɴ ᴍᴇɴᴜ",
+    s.."ɢᴜɴ ɢᴀᴍᴇ ᴡɪɴ",
+    s.."ᴀɴᴛɪ ᴀɪᴍ",   
+    s.."ɴᴏ ʜᴀɴᴅs",
+    s.."sᴇᴛ ʙᴏᴍʙ"..setbomb,
+    s.."sᴘᴇᴇᴅʜᴀᴄᴋ"..speedhack,
+    s.."ғɪʀᴇ ʀᴀᴛᴇ"..fireratetest,
+    s.."xᴘ ʜᴀᴄᴋ"..xptest,
+	s.."ʟᴠʟ ʜᴀᴄᴋ"..lvlhack,
+    s.."ʙᴀᴄᴋ"..dadissue
+  },nil,title)
+ if stuk10 == nil then else
+ if stuk10[1] == true then FriendlyFire32() else end
+ if stuk10[2] == true then God32() else end
+ if stuk10[3] == true then SpawnMenu() else end
+ if stuk10[4] == true then GunGameWin() else end
+ if stuk10[5] == true then AntiAim() else end
+ if stuk10[6] == true then NoHands() else end
+ if stuk10[7] == true then SetBomb32() else end
+ if stuk10[8] == true then SpeedMenu() else end
+ if stuk10[9] == true then FireRate() else end
+ if stuk10[10] == true then XPHackTest() else end
+ if stuk10[11] == true then LVLHackMenu() else end
+ if stuk10[12] == true then gg.setVisible(true) return os.exit() else end
+ end
+end
+
+function LVLHackMenu()
+ lvlh = gg.choice({
+   s.."10",
+   s.."20",
+   s.."30",
+   s.."40",
+   s.."50",
+   s.."ʙᴀᴄᴋ"
+}, 0, "ʟᴠʟ ʜᴀᴄᴋ")
+if lvlh == nil then else
+if lvlh == 1 then lvl10() end
+if lvlh == 2 then lvl20() end
+if lvlh == 3 then lvl30() end
+if lvlh == 4 then lvl40() end
+if lvlh == 5 then lvl50() end
+if lvlh == 6 then return EMenu() end
+end
+end
+
+function lvl10()
+ExCfg([[
+15537
+Var #088DC500|88dc500|4|e3a0000A|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc500
+Var #088DC504|88dc504|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc504
+Var #08CA0A2C|8ca0a2c|4|e3a00001|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a2c
+Var #08CA0A30|8ca0a30|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a30
+]], "ʟᴠʟ ʜᴀᴄᴋ 10")
+lvlhack = lvlh10
+end
+
+function lvl20()
+ExCfg([[
+15537
+Var #088DC500|88dc500|4|e3a00014|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc500
+Var #088DC504|88dc504|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc504
+Var #08CA0A2C|8ca0a2c|4|e3a00001|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a2c
+Var #08CA0A30|8ca0a30|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a30
+]], "ʟᴠʟ ʜᴀᴄᴋ 20")
+lvlhack = lvlh20
+end
+
+function lvl30()
+ExCfg([[
+15537
+Var #088DC500|88dc500|4|e3a0001E|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc500
+Var #088DC504|88dc504|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc504
+Var #08CA0A2C|8ca0a2c|4|e3a00001|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a2c
+Var #08CA0A30|8ca0a30|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a30
+]], "ʟᴠʟ ʜᴀᴄᴋ 30")
+lvlhack = lvlh30
+end
+
+function lvl40()
+ExCfg([[
+15537
+Var #088DC500|88dc500|4|e3a00028|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc500
+Var #088DC504|88dc504|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc504
+Var #08CA0A2C|8ca0a2c|4|e3a00001|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a2c
+Var #08CA0A30|8ca0a30|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a30
+]], "ʟᴠʟ ʜᴀᴄᴋ 40")
+lvlhack = lvlh40
+end
+
+function lvl50()
+ExCfg([[
+15537
+Var #088DC500|88dc500|4|e3a00033|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc500
+Var #088DC504|88dc504|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|8dc504
+Var #08CA0A2C|8ca0a2c|4|e3a00001|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a2c
+Var #08CA0A30|8ca0a30|4|e12fff1e|0|0|0|0|r--p|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ca0a30
+]], "ʟᴠʟ ʜᴀᴄᴋ 50")
+lvlhack = lvlh50
+end
+
+function SpeedMenu()
+ spm = gg.choice({
+ s.."ʟᴇɢɪᴛ",
+ s.."ᴍᴇᴅɪᴜᴍ",
+ s.."ʜᴀʀᴅ",
+ s.."ᴅᴇғᴀᴜʟᴛ",
+ s.."ʙᴀᴄᴋ"
+},0,title)
+if spm == nil then else
+if spm == 1 then LegitSpeed() end
+if spm == 2 then MedSpeed() end
+if spm == 3 then HardSpeed() end
+if spm == 4 then DefSpeed() end
+if spm == 5 then return EMenu() end
+end
+end
+
+function HardSpeed()
+ExCfg([[
+0
+cursed|b84894f4|4|42c80000|0|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libil2cpp.so|ebff70
+]], "sᴘᴇᴇᴅʜᴀᴄᴋ ʜᴀʀᴅ")
+speedhack = speedhard
+end
+
+function LegitSpeed()
+ExCfg([[
+7961
+Var #08ebff70|8ebff70|4|43700000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ebff70
+]], "sᴘᴇᴇᴅʜᴀᴄᴋ ʟᴇɢɪᴛ")
+speedhack = speedlegit
+end
+
+function MedSpeed()
+ExCfg([[
+7961
+Var #08ebff70|8ebff70|4|434D0000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ebff70
+]], "sᴘᴇᴇᴅʜᴀᴄᴋ ᴍᴇᴅɪᴜᴍ")
+speedhack = speedmed
+end
+
+function DefSpeed()
+EfCfg([[
+7961
+Var #08ebff70|8ebff70|4|437A0000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|ebff70
+]], "sᴘᴇᴇᴅʜᴀᴄᴋ")
+speedhack = off
+end
+
+
+
+function SetBomb32()
+if setbomb == off then setbomb = on
+ExCfg([[
+22875
+Var #BD2CDC74|bd2cdc74|4|e92d4830|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|eacda4
+Var #BD2CDC78|bd2cdc78|4|e28db008|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|eacda8
+]], "sᴇᴛ ʙᴏᴍʙ") else fastgren = off EfCfg([[
+22875
+Var #BD2CDC74|bd2cdc74|4|e3a00064|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|eacda4
+Var #BD2CDC78|bd2cdc78|4|e12fff1e|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|eacda8
+]], "sᴇᴛ ʙᴏᴍʙ")
+end
+end
+
+function XPHackTest()
+if xptest == off then xptest = on
+ExCfg([[
+7133
+Var #08C29CFC|8c29cfc|4|e3a00f4b|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|ca0a2c
+Var #08C29D00|8c29d00|4|e12fff1e|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|ca0a30
+]], "xᴘ ʜᴀᴄᴋ") else xptest = off EfCfg([[
+7133
+Var #08C29CFC|8c29cfc|4|e92d4c70|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|ca0a2c
+Var #08C29D00|8c29d00|4|e28db010|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|ca0a30
+]], "xᴘ ʜᴀᴄᴋ")
+end
+end
+
+function FireRate()
+if fireratetest == off then fireratetest = on
+ExCfg([[
+16889
+Var #BD2E6164|bd2e6164|4|e12fff1e|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|e999f0
+]]) else fireratetest = off EfCfg([[
+16889
+Var #BD2E6164|bd2e6164|4|e92d4c10|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|e999f0
+]], "ғɪʀᴇ ʀᴀᴛᴇ")
+end
+end
+
+function NoHands()
+ExCfg([[
+0
+0|0|4|E12FFF1E|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2/lib/arm32/libil2cpp.so|b47eec
+]], "ɴᴏ ʜᴀɴᴅs")
+end
+
+function AntiAim()
+ExCfg([[
+8704
+Var #BD5F7CB8|bd5f7cb8|4|c2480000|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|8bab4c
+Var #BD5F7CBC|bd5f7cbc|4|c2480000|0|0|0|0|r-xp|/data/app/~~tUYLbzsIRrGlfIKZEtZoBA==/com.axlebolt.standoff2-ZHpBuxGOOC_mgGi9LM8qGA==/lib/arm/libil2cpp.so|8bb4bc
+]], "ᴀɴᴛɪ ᴀɪᴍ")
+end
+
+function GunGameWin()
+ExCfg([[
+15150
+Var #088FA87C|88fa87c|4|E3A05011|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|cc80c8
+Var #08E79D20|8e79d20|4|e3a09046|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-2/lib/arm/libil2cpp.so|f542f8
+]], "ɢᴜɴ ɢᴀᴍᴇ ᴡɪɴ")
+end
+
+function SpawnMenu()
+ spm = gg.choice({
+   s.."ᴍɪᴅ sᴘᴀᴡɴ",
+   s.."ɴᴏʀᴍᴀʟ sᴘᴀᴡɴ",
+   s.."ʙᴀᴄᴋ"
+}, 0, title)
+if spm == nil then else
+if spm == 1 then MidSpawn32() end
+if spm == 2 then NormalSpawn() end
+if spm == 3 then return EMenu() end
+end
+end
+
+
+function NormalSpawn()
+EfCfg([[
+13535
+Var #BEB48F70|beb48f70|10|2e17eb8|0|0|0|0|r-xp|/data/app/~~9pmFSOZ_nGD2bbrNjlEOag==/com.axlebolt.standoff2-bgGNyATrg2w-9tljgx-FGQ==/lib/arm/libil2cpp.so|ecbf70
+Var #B6A8B2F0|b6a8b2f0|4|e1a04001|0|0|0|0|r-xp|/data/app/~~rS_uED49RP7iToyBAuDR6w==/com.axlebolt.standoff2-vu55GAHG4hwee3O47guHyQ==/lib/arm/libil2cpp.so|8ed300
+Var #C14C8F70|c14c8f70|20|1702e17eb8|0|0|0|0|r-xp|/data/app/~~9pmFSOZ_nGD2bbrNjlEOag==/com.axlebolt.standoff2-bgGNyATrg2w-9tljgx-FGQ==/lib/arm/libil2cpp.so|2c0f70
+Var #C14C8F70|c14c8f70|10|2e17eb8|0|0|0|0|r-xp|/data/app/~~9pmFSOZ_nGD2bbrNjlEOag==/com.axlebolt.standoff2-bgGNyATrg2w-9tljgx-FGQ==/lib/arm/libil2cpp.so|2c0f70
+Var #C14C8F70|c14c8f70|4|2e17eb8|0|0|0|0|r-xp|/data/app/~~9pmFSOZ_nGD2bbrNjlEOag==/com.axlebolt.standoff2-bgGNyATrg2w-9tljgx-FGQ==/lib/arm/libil2cpp.so|2c0f70
+]], "sᴇᴛ sᴘᴀᴡɴ")
+end
+
+
+      
+    
+
+while(true) do
+if gg.isVisible(true) then gg.setVisible(false) EMenu() end end

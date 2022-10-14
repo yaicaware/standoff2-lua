@@ -1,0 +1,3 @@
+if sv ~= "1.4" then
+gg.alert(s.."ᴜᴅᴘᴀᴛᴇ ғᴏᴜɴᴅ! ᴛ.ᴍᴇ/ʏᴀɪᴄᴀᴡᴀʀᴇ") print(s.."ᴜᴅᴘᴀᴛᴇ ғᴏᴜɴᴅ! ᴛ.ᴍᴇ/ʏᴀɪᴄᴀᴡᴀʀᴇ") updateavail = true gg.setVisible(true) os.exit()
+end
