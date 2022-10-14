@@ -309,7 +309,7 @@ end
 
 
 function ExperimentalMenu()
- em = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/experimental_menu ").content
+ em = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/experimental_menu ").content
  if not em then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else
@@ -330,7 +330,7 @@ SetMenu()
 end
 end
 function SetMenu()
- xn = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/setmenu ").content
+ xn = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/setmenu ").content
  if not xn then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else
@@ -892,7 +892,7 @@ end
 
 
 function ConfigsMenu()
-cfgs = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/cfg_saver ").content
+cfgs = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/cfg_saver ").content
 if not cfgs then gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!") return MainMenu() end
  cfg = gg.choice({
   s.."sᴀᴠᴇ ᴄᴏɴғɪɢ",
@@ -1497,7 +1497,7 @@ end
 
 
 function YaicaWareAuto()
- ywh = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/yaicawarecfgbuilder ").content
+ ywh = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/yaicawarecfgbuilder ").content
  if not ywh then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else
@@ -1506,7 +1506,7 @@ function YaicaWareAuto()
 end
 
 function WaveCfgBuilder()
- mka = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/wavecfgbuilder ").content
+ mka = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/wavecfgbuilder ").content
  if not mka then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else
@@ -1516,7 +1516,7 @@ end
 
 
 function ZolotovOldAuto()
- mka2 = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/zolotovcfgbuilder ").content
+ mka2 = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/zolotovcfgbuilder ").content
  if not mka2 then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else
@@ -1525,7 +1525,7 @@ function ZolotovOldAuto()
 end
 
 function OldSkinchanger()
- mka4 = gg.makeRequest(" https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/old_skinchanger ").content
+ mka4 = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/old_skinchanger ").content
  if not mka4 then
    gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
  else

@@ -377,7 +377,7 @@ Def = nil
 gg.toast(R.."ᴀᴅᴅᴇᴅ ᴛᴏ ꜰɪʟᴇ")
 end
 
-SkinsBase = gg.makeRequest("https://github.com/yaicaware/standoff2-lua/blob/main/seamless/seamless-parts/base_skins").content
+SkinsBase = gg.makeRequest("https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/seamless/seamless-parts/base_skins").content
 pcall(load(SkinsBase))
 
 AllFile = "/storage/emulated/0/Notes/Skins.lua"
