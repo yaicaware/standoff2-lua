@@ -2,6 +2,7 @@ I = {"『✴️』", "『💥』", "『🔶』", "『🔥』", "『✨』"}
 Y = I[math.random(5)]
 dadissue = ""
 
+gg.alert(Y.."yaicaware 0.20.2\n"..Y.."t.me/yaicaware\n"..Y.."Welcome to the script!")
 
 Map = {
       Functions = {
@@ -63,13 +64,16 @@ Map = {
         },
         Money = {
           Offset = {
-            "B2D750"
+            "b2d750",
+            "b2d754"
           },
           On = {
-            "e3a00010"
+            "E3A00000",
+            "E12FFF1E"
           },
           Off = {
-            "E92D4C70"
+            "e92d4c70",
+            "e28db010"
           },
           Lib = {
             "libil2cpp.so",
@@ -90,8 +94,10 @@ Map = {
             "e12fff1e"
           },
           Off = {
-            "E1A00005",
-            "E12FFF32"
+            "e3a00001",
+            "e12fff1e",
+            "e3a00001",
+            "e12fff1e"
           },
           Lib = {
             "libil2cpp.so",
@@ -316,15 +322,12 @@ Map = {
         },
         AirJump = {
           Offset = {
-            "2543B18",
-            "2543B1C"
+            "25d1bc8",
           },
           On = {
-            "E3A00001",
             "E12FFF1E"
           },
           Off = {
-            "E92D4C10",
             "E28DB008"
           },
           Lib = {
@@ -427,7 +430,7 @@ Map = {
         },
         Hideid = {
           Offset = {
-            "AFAFD0"
+            "1016414"
           },
           On = {
             "E12FFF1E"
@@ -580,7 +583,7 @@ Map = {
         },
         DontBlock = {
           Offset = {
-            "25d1bc8"
+            "d4eab4"
           },
           On = {
             "E12FFF1E"
@@ -693,10 +696,10 @@ Map = {
         },
         BuyTime = {
           Offset = {
-            "25d1bc8"
+            "b2c9e8"
           },
           On = {
-            "E12FFF1E"
+            "e34457c3"
           },
           Off = {
             "E28DB010"
@@ -950,7 +953,6 @@ function Hacks()
         Y.."Infinite Ammo",
         Y.."Black Sky",
         Y.."Fov Hack",
-        Y.."Move before time",
         Y.."Don't return spawn",
         Y.."Don't block move",
         Y.."StatTrack Hack",
@@ -958,10 +960,10 @@ function Hacks()
         Y.."Aim Menu" .. Aim,
         Y.."LVL Hack Menu [⛔]",
         Y.."Armor Hack",
-        Y.."Buy Anytime",
         Y.."Calibration Hack",
         Y.."Boost StatTrack",
         Y.."Bomb Immunity",
+        Y.."Buy Anytime",
         Y.."Back"
 }, {
 SwitchManager.Radar,
@@ -987,7 +989,6 @@ SwitchManager.Fps,
 SwitchManager.InfAmmo,
 SwitchManager.Bsky,
 SwitchManager.Fov,
-SwitchManager.MoveTime,
 SwitchManager.DontReturn,
 SwitchManager.DontBlock,
 SwitchManager.ST,
@@ -995,10 +996,11 @@ nil,
 nil,
 nil,
 SwitchManager.Armor,
-SwitchManager.BuyTime,
 SwitchManager.Calib,
 SwitchManager.StBoost,
-SwitchManager.BombImun
+SwitchManager.BombImun,
+SwitchManager.BuyTime,
+nil
 }, Y.."ARMV7 Functions Menu\n"..Y.."t.me/yaicaware")
 if hk == nil then Y = I[math.random(5)] else
 
@@ -1255,107 +1257,90 @@ SwitchManager.FovCheck = 0
 Fov()
 end
 
-if hk[24] == true and SwitchManager.MoveTimeCheck == 0 then
-SwitchManager.MoveTime = true
-SwitchManager.MoveTimeCheck = 1
-MoveTime()
-end
-if hk[24] ~= SwitchManager.MoveTime then
-SwitchManager.MoveTime = nil
-SwitchManager.MoveTimeCheck = 0
-MoveTime()
-end
-
-if hk[25] == true and SwitchManager.DontReturnCheck == 0 then
+if hk[24] == true and SwitchManager.DontReturnCheck == 0 then
 SwitchManager.DontReturn = true
 SwitchManager.DontReturnCheck = 1
 DontReturn()
 end
-if hk[25] ~= SwitchManager.DontReturn then
+if hk[24] ~= SwitchManager.DontReturn then
 SwitchManager.DontReturn = nil
 SwitchManager.DontReturnCheck = 0
 DontReturn()
 end
 
-if hk[26] == true and SwitchManager.DontBlockCheck == 0 then
+if hk[25] == true and SwitchManager.DontBlockCheck == 0 then
 SwitchManager.DontBlock = true
 SwitchManager.DontBlockCheck = 1
 DontBlock()
 end
-if hk[26] ~= SwitchManager.DontBlock then
+if hk[25] ~= SwitchManager.DontBlock then
 SwitchManager.DontBlock = nil
 SwitchManager.DontBlockCheck = 0
 DontBlock()
 end
 
-if hk[27] == true and SwitchManager.STCheck == 0 then
+if hk[26] == true and SwitchManager.STCheck == 0 then
 SwitchManager.ST = true
 SwitchManager.STCheck = 1
 ST()
 end
-if hk[27] ~= SwitchManager.ST then
+if hk[26] ~= SwitchManager.ST then
 SwitchManager.ST = nil
 SwitchManager.STCheck = 0
 ST()
 end
 
-if hk[28] == true then NoRecoilMenu() end
-if hk[29] == true then AimMenu() end
-if hk[30] == true then gg.alert("soon") end
+if hk[27] == true then NoRecoilMenu() end
+if hk[28] == true then AimMenu() end
+if hk[29] == true then gg.alert("soon") end
 
-if hk[31] == true and SwitchManager.ArmorCheck == 0 then
+if hk[30] == true and SwitchManager.ArmorCheck == 0 then
 SwitchManager.Armor = true
 SwitchManager.ArmorCheck = 1
 Armor()
 end
-if hk[31] ~= SwitchManager.Armor then
+if hk[30] ~= SwitchManager.Armor then
 SwitchManager.Armor = nil
 SwitchManager.ArmorCheck = 0
 Armor()
 end
 
-if hk[32] == true and SwitchManager.BuyTimeCheck == 0 then
-SwitchManager.BuyTime = true
-SwitchManager.BuyTimeCheck = 1
-BuyTime()
-end
-if hk[32] ~= SwitchManager.BuyTime then
-SwitchManager.BuyTime = nil
-SwitchManager.BuyTimeCheck = 0
-BuyTime()
-end
-
-if hk[33] == true and SwitchManager.CalibCheck == 0 then
+if hk[31] == true and SwitchManager.CalibCheck == 0 then
 SwitchManager.Calib = true
 SwitchManager.CalibCheck = 1
 Calib()
 end
-if hk[33] ~= SwitchManager.Calib then
+if hk[31] ~= SwitchManager.Calib then
 SwitchManager.Calib = nil
 SwitchManager.CalibCheck = 0
 Calib()
 end
 
-if hk[34] == true then boost() end
+if hk[32] == true then boost() end
 
-if hk[34] ~= SwitchManager.StBoost then
-SwitchManager.StBoost = nil
-SwitchManager.StBoostCheck = 0
-StBoost()
-end
-
-if hk[35] == true and SwitchManager.BombImunCheck == 0 then
+if hk[33] == true and SwitchManager.BombImunCheck == 0 then
 SwitchManager.BombImun = true
 SwitchManager.BombImunCheck = 1
 BombImun()
 end
-if hk[35] ~= SwitchManager.BombImun then
+if hk[33] ~= SwitchManager.BombImun then
 SwitchManager.BombImun = nil
 SwitchManager.BombImunCheck = 0
 BombImun()
 end
 
-if hk[36] == true then MainMenu() end
+if hk[34] == true and SwitchManager.BuyTimeCheck == 0 then
+SwitchManager.BuyTime = true
+SwitchManager.BuyTimeCheck = 1
+BuyTime()
+end
+if hk[34] ~= SwitchManager.BuyTime then
+SwitchManager.BuyTime = nil
+SwitchManager.BuyTimeCheck = 0
+BuyTime()
+end
+
+if hk[35] == true then MainMenu() end
 
 end
 end
@@ -1561,7 +1546,7 @@ end
 end
 
 function AirJump()
-if SwitchManager.AirJump then
+if SwitchManager.Airjump then
 LoadCfg(Map.Functions.AirJump, "On")
 else
 LoadCfg(Map.Functions.AirJump, "Off")
