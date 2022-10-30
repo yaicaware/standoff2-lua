@@ -1,4 +1,5 @@
-Y = "『✴️』"
+I = {"『✴️』", "『💥』", "『🔶』", "『🔥』", "『✨』"}
+Y = I[math.random(5)]
 dadissue = ""
 
 
@@ -999,7 +1000,7 @@ SwitchManager.Calib,
 SwitchManager.StBoost,
 SwitchManager.BombImun
 }, Y.."ARMV7 Functions Menu\n"..Y.."t.me/yaicaware")
-if hk == nil then else
+if hk == nil then Y = I[math.random(5)] else
 
 if hk[1] == true and SwitchManager.RadarCheck == 0 then
 SwitchManager.Radar = true
@@ -1369,7 +1370,7 @@ function MainMenu()
         Y.."Chams Menu",
         Y.."Exit"
 }, nil, Y.."yaicaware 0.20.2 | ARMV7")
-if m == nil then else
+if m == nil then Y = I[math.random(5)] else
 if m == 1 then Hacks() end
 if m == 2 then Private() end
 if m == 3 then IDChanger() end
