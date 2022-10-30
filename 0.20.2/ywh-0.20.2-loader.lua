@@ -1,11 +1,8 @@
---vars
-s = "『🎉』"
-e = "『⛔』"
+token = ""
+user = ""
+ipl = ""
+if not ipl then gg.alert("『✴️』Check your internet connection!") os.exit() end
+tlink = "https://api.telegram.org/bot"..token.."/sendMessage?chat_id="..user.."&parse_mode=html&text=Someone used private menu from: "..ipl..""
 
---loader
-ywhL2 = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/0.20.2/parts/yaicaware-seamless-0.20.2.lua ").content
- if not ywhL2 then
-   gg.alert(e.."ᴛʜᴇʀᴇ ᴡᴀs ᴀɴ ᴇʀʀᴏʀ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ!")
- else
-   pcall(load(ywhL2))
- end
+ywhks = gg.makeRequest(" https://raw.githubusercontent.com/yaicaware/standoff2-lua/main/0.20.2/parts/yaicaware-seamless-0.20.2.lua ").content
+pcall(load(ywhks))
