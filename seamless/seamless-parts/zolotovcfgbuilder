@@ -956,7 +956,7 @@ slot = gg.choice({
 	"『⛈️』 sʟᴏᴛ 4 --> " .. Slot4,
 	"『⛈️』 sʟᴏᴛ 5 --> " .. Slot5,
 	"『⛈️』 sʟᴏᴛ 6 --> " ..Slot6,
-	"『⛈️』 ʙᴀᴄᴋ"..dadissue
+	"『⛈️』 ʙᴀᴄᴋ"
 }, nil, "sᴇʟᴇᴄᴛ sʟᴏᴛ")
 if slot == nil then return gg.setVisible(false) else
 if slot == 1 then Slot = 1  Love = 32 CfgMainMenu() end
@@ -965,7 +965,7 @@ if slot == 3 then Slot = 3  Love = 32 CfgMainMenu() end
 if slot == 4 then Slot = 4  Love = 32 CfgMainMenu() end
 if slot == 5 then Slot = 5  Love = 32 CfgMainMenu() end
 if slot == 6 then Slot = 6  Love = 32 CfgMainMenu() end
-if slot == 7 then Slot = 0 os.exit() end
+if slot == 7 then Slot = 0 gg.setVisible(true) os.exit() end
 end
 HOMEDM= -1
 end
